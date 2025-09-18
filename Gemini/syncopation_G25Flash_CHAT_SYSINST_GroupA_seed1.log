@@ -1,0 +1,90 @@
+2025-09-07 15:19:14,261 - === RUN START (Syncopation Detection • CHAT+SysInst • SYSINST • GroupA) ===
+2025-09-07 15:19:14,261 - Config: model=gemini-2.5-flash, temp=1.0, seed=1, group=GroupA, log=syncopation_G25Flash_CHAT_SYSINST_GroupA_seed1.log
+2025-09-07 15:19:14,271 - Using one persistent chat; examples and all trials share history and audio context.
+2025-09-07 15:19:25,891 - Confirmation response: Yes, I understand.
+2025-09-07 15:19:25,892 - 
+--- Task: Syncopation Detection — CHAT+SysInst SYSINST • GroupA ---
+
+2025-09-07 15:19:25,892 - 
+--- Question 1 ---
+
+2025-09-07 15:19:25,892 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/Sync3_E.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/Sync4_B.wav
+2025-09-07 15:19:49,355 - [SYSINST/GroupA] Q1 - LLM Full Response:
+B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-07 15:19:49,355 - Parsed Final Answer: B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-07 15:19:49,355 - Evaluation: Correct
+2025-09-07 15:19:49,355 - 
+--- Question 2 ---
+
+2025-09-07 15:19:49,355 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/Sync1_A.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/Sync2_A.wav
+2025-09-07 15:20:25,445 - [SYSINST/GroupA] Q2 - LLM Full Response:
+B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-07 15:20:25,445 - Parsed Final Answer: B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-07 15:20:25,445 - Evaluation: Correct
+2025-09-07 15:20:25,445 - 
+--- Question 3 ---
+
+2025-09-07 15:20:25,445 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/Sync3_B.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/Sync4_A.wav
+2025-09-07 15:21:13,742 - [SYSINST/GroupA] Q3 - LLM Full Response:
+B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-07 15:21:13,742 - Parsed Final Answer: B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-07 15:21:13,742 - Evaluation: Correct
+2025-09-07 15:21:13,742 - 
+--- Question 4 ---
+
+2025-09-07 15:21:13,742 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/NoSync_B.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/Sync1_B.wav
+2025-09-07 15:22:12,577 - [SYSINST/GroupA] Q4 - LLM Full Response:
+A. The rhythm in Excerpt 1 is more syncopated.
+2025-09-07 15:22:12,577 - Parsed Final Answer: A. The rhythm in Excerpt 1 is more syncopated.
+2025-09-07 15:22:12,578 - Evaluation: Incorrect (expected=B. The rhythm in Excerpt 2 is more syncopated.)
+2025-09-07 15:22:12,578 - 
+--- Question 5 ---
+
+2025-09-07 15:22:12,578 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/Sync2_B.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/Sync4_A.wav
+2025-09-07 15:23:23,739 - [SYSINST/GroupA] Q5 - LLM Full Response:
+A. The rhythm in Excerpt 1 is more syncopated.
+2025-09-07 15:23:23,739 - Parsed Final Answer: A. The rhythm in Excerpt 1 is more syncopated.
+2025-09-07 15:23:23,739 - Evaluation: Incorrect (expected=B. The rhythm in Excerpt 2 is more syncopated.)
+2025-09-07 15:23:23,739 - 
+--- Question 6 ---
+
+2025-09-07 15:23:23,739 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/Sync3_E.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/Sync1_A.wav
+2025-09-07 15:24:41,715 - [SYSINST/GroupA] Q6 - LLM Full Response:
+B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-07 15:24:41,715 - Parsed Final Answer: B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-07 15:24:41,715 - Evaluation: Incorrect (expected=A. The rhythm in Excerpt 1 is more syncopated.)
+2025-09-07 15:24:41,715 - 
+--- Question 7 ---
+
+2025-09-07 15:24:41,715 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/Sync1_A.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/NoSync_E.wav
+2025-09-07 15:26:11,617 - [SYSINST/GroupA] Q7 - LLM Full Response:
+B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-07 15:26:11,617 - Parsed Final Answer: B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-07 15:26:11,617 - Evaluation: Incorrect (expected=A. The rhythm in Excerpt 1 is more syncopated.)
+2025-09-07 15:26:11,617 - 
+--- Question 8 ---
+
+2025-09-07 15:26:11,617 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/Sync3_B.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/Sync2_A.wav
+2025-09-07 15:27:50,245 - [SYSINST/GroupA] Q8 - LLM Full Response:
+B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-07 15:27:50,245 - Parsed Final Answer: B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-07 15:27:50,245 - Evaluation: Incorrect (expected=A. The rhythm in Excerpt 1 is more syncopated.)
+2025-09-07 15:27:50,245 - 
+--- Question 9 ---
+
+2025-09-07 15:27:50,245 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/Sync2_A.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/NoSync_B.wav
+2025-09-07 15:29:41,045 - [SYSINST/GroupA] Q9 - LLM Full Response:
+B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-07 15:29:41,045 - Parsed Final Answer: B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-07 15:29:41,045 - Evaluation: Incorrect (expected=A. The rhythm in Excerpt 1 is more syncopated.)
+2025-09-07 15:29:41,045 - 
+--- Question 10 ---
+
+2025-09-07 15:29:41,045 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/Sync2_B.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/Sync1_B.wav
+2025-09-07 15:32:32,334 - [SYSINST/GroupA] Q10 - LLM Full Response:
+A. The rhythm in Excerpt 1 is more syncopated.
+2025-09-07 15:32:32,334 - Parsed Final Answer: A. The rhythm in Excerpt 1 is more syncopated.
+2025-09-07 15:32:32,334 - Evaluation: Correct
+2025-09-07 15:32:32,334 - Total Correct: 4 out of 10
+2025-09-07 15:32:32,334 - === RUN END ===
+

@@ -1,0 +1,92 @@
+/abc/
+/Gemini_2.5_Pro/
+/Gemini_2_Flash/
+/LogicLM/
+/LOGS_8_29/
+/Logs_Final/
+/logsDay1/
+/midi/
+/NewSync/
+/qwen/
+/qwen2/
+/rescored_logs/
+/scoring/
+/scoring copy (OG August 22nd)/
+/scoring_MIDI/
+/SHOTS/
+/af3_syncopation_chat_seed1.py
+/beat_matching_results.csv
+/build_table.py
+/clean_log.py
+/combine_audio.py
+/contour_stimuli.csv
+/extract_summary.py
+/extract_summary_qwen.py
+/gemini2_5_pro_table.tex
+/gemini2_flash_overall_table.csv
+/gemini25_flash_overall_table.csv
+/gemini25_Pro_overall_table.csv
+/get_chord_name.py
+/inference.py
+/instr_table.tex
+/log_summary.csv
+/main.py
+/melody_transposition_LOGICLM_seed1.log
+/melody_transposition_STANDALONE_ZEROSHOT_seed1.log
+/melody_transposition_STANDALONE_ZEROSHOT_seed2.log
+/melody_transposition_STANDALONE_ZEROSHOT_seed3.log
+/melody_transposition_STANDALONE_ZEROSHOT_temp0.log
+/melody_transposition_stimuli.csv
+/oddball_stimuli.csv
+/qwen2_overall_table.csv
+/rhythm_matching.py
+/run_inference.py
+/run_Qwen2.5-Omni.sh
+/run_scripts.py
+/setup_af3.sh
+/setup_environment.sh
+/setup_qwen2.5-omni.sh
+/solver.py
+/stimuli_summary.csv
+/stimuli_summary1.csv
+/stimulus_stimuli.py
+/summarize_scores.py
+/syncopation_G25_chat_SysInst_examples_seed1.py
+/syncopation_LOGICLM_Chat_SysInst.py
+/syncopation_LOGICLM_chat_SysInst_examples_seed1.py
+/tempo_invariance_test_seed1_03_27_2025__05_53_33.log
+/tempo_invariance_test_seed2_03_27_2025__06_04_41.log
+/tempo_invariance_test_seed3_03_27_2025__06_13_41.log
+/testing.ipynb
+/transposition_detection_qwen2.5_omni_chat_SysInst.py
+/.env
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# OS files
+.DS_Store
+
+# PyCharm / IntelliJ
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs / data (optional)
+logs/
+data/

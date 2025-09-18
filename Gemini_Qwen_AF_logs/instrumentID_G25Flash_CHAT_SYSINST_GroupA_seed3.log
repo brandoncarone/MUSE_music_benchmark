@@ -1,0 +1,90 @@
+2025-09-05 20:14:02,616 - === RUN START (Instrument ID • CHAT+SysInst • SYSINST • GroupA) ===
+2025-09-05 20:14:02,616 - Config: model=gemini-2.5-flash, temp=1.0, seed=3, group=GroupA, log=instrumentID_G25Flash_CHAT_SYSINST_GroupA_seed3.log
+2025-09-05 20:14:02,627 - Using one persistent chat; examples and all trials share history and audio context.
+2025-09-05 20:14:05,849 - Confirmation response: Yes, I understand.
+2025-09-05 20:14:05,849 - 
+--- Task: Instrument Identification — CHAT+SysInst SYSINST • GroupA ---
+
+2025-09-05 20:14:05,850 - 
+--- Question 1 ---
+
+2025-09-05 20:14:05,850 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Bmaj_Scale_InvArch_Piano.wav
+2025-09-05 20:14:08,109 - [SYSINST/GroupA] Q1 - LLM Full Response:
+A. Piano
+2025-09-05 20:14:08,109 - Parsed Final Answer: A. Piano
+2025-09-05 20:14:08,109 - Evaluation: Correct
+2025-09-05 20:14:08,109 - 
+--- Question 2 ---
+
+2025-09-05 20:14:08,109 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Abmin_Arp_Asc_Bass.wav
+2025-09-05 20:14:10,877 - [SYSINST/GroupA] Q2 - LLM Full Response:
+C. Bass
+2025-09-05 20:14:10,877 - Parsed Final Answer: C. Bass
+2025-09-05 20:14:10,877 - Evaluation: Correct
+2025-09-05 20:14:10,877 - 
+--- Question 3 ---
+
+2025-09-05 20:14:10,877 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Dbmin_Scale_InvArch_Bass.wav
+2025-09-05 20:14:13,567 - [SYSINST/GroupA] Q3 - LLM Full Response:
+C. Bass
+2025-09-05 20:14:13,567 - Parsed Final Answer: C. Bass
+2025-09-05 20:14:13,567 - Evaluation: Correct
+2025-09-05 20:14:13,567 - 
+--- Question 4 ---
+
+2025-09-05 20:14:13,567 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Abmajor_Piano_120.wav
+2025-09-05 20:14:17,044 - [SYSINST/GroupA] Q4 - LLM Full Response:
+A. Piano
+2025-09-05 20:14:17,044 - Parsed Final Answer: A. Piano
+2025-09-05 20:14:17,044 - Evaluation: Correct
+2025-09-05 20:14:17,044 - 
+--- Question 5 ---
+
+2025-09-05 20:14:17,044 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Beat_4_140_34.wav
+2025-09-05 20:14:20,631 - [SYSINST/GroupA] Q5 - LLM Full Response:
+D. Drums
+2025-09-05 20:14:20,631 - Parsed Final Answer: D. Drums
+2025-09-05 20:14:20,631 - Evaluation: Correct
+2025-09-05 20:14:20,631 - 
+--- Question 6 ---
+
+2025-09-05 20:14:20,631 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Eminor_Guitar_120.wav
+2025-09-05 20:14:25,325 - [SYSINST/GroupA] Q6 - LLM Full Response:
+B. Guitar
+2025-09-05 20:14:25,325 - Parsed Final Answer: B. Guitar
+2025-09-05 20:14:25,325 - Evaluation: Correct
+2025-09-05 20:14:25,325 - 
+--- Question 7 ---
+
+2025-09-05 20:14:25,326 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Emin_Arp_Desc_Bass.wav
+2025-09-05 20:14:29,677 - [SYSINST/GroupA] Q7 - LLM Full Response:
+C. Bass
+2025-09-05 20:14:29,677 - Parsed Final Answer: C. Bass
+2025-09-05 20:14:29,677 - Evaluation: Correct
+2025-09-05 20:14:29,677 - 
+--- Question 8 ---
+
+2025-09-05 20:14:29,677 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Ebmin_Scale_Arch_Piano.wav
+2025-09-05 20:14:34,063 - [SYSINST/GroupA] Q8 - LLM Full Response:
+A. Piano
+2025-09-05 20:14:34,063 - Parsed Final Answer: A. Piano
+2025-09-05 20:14:34,063 - Evaluation: Correct
+2025-09-05 20:14:34,063 - 
+--- Question 9 ---
+
+2025-09-05 20:14:34,063 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Beat_2_140.wav
+2025-09-05 20:14:38,968 - [SYSINST/GroupA] Q9 - LLM Full Response:
+D. Drums
+2025-09-05 20:14:38,968 - Parsed Final Answer: D. Drums
+2025-09-05 20:14:38,968 - Evaluation: Correct
+2025-09-05 20:14:38,968 - 
+--- Question 10 ---
+
+2025-09-05 20:14:38,968 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/DMaj_Arp_Desc.wav
+2025-09-05 20:14:44,983 - [SYSINST/GroupA] Q10 - LLM Full Response:
+B. Guitar
+2025-09-05 20:14:44,983 - Parsed Final Answer: B. Guitar
+2025-09-05 20:14:44,983 - Evaluation: Correct
+2025-09-05 20:14:44,983 - Total Correct: 10 out of 10
+2025-09-05 20:14:44,983 - === RUN END ===
+

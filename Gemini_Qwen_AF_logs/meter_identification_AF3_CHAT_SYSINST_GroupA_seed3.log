@@ -1,0 +1,78 @@
+2025-09-10 16:52:29,324 - === RUN START (Meter Identification • AF3-CHAT • STATELESS • SYSINST • GroupA) ===
+2025-09-10 16:52:29,324 - Config: model=nvidia/audio-flamingo-3-chat, temp=1.0, top_p=0.95, top_k=40, seed=3, group=GroupA, log=meter_identification_AF3_CHAT_SYSINST_GroupA_seed3.log
+2025-09-10 16:52:29,324 - 
+--- Task: Meter Identification — STATELESS • SYSINST • GroupA ---
+
+2025-09-10 16:52:29,324 - 
+--- Question 1 ---
+2025-09-10 16:52:29,324 - Stimulus: file=stimuli/Intermediate/Piano_3.wav
+2025-09-10 16:52:47,662 - [SYSINST/GroupA] Q1 - LLM Full Response:
+B. Groups of 4
+2025-09-10 16:52:47,663 - Parsed Final Answer: B. Groups of 4
+2025-09-10 16:52:47,663 - Evaluation: Incorrect (expected=A. Groups of 3)
+2025-09-10 16:52:47,663 - 
+--- Question 2 ---
+2025-09-10 16:52:47,663 - Stimulus: file=stimuli/Intermediate/SunKing_4.wav
+2025-09-10 16:53:05,986 - [SYSINST/GroupA] Q2 - LLM Full Response:
+B. Groups of 4
+2025-09-10 16:53:05,987 - Parsed Final Answer: B. Groups of 4
+2025-09-10 16:53:05,987 - Evaluation: Correct
+2025-09-10 16:53:05,987 - 
+--- Question 3 ---
+2025-09-10 16:53:05,987 - Stimulus: file=stimuli/Intermediate/opbeat_4.wav
+2025-09-10 16:53:42,939 - [SYSINST/GroupA] Q3 - LLM Full Response:
+B. Groups of 4
+2025-09-10 16:53:42,939 - Parsed Final Answer: B. Groups of 4
+2025-09-10 16:53:42,939 - Evaluation: Correct
+2025-09-10 16:53:42,939 - 
+--- Question 4 ---
+2025-09-10 16:53:42,939 - Stimulus: file=stimuli/Intermediate/Circles_3.wav
+2025-09-10 16:54:01,346 - [SYSINST/GroupA] Q4 - LLM Full Response:
+B. Groups of 4
+2025-09-10 16:54:01,346 - Parsed Final Answer: B. Groups of 4
+2025-09-10 16:54:01,346 - Evaluation: Incorrect (expected=A. Groups of 3)
+2025-09-10 16:54:01,346 - 
+--- Question 5 ---
+2025-09-10 16:54:01,346 - Stimulus: file=stimuli/Intermediate/GII_5.wav
+2025-09-10 16:54:19,678 - [SYSINST/GroupA] Q5 - LLM Full Response:
+B. Groups of 4
+2025-09-10 16:54:19,678 - Parsed Final Answer: B. Groups of 4
+2025-09-10 16:54:19,678 - Evaluation: Incorrect (expected=C. Groups of 5)
+2025-09-10 16:54:19,678 - 
+--- Question 6 ---
+2025-09-10 16:54:19,678 - Stimulus: file=stimuli/Intermediate/Rosewood_4.wav
+2025-09-10 16:54:37,973 - [SYSINST/GroupA] Q6 - LLM Full Response:
+B. Groups of 4
+2025-09-10 16:54:37,973 - Parsed Final Answer: B. Groups of 4
+2025-09-10 16:54:37,973 - Evaluation: Correct
+2025-09-10 16:54:37,973 - 
+--- Question 7 ---
+2025-09-10 16:54:37,973 - Stimulus: file=stimuli/Intermediate/off_4.wav
+2025-09-10 16:55:14,894 - [SYSINST/GroupA] Q7 - LLM Full Response:
+B. Groups of 4
+2025-09-10 16:55:14,894 - Parsed Final Answer: B. Groups of 4
+2025-09-10 16:55:14,894 - Evaluation: Correct
+2025-09-10 16:55:14,894 - 
+--- Question 8 ---
+2025-09-10 16:55:14,894 - Stimulus: file=stimuli/Intermediate/I-vi-VI-V_Fmaj_piano_172_3_4.wav
+2025-09-10 16:55:33,210 - [SYSINST/GroupA] Q8 - LLM Full Response:
+B. Groups of 4
+2025-09-10 16:55:33,210 - Parsed Final Answer: B. Groups of 4
+2025-09-10 16:55:33,210 - Evaluation: Incorrect (expected=A. Groups of 3)
+2025-09-10 16:55:33,210 - 
+--- Question 9 ---
+2025-09-10 16:55:33,210 - Stimulus: file=stimuli/Intermediate/Five_solo_5.wav
+2025-09-10 16:55:51,593 - [SYSINST/GroupA] Q9 - LLM Full Response:
+B. Groups of 4
+2025-09-10 16:55:51,593 - Parsed Final Answer: B. Groups of 4
+2025-09-10 16:55:51,593 - Evaluation: Incorrect (expected=C. Groups of 5)
+2025-09-10 16:55:51,593 - 
+--- Question 10 ---
+2025-09-10 16:55:51,593 - Stimulus: file=stimuli/Intermediate/vi-IV-I-V_Gmaj_AcousticGuit_118.wav
+2025-09-10 16:56:09,922 - [SYSINST/GroupA] Q10 - LLM Full Response:
+B. Groups of 4
+2025-09-10 16:56:09,923 - Parsed Final Answer: B. Groups of 4
+2025-09-10 16:56:09,923 - Evaluation: Incorrect (expected=A. Groups of 3)
+2025-09-10 16:56:09,923 - Total Correct: 4 out of 10
+2025-09-10 16:56:09,923 - === RUN END ===
+

@@ -1,0 +1,100 @@
+2025-09-07 22:02:13,947 - === RUN START (Contour ID • CHAT+SysInst • COT • GroupB) ===
+2025-09-07 22:02:13,948 - Config: model=Qwen/Qwen2.5-Omni-7B, temp=1.0, seed=1, group=GroupB, log=contourID_Qwen2.5-Omni_CHAT_COT_GroupB_seed1.log
+2025-09-07 22:02:22,134 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-07 22:02:23,362 - Confirmation response: Yes, I understand.
+2025-09-07 22:02:23,362 - 
+--- Task: Contour Identification — CHAT+SysInst COT • GroupB ---
+
+2025-09-07 22:02:23,362 - 
+--- Question 1 ---
+
+2025-09-07 22:02:23,362 - Stimulus: file=stimuli/AbMaj_Arp_Asc_Bass.wav
+2025-09-07 22:02:23,366 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-07 22:02:24,993 - [COT/GroupB] Q1 - LLM Full Response:
+A. Arch (ascending and then descending)
+2025-09-07 22:02:24,993 - Parsed Final Answer: A. Arch (ascending and then descending)
+2025-09-07 22:02:24,993 - Evaluation: Incorrect (expected=C. Ascending (pitch raises over time))
+2025-09-07 22:02:24,993 - 
+--- Question 2 ---
+
+2025-09-07 22:02:24,993 - Stimulus: file=stimuli/Gbmin_Arp_Desc_Piano.wav
+2025-09-07 22:02:25,002 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-07 22:02:26,881 - [COT/GroupB] Q2 - LLM Full Response:
+D. Descending (pitch falls over time)
+2025-09-07 22:02:26,881 - Parsed Final Answer: D. Descending (pitch falls over time)
+2025-09-07 22:02:26,881 - Evaluation: Correct
+2025-09-07 22:02:26,881 - 
+--- Question 3 ---
+
+2025-09-07 22:02:26,881 - Stimulus: file=stimuli/Emin_Arp_Desc_Bass.wav
+2025-09-07 22:02:26,885 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-07 22:02:28,973 - [COT/GroupB] Q3 - LLM Full Response:
+A. Arch (ascending and then descending)
+2025-09-07 22:02:28,973 - Parsed Final Answer: A. Arch (ascending and then descending)
+2025-09-07 22:02:28,973 - Evaluation: Incorrect (expected=D. Descending (pitch falls over time))
+2025-09-07 22:02:28,973 - 
+--- Question 4 ---
+
+2025-09-07 22:02:28,973 - Stimulus: file=stimuli/Dm_Arp_Desc.wav
+2025-09-07 22:02:28,978 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-07 22:02:31,376 - [COT/GroupB] Q4 - LLM Full Response:
+B. Inverted Arch (descending and then ascending)
+2025-09-07 22:02:31,377 - Parsed Final Answer: B. Inverted Arch (descending and then ascending)
+2025-09-07 22:02:31,377 - Evaluation: Incorrect (expected=D. Descending (pitch falls over time))
+2025-09-07 22:02:31,377 - 
+--- Question 5 ---
+
+2025-09-07 22:02:31,377 - Stimulus: file=stimuli/GMaj_Arp_Asc.wav
+2025-09-07 22:02:31,382 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-07 22:02:34,022 - [COT/GroupB] Q5 - LLM Full Response:
+D. Descending (pitch falls over time)
+2025-09-07 22:02:34,022 - Parsed Final Answer: D. Descending (pitch falls over time)
+2025-09-07 22:02:34,022 - Evaluation: Incorrect (expected=C. Ascending (pitch raises over time))
+2025-09-07 22:02:34,022 - 
+--- Question 6 ---
+
+2025-09-07 22:02:34,022 - Stimulus: file=stimuli/Bmin_Scale_InvArch_Piano.wav
+2025-09-07 22:02:34,034 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-07 22:02:36,807 - [COT/GroupB] Q6 - LLM Full Response:
+C. Ascending (pitch raises over time)
+2025-09-07 22:02:36,808 - Parsed Final Answer: C. Ascending (pitch raises over time)
+2025-09-07 22:02:36,808 - Evaluation: Incorrect (expected=B. Inverted Arch (descending and then ascending))
+2025-09-07 22:02:36,808 - 
+--- Question 7 ---
+
+2025-09-07 22:02:36,808 - Stimulus: file=stimuli/Cmin_Scale_Arch.wav
+2025-09-07 22:02:36,813 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-07 22:02:39,998 - [COT/GroupB] Q7 - LLM Full Response:
+B. Inverted Arch (descending and then ascending)
+2025-09-07 22:02:39,998 - Parsed Final Answer: B. Inverted Arch (descending and then ascending)
+2025-09-07 22:02:39,998 - Evaluation: Incorrect (expected=A. Arch (ascending and then descending))
+2025-09-07 22:02:39,998 - 
+--- Question 8 ---
+
+2025-09-07 22:02:39,998 - Stimulus: file=stimuli/Dbmin_Scale_InvArch_Bass.wav
+2025-09-07 22:02:40,004 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-07 22:02:43,463 - [COT/GroupB] Q8 - LLM Full Response:
+A. Arch (ascending and then descending)
+2025-09-07 22:02:43,464 - Parsed Final Answer: A. Arch (ascending and then descending)
+2025-09-07 22:02:43,464 - Evaluation: Incorrect (expected=B. Inverted Arch (descending and then ascending))
+2025-09-07 22:02:43,464 - 
+--- Question 9 ---
+
+2025-09-07 22:02:43,464 - Stimulus: file=stimuli/Ebmin_Scale_Arch_Piano.wav
+2025-09-07 22:02:43,474 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-07 22:02:47,463 - [COT/GroupB] Q9 - LLM Full Response:
+D. Descending (pitch falls over time)
+2025-09-07 22:02:47,463 - Parsed Final Answer: D. Descending (pitch falls over time)
+2025-09-07 22:02:47,463 - Evaluation: Incorrect (expected=A. Arch (ascending and then descending))
+2025-09-07 22:02:47,463 - 
+--- Question 10 ---
+
+2025-09-07 22:02:47,463 - Stimulus: file=stimuli/FMaj_Scale_InvArch.wav
+2025-09-07 22:02:47,469 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-07 22:02:51,850 - [COT/GroupB] Q10 - LLM Full Response:
+B. Inverted Arch (descending and then ascending)
+2025-09-07 22:02:51,851 - Parsed Final Answer: B. Inverted Arch (descending and then ascending)
+2025-09-07 22:02:51,851 - Evaluation: Correct
+2025-09-07 22:02:51,851 - Total Correct: 2 out of 10
+2025-09-07 22:02:51,851 - === RUN END ===
+

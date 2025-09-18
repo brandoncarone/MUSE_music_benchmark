@@ -1,0 +1,90 @@
+2025-09-05 19:13:48,542 - === RUN START (Contour ID • CHAT+SysInst • SYSINST • GroupA) ===
+2025-09-05 19:13:48,542 - Config: model=gemini-2.5-flash, temp=1.0, seed=3, group=GroupA, log=contourID_G25Flash_CHAT_SYSINST_GroupA_seed3.log
+2025-09-05 19:13:48,554 - Using one persistent chat; examples and all trials share history and audio context.
+2025-09-05 19:13:50,977 - Confirmation response: Yes, I understand.
+2025-09-05 19:13:50,978 - 
+--- Task: Contour Identification — CHAT+SysInst SYSINST • GroupA ---
+
+2025-09-05 19:13:50,978 - 
+--- Question 1 ---
+
+2025-09-05 19:13:50,978 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Ebmaj_Scale_Arch_Piano.wav
+2025-09-05 19:13:53,519 - [SYSINST/GroupA] Q1 - LLM Full Response:
+A. Arch (ascending and then descending)
+2025-09-05 19:13:53,519 - Parsed Final Answer: A. Arch (ascending and then descending)
+2025-09-05 19:13:53,519 - Evaluation: Correct
+2025-09-05 19:13:53,519 - 
+--- Question 2 ---
+
+2025-09-05 19:13:53,519 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Gm_Arp_Asc.wav
+2025-09-05 19:13:56,295 - [SYSINST/GroupA] Q2 - LLM Full Response:
+C. Ascending (pitch raises over time)
+2025-09-05 19:13:56,295 - Parsed Final Answer: C. Ascending (pitch raises over time)
+2025-09-05 19:13:56,295 - Evaluation: Correct
+2025-09-05 19:13:56,295 - 
+--- Question 3 ---
+
+2025-09-05 19:13:56,295 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/AMaj_Arp_Asc_Piano.wav
+2025-09-05 19:13:59,562 - [SYSINST/GroupA] Q3 - LLM Full Response:
+C. Ascending (pitch raises over time)
+2025-09-05 19:13:59,562 - Parsed Final Answer: C. Ascending (pitch raises over time)
+2025-09-05 19:13:59,562 - Evaluation: Correct
+2025-09-05 19:13:59,562 - 
+--- Question 4 ---
+
+2025-09-05 19:13:59,562 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/CMaj_Scale_Arch.wav
+2025-09-05 19:14:03,303 - [SYSINST/GroupA] Q4 - LLM Full Response:
+B. Inverted Arch (descending and then ascending)
+2025-09-05 19:14:03,303 - Parsed Final Answer: B. Inverted Arch (descending and then ascending)
+2025-09-05 19:14:03,303 - Evaluation: Incorrect (expected=A. Arch (ascending and then descending))
+2025-09-05 19:14:03,303 - 
+--- Question 5 ---
+
+2025-09-05 19:14:03,303 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/EMaj_Arp_Desc_Bass.wav
+2025-09-05 19:14:07,049 - [SYSINST/GroupA] Q5 - LLM Full Response:
+D. Descending (pitch falls over time)
+2025-09-05 19:14:07,049 - Parsed Final Answer: D. Descending (pitch falls over time)
+2025-09-05 19:14:07,049 - Evaluation: Correct
+2025-09-05 19:14:07,050 - 
+--- Question 6 ---
+
+2025-09-05 19:14:07,050 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Dbmaj_Scale_InvArch_Bass.wav
+2025-09-05 19:14:11,469 - [SYSINST/GroupA] Q6 - LLM Full Response:
+C. Ascending (pitch raises over time)
+2025-09-05 19:14:11,469 - Parsed Final Answer: C. Ascending (pitch raises over time)
+2025-09-05 19:14:11,469 - Evaluation: Incorrect (expected=B. Inverted Arch (descending and then ascending))
+2025-09-05 19:14:11,469 - 
+--- Question 7 ---
+
+2025-09-05 19:14:11,469 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Abmin_Arp_Asc_Bass.wav
+2025-09-05 19:14:15,193 - [SYSINST/GroupA] Q7 - LLM Full Response:
+C. Ascending (pitch raises over time)
+2025-09-05 19:14:15,193 - Parsed Final Answer: C. Ascending (pitch raises over time)
+2025-09-05 19:14:15,193 - Evaluation: Correct
+2025-09-05 19:14:15,193 - 
+--- Question 8 ---
+
+2025-09-05 19:14:15,193 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/BbMaj_Scale_Arch_Bass.wav
+2025-09-05 19:14:20,344 - [SYSINST/GroupA] Q8 - LLM Full Response:
+D. Descending (pitch falls over time)
+2025-09-05 19:14:20,344 - Parsed Final Answer: D. Descending (pitch falls over time)
+2025-09-05 19:14:20,344 - Evaluation: Incorrect (expected=A. Arch (ascending and then descending))
+2025-09-05 19:14:20,344 - 
+--- Question 9 ---
+
+2025-09-05 19:14:20,344 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/DMaj_Arp_Desc.wav
+2025-09-05 19:14:26,229 - [SYSINST/GroupA] Q9 - LLM Full Response:
+D. Descending (pitch falls over time)
+2025-09-05 19:14:26,229 - Parsed Final Answer: D. Descending (pitch falls over time)
+2025-09-05 19:14:26,229 - Evaluation: Correct
+2025-09-05 19:14:26,229 - 
+--- Question 10 ---
+
+2025-09-05 19:14:26,229 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Bmaj_Scale_InvArch_Piano.wav
+2025-09-05 19:14:32,520 - [SYSINST/GroupA] Q10 - LLM Full Response:
+C. Ascending (pitch raises over time)
+2025-09-05 19:14:32,520 - Parsed Final Answer: C. Ascending (pitch raises over time)
+2025-09-05 19:14:32,520 - Evaluation: Incorrect (expected=B. Inverted Arch (descending and then ascending))
+2025-09-05 19:14:32,521 - Total Correct: 6 out of 10
+2025-09-05 19:14:32,521 - === RUN END ===
+

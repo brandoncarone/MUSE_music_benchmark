@@ -1,0 +1,149 @@
+2025-09-08 10:53:02,252 - === RUN START (Chord Progression Matching • CHAT+SysInst • COT • GroupB) ===
+2025-09-08 10:53:02,253 - Config: model=Qwen/Qwen2.5-Omni-7B, temp=1.0, seed=1, group=GroupB, log=chord_progression_matching_Qwen2.5-Omni_CHAT_COT_GroupB_seed1.log
+2025-09-08 10:53:15,191 - Confirmation response: Yes, I understand.
+2025-09-08 10:53:15,192 - 
+--- Task: Chord Progression Matching — CHAT+SysInst COT • GroupB ---
+
+2025-09-08 10:53:15,192 - 
+--- Question 1 ---
+
+2025-09-08 10:53:15,192 - Stimuli: file1=stimuli/Intermediate/I-IV-V_Emaj_piano_150.wav, file2=stimuli/Intermediate/I-V-vi-IV_Dmaj_piano_115.wav
+2025-09-08 10:53:21,456 - [COT/GroupB] Q1 - LLM Full Response:
+Step 1: Segment and abstract each excerpt to harmonic functions.
+Excerpt 1: The first excerpt follows a I–vi–ii–V progression in the key of E major.
+Excerpt 2: The second excerpt follows a I–vi–ii–V progression in the key of G major.
+Step 2: Compare the progressions across one cycle.
+- Both contain the same set of harmonic functions (I–vi–ii–V) in the same ORDER.
+Step 3: ORDER matches across the cycle.
+A. Yes, these are the same chord progression.
+2025-09-08 10:53:21,456 - Parsed Final Answer: A. Yes, these are the same chord progression.
+2025-09-08 10:53:21,456 - Evaluation: Incorrect (expected=B. No, these are not the same chord progression., prog1=I-IV-V, prog2=I-V-VI-IV)
+2025-09-08 10:53:21,456 - 
+--- Question 2 ---
+
+2025-09-08 10:53:21,456 - Stimuli: file1=stimuli/Intermediate/I-V-vi-IV_Dmaj_piano_145.wav, file2=stimuli/Intermediate/vi-IV-I-V_Gmaj_CrunchGuit_150.wav
+2025-09-08 10:53:29,037 - [COT/GroupB] Q2 - LLM Full Response:
+Step 1: Segment and abstract each excerpt to harmonic functions.
+Excerpt 1: The first excerpt follows a I–vi–ii–V progression in the key of G major.
+Excerpt 2: The second excerpt follows a I–vi–ii–V progression in the key of C major.
+Step 2: Compare the progressions across one cycle.
+- Both contain the same set of harmonic functions (I–vi–ii–V) in the same ORDER.
+Step 3: ORDER matches across the cycle.
+A. Yes, these are the same chord progression.
+2025-09-08 10:53:29,037 - Parsed Final Answer: A. Yes, these are the same chord progression.
+2025-09-08 10:53:29,037 - Evaluation: Incorrect (expected=B. No, these are not the same chord progression., prog1=I-V-VI-IV, prog2=VI-IV-I-V)
+2025-09-08 10:53:29,037 - 
+--- Question 3 ---
+
+2025-09-08 10:53:29,037 - Stimuli: file1=stimuli/Intermediate/I-IV-V_Emaj_piano_120.wav, file2=stimuli/Intermediate/I-vi-ii-V_Cmaj_piano_165.wav
+2025-09-08 10:53:39,390 - [COT/GroupB] Q3 - LLM Full Response:
+Step 1: Segment and abstract each excerpt to harmonic functions.
+Excerpt 1: The first excerpt follows a I–vi–ii–V progression in the key of E major.
+Excerpt 2: The second excerpt follows a I–vi–ii–V progression in the key of A major.
+Step 2: Compare the progressions across one cycle.
+- Both contain the same set of harmonic functions (I–vi–ii–V) in the same ORDER.
+Step 3: ORDER matches across the cycle.
+A. Yes, these are the same chord progression.
+2025-09-08 10:53:39,392 - Parsed Final Answer: A. Yes, these are the same chord progression.
+2025-09-08 10:53:39,392 - Evaluation: Incorrect (expected=B. No, these are not the same chord progression., prog1=I-IV-V, prog2=I-VI-II-V)
+2025-09-08 10:53:39,393 - 
+--- Question 4 ---
+
+2025-09-08 10:53:39,393 - Stimuli: file1=stimuli/Intermediate/I-vi-IV-V_Fmaj_CrunchEffectsGuit_160.wav, file2=stimuli/Intermediate/vi-IV-I-V_Gmaj_piano_165.wav
+2025-09-08 10:53:51,762 - [COT/GroupB] Q4 - LLM Full Response:
+Step 1: Segment and abstract each excerpt to harmonic functions.
+Excerpt 1: The first excerpt follows a I–vi–ii–V progression in the key of C major.
+Excerpt 2: The second excerpt follows a I–vi–ii–V progression in the key of G major.
+Step 2: Compare the progressions across one cycle.
+- Both contain the same set of harmonic functions (I–vi–ii–V) in the same ORDER.
+Step 3: ORDER matches across the cycle.
+A. Yes, these are the same chord progression.
+2025-09-08 10:53:51,763 - Parsed Final Answer: A. Yes, these are the same chord progression.
+2025-09-08 10:53:51,763 - Evaluation: Incorrect (expected=B. No, these are not the same chord progression., prog1=I-VI-IV-V, prog2=VI-IV-I-V)
+2025-09-08 10:53:51,763 - 
+--- Question 5 ---
+
+2025-09-08 10:53:51,763 - Stimuli: file1=stimuli/Intermediate/I-vi-ii-V_Cmaj_CleanWahGuitar_120.wav, file2=stimuli/Intermediate/I-vi-IV-V_Fmaj_CrunchGuit_140.wav
+2025-09-08 10:54:07,780 - [COT/GroupB] Q5 - LLM Full Response:
+Step 1: Segment and abstract each excerpt to harmonic functions.
+Excerpt 1: The first excerpt follows a I–vi–ii–V progression in the key of C major.
+Excerpt 2: The second excerpt follows a I–vi–ii–V progression in the key of F major.
+Step 2: Compare the progressions across one cycle.
+- Both contain the same set of harmonic functions (I–vi–ii–V) in the same ORDER.
+Step 3: ORDER matches across the cycle.
+A. Yes, these are the same chord progression.
+2025-09-08 10:54:07,781 - Parsed Final Answer: A. Yes, these are the same chord progression.
+2025-09-08 10:54:07,781 - Evaluation: Incorrect (expected=B. No, these are not the same chord progression., prog1=I-VI-II-V, prog2=I-VI-IV-V)
+2025-09-08 10:54:07,781 - 
+--- Question 6 ---
+
+2025-09-08 10:54:07,781 - Stimuli: file1=stimuli/Intermediate/I-vi-ii-V_Cmaj_CleanWahGuitar_120.wav, file2=stimuli/Intermediate/I-vi-ii-V_Cmaj_piano_165.wav
+2025-09-08 10:54:25,546 - [COT/GroupB] Q6 - LLM Full Response:
+Step 1: Segment and abstract each excerpt to harmonic functions.
+Excerpt 1: The first excerpt follows a I–vi–ii–V progression in the key of C major.
+Excerpt 2: The second excerpt follows a I–vi–ii–V progression in the key of G major.
+Step 2: Compare the progressions across one cycle.
+- Both contain the same set of harmonic functions (I–vi–ii–V) in the same ORDER.
+Step 3: ORDER matches across the cycle.
+A. Yes, these are the same chord progression.
+2025-09-08 10:54:25,546 - Parsed Final Answer: A. Yes, these are the same chord progression.
+2025-09-08 10:54:25,547 - Evaluation: Correct
+2025-09-08 10:54:25,547 - 
+--- Question 7 ---
+
+2025-09-08 10:54:25,547 - Stimuli: file1=stimuli/Intermediate/I-vi-IV-V_Fmaj_CrunchGuit_140.wav, file2=stimuli/Intermediate/I-vi-IV-V_Fmaj_CrunchEffectsGuit_160.wav
+2025-09-08 10:54:43,925 - [COT/GroupB] Q7 - LLM Full Response:
+Step 1: Segment and abstract each excerpt to harmonic functions.
+Excerpt 1: The first excerpt follows a I–vi–ii–V progression in the key of C major.
+Excerpt 2: The second excerpt follows a I–vi–ii–V progression in the key of F major.
+Step 2: Compare the progressions across one cycle.
+- Both contain the same set of harmonic functions (I–vi–ii–V) in the same ORDER.
+Step 3: ORDER matches across the cycle.
+A. Yes, these are the same chord progression.
+2025-09-08 10:54:43,926 - Parsed Final Answer: A. Yes, these are the same chord progression.
+2025-09-08 10:54:43,926 - Evaluation: Correct
+2025-09-08 10:54:43,926 - 
+--- Question 8 ---
+
+2025-09-08 10:54:43,926 - Stimuli: file1=stimuli/Intermediate/vi-IV-I-V_Gmaj_piano_165.wav, file2=stimuli/Intermediate/vi-IV-I-V_Gmaj_CrunchGuit_150.wav
+2025-09-08 10:55:01,078 - [COT/GroupB] Q8 - LLM Full Response:
+Step 1: Segment and abstract each excerpt to harmonic functions.
+Excerpt 1: The first excerpt follows a I–vi–ii–V progression in the key of C major.
+Excerpt 2: The second excerpt follows a I–vi–ii–V progression in the key of G major.
+Step 2: Compare the progressions across one cycle.
+- Both contain the same set of harmonic functions (I–vi–ii–V) in the same ORDER.
+Step 3: ORDER matches across the cycle.
+A. Yes, these are the same chord progression.
+2025-09-08 10:55:01,078 - Parsed Final Answer: A. Yes, these are the same chord progression.
+2025-09-08 10:55:01,078 - Evaluation: Correct
+2025-09-08 10:55:01,078 - 
+--- Question 9 ---
+
+2025-09-08 10:55:01,078 - Stimuli: file1=stimuli/Intermediate/I-IV-V_Emaj_piano_150.wav, file2=stimuli/Intermediate/I-IV-V_Emaj_piano_120.wav
+2025-09-08 10:55:18,797 - [COT/GroupB] Q9 - LLM Full Response:
+Step 1: Segment and abstract each excerpt to harmonic functions.
+Excerpt 1: The first excerpt follows a I–vi–ii–V progression in the key of E major.
+Excerpt 2: The second excerpt follows a I–vi–ii–V progression in the key of B major.
+Step 2: Compare the progressions across one cycle.
+- Both contain the same set of harmonic functions (I–vi–ii–V) in the same ORDER.
+Step 3: ORDER matches across the cycle.
+A. Yes, these are the same chord progression.
+2025-09-08 10:55:18,797 - Parsed Final Answer: A. Yes, these are the same chord progression.
+2025-09-08 10:55:18,797 - Evaluation: Correct
+2025-09-08 10:55:18,797 - 
+--- Question 10 ---
+
+2025-09-08 10:55:18,797 - Stimuli: file1=stimuli/Intermediate/I-V-vi-IV_Dmaj_piano_145.wav, file2=stimuli/Intermediate/I-V-vi-IV_Dmaj_piano_115.wav
+2025-09-08 10:55:34,843 - [COT/GroupB] Q10 - LLM Full Response:
+Step 1: Segment and abstract each excerpt to harmonic functions.
+Excerpt 1: The first excerpt follows a I–vi–ii–V progression in the key of D major.
+Excerpt 2: The second excerpt follows a I–vi–ii–V progression in the key of G major.
+Step 2: Compare the progressions across one cycle.
+- Both contain the same set of harmonic functions (I–vi–ii–V) in the same ORDER.
+Step 3: ORDER matches across the cycle.
+A. Yes, these are the same chord progression.
+2025-09-08 10:55:34,843 - Parsed Final Answer: A. Yes, these are the same chord progression.
+2025-09-08 10:55:34,843 - Evaluation: Correct
+2025-09-08 10:55:34,844 - Total Correct: 5 out of 10
+2025-09-08 10:55:34,844 - === RUN END ===
+

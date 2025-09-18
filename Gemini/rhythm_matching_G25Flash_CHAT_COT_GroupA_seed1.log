@@ -1,0 +1,90 @@
+2025-09-05 18:35:45,637 - === RUN START (Rhythm Matching • CHAT+SysInst • COT • GroupA) ===
+2025-09-05 18:35:45,637 - Config: model=gemini-2.5-flash, temp=1.0, seed=1, group=GroupA, log=rhythm_matching_G25Flash_CHAT_COT_GroupA_seed1.log
+2025-09-05 18:35:45,650 - Using one persistent chat; examples and all trials share history and audio context.
+2025-09-05 18:35:48,359 - Confirmation response: Yes, I understand.
+2025-09-05 18:35:48,359 - 
+--- Task: Rhythm Matching — CHAT+SysInst COT • GroupA ---
+
+2025-09-05 18:35:48,359 - 
+--- Question 1 ---
+
+2025-09-05 18:35:48,359 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Beat_4_140_34.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Beat_4_140_34.wav
+2025-09-05 18:35:53,472 - [COT/GroupA] Q1 - LLM Full Response:
+Yes, these are the same exact drum set patterns.
+2025-09-05 18:35:53,473 - Parsed Final Answer: Yes, these are the same exact drum set patterns.
+2025-09-05 18:35:53,473 - Evaluation: Correct
+2025-09-05 18:35:53,473 - 
+--- Question 2 ---
+
+2025-09-05 18:35:53,473 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Beat_5_140.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Beat_5_140.wav
+2025-09-05 18:35:58,069 - [COT/GroupA] Q2 - LLM Full Response:
+Yes, these are the same exact drum set patterns.
+2025-09-05 18:35:58,069 - Parsed Final Answer: Yes, these are the same exact drum set patterns.
+2025-09-05 18:35:58,069 - Evaluation: Correct
+2025-09-05 18:35:58,069 - 
+--- Question 3 ---
+
+2025-09-05 18:35:58,070 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Beat_5_140.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Beat_6_140_34.wav
+2025-09-05 18:36:03,107 - [COT/GroupA] Q3 - LLM Full Response:
+Yes, these are the same exact drum set patterns.
+2025-09-05 18:36:03,107 - Parsed Final Answer: Yes, these are the same exact drum set patterns.
+2025-09-05 18:36:03,107 - Evaluation: Incorrect (expected=No, these are not the same exact drum set patterns.)
+2025-09-05 18:36:03,107 - 
+--- Question 4 ---
+
+2025-09-05 18:36:03,107 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Beat_4_140_34.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Beat_5_140.wav
+2025-09-05 18:36:08,905 - [COT/GroupA] Q4 - LLM Full Response:
+Yes, these are the same exact drum set patterns.
+2025-09-05 18:36:08,905 - Parsed Final Answer: Yes, these are the same exact drum set patterns.
+2025-09-05 18:36:08,905 - Evaluation: Incorrect (expected=No, these are not the same exact drum set patterns.)
+2025-09-05 18:36:08,905 - 
+--- Question 5 ---
+
+2025-09-05 18:36:08,905 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Beat_3_140.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Beat_4_140_34.wav
+2025-09-05 18:36:16,535 - [COT/GroupA] Q5 - LLM Full Response:
+Yes, these are the same exact drum set patterns.
+2025-09-05 18:36:16,535 - Parsed Final Answer: Yes, these are the same exact drum set patterns.
+2025-09-05 18:36:16,535 - Evaluation: Incorrect (expected=No, these are not the same exact drum set patterns.)
+2025-09-05 18:36:16,535 - 
+--- Question 6 ---
+
+2025-09-05 18:36:16,535 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Beat_2_140.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Beat_3_140.wav
+2025-09-05 18:36:22,898 - [COT/GroupA] Q6 - LLM Full Response:
+Yes, these are the same exact drum set patterns.
+2025-09-05 18:36:22,898 - Parsed Final Answer: Yes, these are the same exact drum set patterns.
+2025-09-05 18:36:22,898 - Evaluation: Incorrect (expected=No, these are not the same exact drum set patterns.)
+2025-09-05 18:36:22,898 - 
+--- Question 7 ---
+
+2025-09-05 18:36:22,898 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Beat_1_140.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Beat_1_140.wav
+2025-09-05 18:36:31,742 - [COT/GroupA] Q7 - LLM Full Response:
+Yes, these are the same exact drum set patterns.
+2025-09-05 18:36:31,742 - Parsed Final Answer: Yes, these are the same exact drum set patterns.
+2025-09-05 18:36:31,742 - Evaluation: Correct
+2025-09-05 18:36:31,742 - 
+--- Question 8 ---
+
+2025-09-05 18:36:31,742 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Beat_3_140.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Beat_3_140.wav
+2025-09-05 18:36:41,413 - [COT/GroupA] Q8 - LLM Full Response:
+Yes, these are the same exact drum set patterns.
+2025-09-05 18:36:41,414 - Parsed Final Answer: Yes, these are the same exact drum set patterns.
+2025-09-05 18:36:41,414 - Evaluation: Correct
+2025-09-05 18:36:41,414 - 
+--- Question 9 ---
+
+2025-09-05 18:36:41,414 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Beat_1_140.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Beat_2_140.wav
+2025-09-05 18:36:52,767 - [COT/GroupA] Q9 - LLM Full Response:
+No, these are not the same exact drum set patterns.
+2025-09-05 18:36:52,767 - Parsed Final Answer: No, these are not the same exact drum set patterns.
+2025-09-05 18:36:52,767 - Evaluation: Correct
+2025-09-05 18:36:52,767 - 
+--- Question 10 ---
+
+2025-09-05 18:36:52,767 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Beat_2_140.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Beat_2_140.wav
+2025-09-05 18:37:03,383 - [COT/GroupA] Q10 - LLM Full Response:
+Yes, these are the same exact drum set patterns.
+2025-09-05 18:37:03,383 - Parsed Final Answer: Yes, these are the same exact drum set patterns.
+2025-09-05 18:37:03,383 - Evaluation: Correct
+2025-09-05 18:37:03,383 - Total Correct: 6 out of 10
+2025-09-05 18:37:03,383 - === RUN END ===
+

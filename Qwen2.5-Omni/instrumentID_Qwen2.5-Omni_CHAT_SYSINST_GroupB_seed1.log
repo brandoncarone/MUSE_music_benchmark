@@ -1,0 +1,100 @@
+2025-09-07 22:54:48,273 - === RUN START (Instrument ID • CHAT+SysInst • SYSINST • GroupB) ===
+2025-09-07 22:54:48,274 - Config: model=Qwen/Qwen2.5-Omni-7B, temp=1.0, seed=1, group=GroupB, log=instrumentID_Qwen2.5-Omni_CHAT_SYSINST_GroupB_seed1.log
+2025-09-07 22:54:58,762 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-07 22:54:59,833 - Confirmation response: Yes, I understand.
+2025-09-07 22:54:59,834 - 
+--- Task: Instrument Identification — CHAT+SysInst SYSINST • GroupB ---
+
+2025-09-07 22:54:59,834 - 
+--- Question 1 ---
+
+2025-09-07 22:54:59,834 - Stimulus: file=stimuli/EMaj_Arp_Desc_Bass.wav
+2025-09-07 22:54:59,838 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-07 22:55:00,898 - [SYSINST/GroupB] Q1 - LLM Full Response:
+C. Bass
+2025-09-07 22:55:00,898 - Parsed Final Answer: C. Bass
+2025-09-07 22:55:00,898 - Evaluation: Correct
+2025-09-07 22:55:00,898 - 
+--- Question 2 ---
+
+2025-09-07 22:55:00,898 - Stimulus: file=stimuli/Beat_3_140.wav
+2025-09-07 22:55:00,938 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-07 22:55:02,227 - [SYSINST/GroupB] Q2 - LLM Full Response:
+D. Drums
+2025-09-07 22:55:02,227 - Parsed Final Answer: D. Drums
+2025-09-07 22:55:02,227 - Evaluation: Correct
+2025-09-07 22:55:02,227 - 
+--- Question 3 ---
+
+2025-09-07 22:55:02,227 - Stimulus: file=stimuli/Beat_5_140.wav
+2025-09-07 22:55:02,265 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-07 22:55:03,747 - [SYSINST/GroupB] Q3 - LLM Full Response:
+D. Drums
+2025-09-07 22:55:03,747 - Parsed Final Answer: D. Drums
+2025-09-07 22:55:03,748 - Evaluation: Correct
+2025-09-07 22:55:03,748 - 
+--- Question 4 ---
+
+2025-09-07 22:55:03,748 - Stimulus: file=stimuli/Beat_1_140.wav
+2025-09-07 22:55:03,785 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-07 22:55:05,458 - [SYSINST/GroupB] Q4 - LLM Full Response:
+D. Drums
+2025-09-07 22:55:05,459 - Parsed Final Answer: D. Drums
+2025-09-07 22:55:05,459 - Evaluation: Correct
+2025-09-07 22:55:05,459 - 
+--- Question 5 ---
+
+2025-09-07 22:55:05,459 - Stimulus: file=stimuli/BbMaj_Scale_Arch_Bass.wav
+2025-09-07 22:55:05,465 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-07 22:55:07,381 - [SYSINST/GroupB] Q5 - LLM Full Response:
+C. Bass
+2025-09-07 22:55:07,382 - Parsed Final Answer: C. Bass
+2025-09-07 22:55:07,382 - Evaluation: Correct
+2025-09-07 22:55:07,382 - 
+--- Question 6 ---
+
+2025-09-07 22:55:07,382 - Stimulus: file=stimuli/FMaj_Scale_InvArch.wav
+2025-09-07 22:55:07,392 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-07 22:55:09,577 - [SYSINST/GroupB] Q6 - LLM Full Response:
+B. Guitar
+2025-09-07 22:55:09,577 - Parsed Final Answer: B. Guitar
+2025-09-07 22:55:09,577 - Evaluation: Correct
+2025-09-07 22:55:09,577 - 
+--- Question 7 ---
+
+2025-09-07 22:55:09,578 - Stimulus: file=stimuli/Bbminor_Piano_120.wav
+2025-09-07 22:55:09,622 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-07 22:55:12,230 - [SYSINST/GroupB] Q7 - LLM Full Response:
+A. Piano
+2025-09-07 22:55:12,230 - Parsed Final Answer: A. Piano
+2025-09-07 22:55:12,230 - Evaluation: Correct
+2025-09-07 22:55:12,230 - 
+--- Question 8 ---
+
+2025-09-07 22:55:12,230 - Stimulus: file=stimuli/GMaj_Arp_Asc.wav
+2025-09-07 22:55:12,236 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-07 22:55:15,101 - [SYSINST/GroupB] Q8 - LLM Full Response:
+B. Guitar
+2025-09-07 22:55:15,102 - Parsed Final Answer: B. Guitar
+2025-09-07 22:55:15,102 - Evaluation: Correct
+2025-09-07 22:55:15,102 - 
+--- Question 9 ---
+
+2025-09-07 22:55:15,102 - Stimulus: file=stimuli/Gbmin_Arp_Desc_Piano.wav
+2025-09-07 22:55:15,160 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-07 22:55:18,294 - [SYSINST/GroupB] Q9 - LLM Full Response:
+A. Piano
+2025-09-07 22:55:18,294 - Parsed Final Answer: A. Piano
+2025-09-07 22:55:18,294 - Evaluation: Correct
+2025-09-07 22:55:18,294 - 
+--- Question 10 ---
+
+2025-09-07 22:55:18,294 - Stimulus: file=stimuli/Bmajor_Guitar_120.wav
+2025-09-07 22:55:18,330 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-07 22:55:21,771 - [SYSINST/GroupB] Q10 - LLM Full Response:
+B. Guitar
+2025-09-07 22:55:21,772 - Parsed Final Answer: B. Guitar
+2025-09-07 22:55:21,772 - Evaluation: Correct
+2025-09-07 22:55:21,772 - Total Correct: 10 out of 10
+2025-09-07 22:55:21,772 - === RUN END ===
+

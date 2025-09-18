@@ -1,0 +1,99 @@
+2025-09-07 23:44:19,121 - === RUN START (Key Modulation • CHAT+SysInst • SYSINST • GroupA) ===
+2025-09-07 23:44:19,121 - Config: model=gemini-2.5-flash, temp=1.0, seed=2, group=GroupA, log=key_modulation_G25Flash_CHAT_SYSINST_GroupA_seed2.log
+2025-09-07 23:44:19,134 - Using one persistent chat; examples and all trials share history and audio context.
+2025-09-07 23:44:21,231 - Confirmation response: Yes, I understand.
+2025-09-07 23:44:21,231 - 
+--- Task: Key Modulation Detection — CHAT+SysInst SYSINST • GroupA ---
+
+2025-09-07 23:44:21,231 - 
+--- Question 1 ---
+
+2025-09-07 23:44:21,231 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/I-vi-ii-V_Cmaj_CleanGuitar_80.wav
+2025-09-07 23:44:24,018 - [SYSINST/GroupA] Q1 - LLM Full Response:
+B. No, the key stays the same.
+2025-09-07 23:44:24,018 - Parsed Final Answer: B. No, the key stays the same.
+2025-09-07 23:44:24,018 - Expected Final Answer: B. No, the key stays the same.
+2025-09-07 23:44:24,018 - Evaluation: Correct
+2025-09-07 23:44:24,018 - 
+--- Question 2 ---
+
+2025-09-07 23:44:24,018 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/I-IV-V_Emaj_piano_150.wav
+2025-09-07 23:44:26,251 - [SYSINST/GroupA] Q2 - LLM Full Response:
+B. No, the key stays the same.
+2025-09-07 23:44:26,251 - Parsed Final Answer: B. No, the key stays the same.
+2025-09-07 23:44:26,251 - Expected Final Answer: B. No, the key stays the same.
+2025-09-07 23:44:26,251 - Evaluation: Correct
+2025-09-07 23:44:26,251 - 
+--- Question 3 ---
+
+2025-09-07 23:44:26,251 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/I-vi-VI-V_Amaj_mod_Fsmin_piano_160_3_4.wav
+2025-09-07 23:44:29,436 - [SYSINST/GroupA] Q3 - LLM Full Response:
+A. Yes, a key modulation occurs.
+2025-09-07 23:44:29,436 - Parsed Final Answer: A. Yes, a key modulation occurs.
+2025-09-07 23:44:29,436 - Expected Final Answer: A. Yes, a key modulation occurs.
+2025-09-07 23:44:29,436 - Evaluation: Correct
+2025-09-07 23:44:29,436 - 
+--- Question 4 ---
+
+2025-09-07 23:44:29,436 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/vi-IV-I-V_Fsmaj_mod_Csmaj_piano_135.wav
+2025-09-07 23:44:32,949 - [SYSINST/GroupA] Q4 - LLM Full Response:
+B. No, the key stays the same.
+2025-09-07 23:44:32,949 - Parsed Final Answer: B. No, the key stays the same.
+2025-09-07 23:44:32,949 - Expected Final Answer: A. Yes, a key modulation occurs.
+2025-09-07 23:44:32,949 - Evaluation: Incorrect (expected=A. Yes, a key modulation occurs.)
+2025-09-07 23:44:32,949 - 
+--- Question 5 ---
+
+2025-09-07 23:44:32,949 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/vi-IV-I-V_Gmaj_CrunchGuit_150.wav
+2025-09-07 23:44:36,701 - [SYSINST/GroupA] Q5 - LLM Full Response:
+B. No, the key stays the same.
+2025-09-07 23:44:36,701 - Parsed Final Answer: B. No, the key stays the same.
+2025-09-07 23:44:36,701 - Expected Final Answer: B. No, the key stays the same.
+2025-09-07 23:44:36,701 - Evaluation: Correct
+2025-09-07 23:44:36,701 - 
+--- Question 6 ---
+
+2025-09-07 23:44:36,701 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/I-vi-VI-V_Fmaj_piano_172_3_4.wav
+2025-09-07 23:44:42,127 - [SYSINST/GroupA] Q6 - LLM Full Response:
+B. No, the key stays the same.
+2025-09-07 23:44:42,127 - Parsed Final Answer: B. No, the key stays the same.
+2025-09-07 23:44:42,127 - Expected Final Answer: B. No, the key stays the same.
+2025-09-07 23:44:42,127 - Evaluation: Correct
+2025-09-07 23:44:42,127 - 
+--- Question 7 ---
+
+2025-09-07 23:44:42,127 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/I-V-vi-IV_Dbmaj_mod_Abmaj_commonchord_CrunchGuit_100.wav
+2025-09-07 23:44:47,286 - [SYSINST/GroupA] Q7 - LLM Full Response:
+B. No, the key stays the same.
+2025-09-07 23:44:47,286 - Parsed Final Answer: B. No, the key stays the same.
+2025-09-07 23:44:47,286 - Expected Final Answer: A. Yes, a key modulation occurs.
+2025-09-07 23:44:47,286 - Evaluation: Incorrect (expected=A. Yes, a key modulation occurs.)
+2025-09-07 23:44:47,286 - 
+--- Question 8 ---
+
+2025-09-07 23:44:47,286 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/I-V-vi-IV_Dmaj_piano_145.wav
+2025-09-07 23:44:52,731 - [SYSINST/GroupA] Q8 - LLM Full Response:
+B. No, the key stays the same.
+2025-09-07 23:44:52,731 - Parsed Final Answer: B. No, the key stays the same.
+2025-09-07 23:44:52,731 - Expected Final Answer: B. No, the key stays the same.
+2025-09-07 23:44:52,731 - Evaluation: Correct
+2025-09-07 23:44:52,731 - 
+--- Question 9 ---
+
+2025-09-07 23:44:52,731 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/vi-IV-I-V_Fsmaj_mod_Dsmin_AcousticGuit_relativeminor_118.wav
+2025-09-07 23:44:59,026 - [SYSINST/GroupA] Q9 - LLM Full Response:
+B. No, the key stays the same.
+2025-09-07 23:44:59,027 - Parsed Final Answer: B. No, the key stays the same.
+2025-09-07 23:44:59,027 - Expected Final Answer: A. Yes, a key modulation occurs.
+2025-09-07 23:44:59,027 - Evaluation: Incorrect (expected=A. Yes, a key modulation occurs.)
+2025-09-07 23:44:59,027 - 
+--- Question 10 ---
+
+2025-09-07 23:44:59,027 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/I-vi-ii-V_Bmaj_mod_Csmin_CleanWahGuitar_120.wav
+2025-09-07 23:45:05,790 - [SYSINST/GroupA] Q10 - LLM Full Response:
+B. No, the key stays the same.
+2025-09-07 23:45:05,790 - Parsed Final Answer: B. No, the key stays the same.
+2025-09-07 23:45:05,790 - Expected Final Answer: A. Yes, a key modulation occurs.
+2025-09-07 23:45:05,790 - Evaluation: Incorrect (expected=A. Yes, a key modulation occurs.)
+2025-09-07 23:45:05,791 - Total Correct: 6 out of 10
+2025-09-07 23:45:05,791 - === RUN END ===

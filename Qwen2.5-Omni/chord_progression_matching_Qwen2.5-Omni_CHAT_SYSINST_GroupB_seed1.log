@@ -1,0 +1,100 @@
+2025-09-08 10:39:52,630 - === RUN START (Chord Progression Matching • CHAT+SysInst • SYSINST • GroupB) ===
+2025-09-08 10:39:52,631 - Config: model=Qwen/Qwen2.5-Omni-7B, temp=1.0, seed=1, group=GroupB, log=chord_progression_matching_Qwen2.5-Omni_CHAT_SYSINST_GroupB_seed1.log
+2025-09-08 10:40:03,945 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-08 10:40:05,708 - Confirmation response: Yes, I understand.
+2025-09-08 10:40:05,709 - 
+--- Task: Chord Progression Matching — CHAT+SysInst SYSINST • GroupB ---
+
+2025-09-08 10:40:05,709 - 
+--- Question 1 ---
+
+2025-09-08 10:40:05,709 - Stimuli: file1=stimuli/Intermediate/I-IV-V_Emaj_piano_150.wav, file2=stimuli/Intermediate/I-V-vi-IV_Dmaj_piano_115.wav
+2025-09-08 10:40:05,822 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-08 10:40:08,711 - [SYSINST/GroupB] Q1 - LLM Full Response:
+Yes, these are the same chord progression.
+2025-09-08 10:40:08,712 - Parsed Final Answer: A. Yes, these are the same chord progression.
+2025-09-08 10:40:08,712 - Evaluation: Incorrect (expected=B. No, these are not the same chord progression., prog1=I-IV-V, prog2=I-V-VI-IV)
+2025-09-08 10:40:08,712 - 
+--- Question 2 ---
+
+2025-09-08 10:40:08,712 - Stimuli: file1=stimuli/Intermediate/I-V-vi-IV_Dmaj_piano_145.wav, file2=stimuli/Intermediate/vi-IV-I-V_Gmaj_CrunchGuit_150.wav
+2025-09-08 10:40:08,779 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-08 10:40:12,831 - [SYSINST/GroupB] Q2 - LLM Full Response:
+No, these are not the same chord progression.
+2025-09-08 10:40:12,833 - Parsed Final Answer: B. No, these are not the same chord progression.
+2025-09-08 10:40:12,833 - Evaluation: Correct
+2025-09-08 10:40:12,833 - 
+--- Question 3 ---
+
+2025-09-08 10:40:12,833 - Stimuli: file1=stimuli/Intermediate/I-IV-V_Emaj_piano_120.wav, file2=stimuli/Intermediate/I-vi-ii-V_Cmaj_piano_165.wav
+2025-09-08 10:40:13,000 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-08 10:40:19,809 - [SYSINST/GroupB] Q3 - LLM Full Response:
+Yes, these are the same chord progression.
+2025-09-08 10:40:19,810 - Parsed Final Answer: A. Yes, these are the same chord progression.
+2025-09-08 10:40:19,810 - Evaluation: Incorrect (expected=B. No, these are not the same chord progression., prog1=I-IV-V, prog2=I-VI-II-V)
+2025-09-08 10:40:19,810 - 
+--- Question 4 ---
+
+2025-09-08 10:40:19,810 - Stimuli: file1=stimuli/Intermediate/I-vi-IV-V_Fmaj_CrunchEffectsGuit_160.wav, file2=stimuli/Intermediate/vi-IV-I-V_Gmaj_piano_165.wav
+2025-09-08 10:40:19,917 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-08 10:40:28,832 - [SYSINST/GroupB] Q4 - LLM Full Response:
+No, these are not the same chord progression.
+2025-09-08 10:40:28,833 - Parsed Final Answer: B. No, these are not the same chord progression.
+2025-09-08 10:40:28,835 - Evaluation: Correct
+2025-09-08 10:40:28,835 - 
+--- Question 5 ---
+
+2025-09-08 10:40:28,835 - Stimuli: file1=stimuli/Intermediate/I-vi-ii-V_Cmaj_CleanWahGuitar_120.wav, file2=stimuli/Intermediate/I-vi-IV-V_Fmaj_CrunchGuit_140.wav
+2025-09-08 10:40:28,976 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-08 10:40:41,445 - [SYSINST/GroupB] Q5 - LLM Full Response:
+No, these are not the same chord progression.
+2025-09-08 10:40:41,447 - Parsed Final Answer: B. No, these are not the same chord progression.
+2025-09-08 10:40:41,447 - Evaluation: Correct
+2025-09-08 10:40:41,447 - 
+--- Question 6 ---
+
+2025-09-08 10:40:41,447 - Stimuli: file1=stimuli/Intermediate/I-vi-ii-V_Cmaj_CleanWahGuitar_120.wav, file2=stimuli/Intermediate/I-vi-ii-V_Cmaj_piano_165.wav
+2025-09-08 10:40:41,555 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-08 10:40:55,931 - [SYSINST/GroupB] Q6 - LLM Full Response:
+No, these are not the same chord progression.
+2025-09-08 10:40:55,933 - Parsed Final Answer: B. No, these are not the same chord progression.
+2025-09-08 10:40:55,933 - Evaluation: Incorrect (expected=A. Yes, these are the same chord progression., prog1=I-VI-II-V, prog2=I-VI-II-V)
+2025-09-08 10:40:55,933 - 
+--- Question 7 ---
+
+2025-09-08 10:40:55,933 - Stimuli: file1=stimuli/Intermediate/I-vi-IV-V_Fmaj_CrunchGuit_140.wav, file2=stimuli/Intermediate/I-vi-IV-V_Fmaj_CrunchEffectsGuit_160.wav
+2025-09-08 10:40:56,011 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-08 10:41:10,796 - [SYSINST/GroupB] Q7 - LLM Full Response:
+No, these are not the same chord progression.
+2025-09-08 10:41:10,799 - Parsed Final Answer: B. No, these are not the same chord progression.
+2025-09-08 10:41:10,799 - Evaluation: Incorrect (expected=A. Yes, these are the same chord progression., prog1=I-VI-IV-V, prog2=I-VI-IV-V)
+2025-09-08 10:41:10,799 - 
+--- Question 8 ---
+
+2025-09-08 10:41:10,799 - Stimuli: file1=stimuli/Intermediate/vi-IV-I-V_Gmaj_piano_165.wav, file2=stimuli/Intermediate/vi-IV-I-V_Gmaj_CrunchGuit_150.wav
+2025-09-08 10:41:10,875 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-08 10:41:24,517 - [SYSINST/GroupB] Q8 - LLM Full Response:
+Yes, these are the same chord progression.
+2025-09-08 10:41:24,524 - Parsed Final Answer: A. Yes, these are the same chord progression.
+2025-09-08 10:41:24,524 - Evaluation: Correct
+2025-09-08 10:41:24,524 - 
+--- Question 9 ---
+
+2025-09-08 10:41:24,524 - Stimuli: file1=stimuli/Intermediate/I-IV-V_Emaj_piano_150.wav, file2=stimuli/Intermediate/I-IV-V_Emaj_piano_120.wav
+2025-09-08 10:41:24,610 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-08 10:41:38,691 - [SYSINST/GroupB] Q9 - LLM Full Response:
+Yes, these are the same chord progression.
+2025-09-08 10:41:38,693 - Parsed Final Answer: A. Yes, these are the same chord progression.
+2025-09-08 10:41:38,693 - Evaluation: Correct
+2025-09-08 10:41:38,693 - 
+--- Question 10 ---
+
+2025-09-08 10:41:38,693 - Stimuli: file1=stimuli/Intermediate/I-V-vi-IV_Dmaj_piano_145.wav, file2=stimuli/Intermediate/I-V-vi-IV_Dmaj_piano_115.wav
+2025-09-08 10:41:38,754 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-08 10:41:51,177 - [SYSINST/GroupB] Q10 - LLM Full Response:
+Yes, these are the same chord progression.
+2025-09-08 10:41:51,178 - Parsed Final Answer: A. Yes, these are the same chord progression.
+2025-09-08 10:41:51,178 - Evaluation: Correct
+2025-09-08 10:41:51,179 - Total Correct: 6 out of 10
+2025-09-08 10:41:51,179 - === RUN END ===
+

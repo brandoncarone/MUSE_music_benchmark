@@ -1,0 +1,89 @@
+2025-09-07 21:57:37,870 - === RUN START (Contour ID • CHAT+SysInst • SYSINST • GroupB) ===
+2025-09-07 21:57:37,871 - Config: model=Qwen/Qwen2.5-Omni-7B, temp=1.0, seed=2, group=GroupB, log=contourID_Qwen2.5-Omni_CHAT_SYSINST_GroupB_seed2.log
+2025-09-07 21:57:48,928 - Confirmation response: Yes, I understand.
+2025-09-07 21:57:48,929 - 
+--- Task: Contour Identification — CHAT+SysInst SYSINST • GroupB ---
+
+2025-09-07 21:57:48,929 - 
+--- Question 1 ---
+
+2025-09-07 21:57:48,929 - Stimulus: file=stimuli/GMaj_Arp_Asc.wav
+2025-09-07 21:57:50,534 - [SYSINST/GroupB] Q1 - LLM Full Response:
+A. Arch (ascending and then descending)
+2025-09-07 21:57:50,535 - Parsed Final Answer: A. Arch (ascending and then descending)
+2025-09-07 21:57:50,535 - Evaluation: Incorrect (expected=C. Ascending (pitch raises over time))
+2025-09-07 21:57:50,535 - 
+--- Question 2 ---
+
+2025-09-07 21:57:50,535 - Stimulus: file=stimuli/Emin_Arp_Desc_Bass.wav
+2025-09-07 21:57:52,453 - [SYSINST/GroupB] Q2 - LLM Full Response:
+B. Inverted Arch (descending and then ascending)
+2025-09-07 21:57:52,454 - Parsed Final Answer: B. Inverted Arch (descending and then ascending)
+2025-09-07 21:57:52,454 - Evaluation: Incorrect (expected=D. Descending (pitch falls over time))
+2025-09-07 21:57:52,454 - 
+--- Question 3 ---
+
+2025-09-07 21:57:52,454 - Stimulus: file=stimuli/Bmin_Scale_InvArch_Piano.wav
+2025-09-07 21:57:54,631 - [SYSINST/GroupB] Q3 - LLM Full Response:
+C. Ascending (pitch raises over time)
+2025-09-07 21:57:54,631 - Parsed Final Answer: C. Ascending (pitch raises over time)
+2025-09-07 21:57:54,631 - Evaluation: Incorrect (expected=B. Inverted Arch (descending and then ascending))
+2025-09-07 21:57:54,631 - 
+--- Question 4 ---
+
+2025-09-07 21:57:54,631 - Stimulus: file=stimuli/Dbmin_Scale_InvArch_Bass.wav
+2025-09-07 21:57:57,061 - [SYSINST/GroupB] Q4 - LLM Full Response:
+D. Descending (pitch falls over time)
+2025-09-07 21:57:57,062 - Parsed Final Answer: D. Descending (pitch falls over time)
+2025-09-07 21:57:57,062 - Evaluation: Incorrect (expected=B. Inverted Arch (descending and then ascending))
+2025-09-07 21:57:57,062 - 
+--- Question 5 ---
+
+2025-09-07 21:57:57,062 - Stimulus: file=stimuli/AbMaj_Arp_Asc_Bass.wav
+2025-09-07 21:57:59,828 - [SYSINST/GroupB] Q5 - LLM Full Response:
+B. Inverted Arch (descending and then ascending)
+2025-09-07 21:57:59,828 - Parsed Final Answer: B. Inverted Arch (descending and then ascending)
+2025-09-07 21:57:59,828 - Evaluation: Incorrect (expected=C. Ascending (pitch raises over time))
+2025-09-07 21:57:59,828 - 
+--- Question 6 ---
+
+2025-09-07 21:57:59,828 - Stimulus: file=stimuli/Dm_Arp_Desc.wav
+2025-09-07 21:58:02,618 - [SYSINST/GroupB] Q6 - LLM Full Response:
+A. Arch (ascending and then descending)
+2025-09-07 21:58:02,618 - Parsed Final Answer: A. Arch (ascending and then descending)
+2025-09-07 21:58:02,618 - Evaluation: Incorrect (expected=D. Descending (pitch falls over time))
+2025-09-07 21:58:02,618 - 
+--- Question 7 ---
+
+2025-09-07 21:58:02,618 - Stimulus: file=stimuli/FMaj_Scale_InvArch.wav
+2025-09-07 21:58:05,933 - [SYSINST/GroupB] Q7 - LLM Full Response:
+B. Inverted Arch (descending and then ascending)
+2025-09-07 21:58:05,933 - Parsed Final Answer: B. Inverted Arch (descending and then ascending)
+2025-09-07 21:58:05,933 - Evaluation: Correct
+2025-09-07 21:58:05,934 - 
+--- Question 8 ---
+
+2025-09-07 21:58:05,934 - Stimulus: file=stimuli/Gbmin_Arp_Desc_Piano.wav
+2025-09-07 21:58:09,354 - [SYSINST/GroupB] Q8 - LLM Full Response:
+D. Descending (pitch falls over time)
+2025-09-07 21:58:09,355 - Parsed Final Answer: D. Descending (pitch falls over time)
+2025-09-07 21:58:09,355 - Evaluation: Correct
+2025-09-07 21:58:09,355 - 
+--- Question 9 ---
+
+2025-09-07 21:58:09,355 - Stimulus: file=stimuli/Ebmin_Scale_Arch_Piano.wav
+2025-09-07 21:58:13,232 - [SYSINST/GroupB] Q9 - LLM Full Response:
+B. Inverted Arch (descending and then ascending)
+2025-09-07 21:58:13,233 - Parsed Final Answer: B. Inverted Arch (descending and then ascending)
+2025-09-07 21:58:13,233 - Evaluation: Incorrect (expected=A. Arch (ascending and then descending))
+2025-09-07 21:58:13,233 - 
+--- Question 10 ---
+
+2025-09-07 21:58:13,233 - Stimulus: file=stimuli/Cmin_Scale_Arch.wav
+2025-09-07 21:58:17,314 - [SYSINST/GroupB] Q10 - LLM Full Response:
+D. Descending (pitch falls over time)
+2025-09-07 21:58:17,314 - Parsed Final Answer: D. Descending (pitch falls over time)
+2025-09-07 21:58:17,314 - Evaluation: Incorrect (expected=A. Arch (ascending and then descending))
+2025-09-07 21:58:17,315 - Total Correct: 2 out of 10
+2025-09-07 21:58:17,315 - === RUN END ===
+

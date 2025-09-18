@@ -1,0 +1,100 @@
+2025-09-07 20:57:39,047 - === RUN START (Chord Quality • CHAT+SysInst • SYSINST • GroupA) ===
+2025-09-07 20:57:39,047 - Config: model=gemini-2.5-flash, temp=1.0, seed=2, group=GroupA, log=chord_quality_G25Flash_CHAT_SYSINST_GroupA_seed2.log
+2025-09-07 20:57:39,057 - Using one persistent chat; examples and all trials share history and audio context.
+2025-09-07 20:57:40,833 - Confirmation response: Yes, I understand.
+2025-09-07 20:57:40,833 - 
+--- Task: Chord Quality (Major vs Minor) — CHAT+SysInst SYSINST • GroupA ---
+
+2025-09-07 20:57:40,833 - 
+--- Question 1 ---
+
+2025-09-07 20:57:40,833 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Abminor_Piano_120.wav
+2025-09-07 20:57:42,960 - [SYSINST/GroupA] Q1 - LLM Full Response:
+A. Major
+2025-09-07 20:57:42,960 - Parsed Final Answer: A. Major
+2025-09-07 20:57:42,960 - Expected Final Answer: B. Minor
+2025-09-07 20:57:42,960 - Evaluation: Incorrect (expected=B. Minor)
+2025-09-07 20:57:42,960 - 
+--- Question 2 ---
+
+2025-09-07 20:57:42,960 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Ebminor_Piano_120.wav
+2025-09-07 20:57:45,956 - [SYSINST/GroupA] Q2 - LLM Full Response:
+A. Major
+2025-09-07 20:57:45,956 - Parsed Final Answer: A. Major
+2025-09-07 20:57:45,956 - Expected Final Answer: B. Minor
+2025-09-07 20:57:45,956 - Evaluation: Incorrect (expected=B. Minor)
+2025-09-07 20:57:45,956 - 
+--- Question 3 ---
+
+2025-09-07 20:57:45,956 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Dbmajor_Piano_120.wav
+2025-09-07 20:57:47,837 - [SYSINST/GroupA] Q3 - LLM Full Response:
+A. Major
+2025-09-07 20:57:47,837 - Parsed Final Answer: A. Major
+2025-09-07 20:57:47,838 - Expected Final Answer: A. Major
+2025-09-07 20:57:47,838 - Evaluation: Correct
+2025-09-07 20:57:47,838 - 
+--- Question 4 ---
+
+2025-09-07 20:57:47,838 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Cmajor_Guitar_120.wav
+2025-09-07 20:57:50,260 - [SYSINST/GroupA] Q4 - LLM Full Response:
+B. Minor
+2025-09-07 20:57:50,260 - Parsed Final Answer: B. Minor
+2025-09-07 20:57:50,260 - Expected Final Answer: A. Major
+2025-09-07 20:57:50,260 - Evaluation: Incorrect (expected=A. Major)
+2025-09-07 20:57:50,260 - 
+--- Question 5 ---
+
+2025-09-07 20:57:50,261 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Dminor_Guitar_120.wav
+2025-09-07 20:57:52,770 - [SYSINST/GroupA] Q5 - LLM Full Response:
+A. Major
+2025-09-07 20:57:52,770 - Parsed Final Answer: A. Major
+2025-09-07 20:57:52,770 - Expected Final Answer: B. Minor
+2025-09-07 20:57:52,770 - Evaluation: Incorrect (expected=B. Minor)
+2025-09-07 20:57:52,770 - 
+--- Question 6 ---
+
+2025-09-07 20:57:52,770 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Gbminor_Piano_120.wav
+2025-09-07 20:57:56,035 - [SYSINST/GroupA] Q6 - LLM Full Response:
+A. Major
+2025-09-07 20:57:56,035 - Parsed Final Answer: A. Major
+2025-09-07 20:57:56,035 - Expected Final Answer: B. Minor
+2025-09-07 20:57:56,035 - Evaluation: Incorrect (expected=B. Minor)
+2025-09-07 20:57:56,035 - 
+--- Question 7 ---
+
+2025-09-07 20:57:56,035 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Bmajor_Guitar_120.wav
+2025-09-07 20:57:59,552 - [SYSINST/GroupA] Q7 - LLM Full Response:
+A. Major
+2025-09-07 20:57:59,552 - Parsed Final Answer: A. Major
+2025-09-07 20:57:59,552 - Expected Final Answer: A. Major
+2025-09-07 20:57:59,553 - Evaluation: Correct
+2025-09-07 20:57:59,553 - 
+--- Question 8 ---
+
+2025-09-07 20:57:59,553 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Cminor_Guitar_120.wav
+2025-09-07 20:58:03,427 - [SYSINST/GroupA] Q8 - LLM Full Response:
+A. Major
+2025-09-07 20:58:03,427 - Parsed Final Answer: A. Major
+2025-09-07 20:58:03,427 - Expected Final Answer: B. Minor
+2025-09-07 20:58:03,427 - Evaluation: Incorrect (expected=B. Minor)
+2025-09-07 20:58:03,427 - 
+--- Question 9 ---
+
+2025-09-07 20:58:03,427 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Gbmajor_Piano_120.wav
+2025-09-07 20:58:06,951 - [SYSINST/GroupA] Q9 - LLM Full Response:
+A. Major
+2025-09-07 20:58:06,951 - Parsed Final Answer: A. Major
+2025-09-07 20:58:06,951 - Expected Final Answer: A. Major
+2025-09-07 20:58:06,951 - Evaluation: Correct
+2025-09-07 20:58:06,951 - 
+--- Question 10 ---
+
+2025-09-07 20:58:06,951 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Amajor_Guitar_120.wav
+2025-09-07 20:58:10,716 - [SYSINST/GroupA] Q10 - LLM Full Response:
+B. Minor
+2025-09-07 20:58:10,716 - Parsed Final Answer: B. Minor
+2025-09-07 20:58:10,716 - Expected Final Answer: A. Major
+2025-09-07 20:58:10,716 - Evaluation: Incorrect (expected=A. Major)
+2025-09-07 20:58:10,717 - Total Correct: 3 out of 10
+2025-09-07 20:58:10,717 - === RUN END ===
+

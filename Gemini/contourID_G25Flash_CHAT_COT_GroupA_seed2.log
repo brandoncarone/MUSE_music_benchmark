@@ -1,0 +1,110 @@
+2025-09-05 19:17:21,154 - === RUN START (Contour ID • CHAT+SysInst • COT • GroupA) ===
+2025-09-05 19:17:21,154 - Config: model=gemini-2.5-flash, temp=1.0, seed=2, group=GroupA, log=contourID_G25Flash_CHAT_COT_GroupA_seed2.log
+2025-09-05 19:17:21,165 - Using one persistent chat; examples and all trials share history and audio context.
+2025-09-05 19:17:23,940 - Confirmation response: Yes, I understand.
+2025-09-05 19:17:23,941 - 
+--- Task: Contour Identification — CHAT+SysInst COT • GroupA ---
+
+2025-09-05 19:17:23,941 - 
+--- Question 1 ---
+
+2025-09-05 19:17:23,941 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Gm_Arp_Asc.wav
+2025-09-05 19:17:27,752 - [COT/GroupA] Q1 - LLM Full Response:
+Step 1: The melody starts at a moderate pitch, rises clearly to a peak in the middle, and then descends.
+Step 2: This global trend matches an Arch contour.
+A. Arch (ascending and then descending)
+2025-09-05 19:17:27,752 - Parsed Final Answer: A. Arch (ascending and then descending)
+2025-09-05 19:17:27,752 - Evaluation: Incorrect (expected=C. Ascending (pitch raises over time))
+2025-09-05 19:17:27,752 - 
+--- Question 2 ---
+
+2025-09-05 19:17:27,752 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/EMaj_Arp_Desc_Bass.wav
+2025-09-05 19:17:30,966 - [COT/GroupA] Q2 - LLM Full Response:
+Step 1: The melody starts at a moderate pitch, then generally falls to a low point, and subsequently rises back up towards the end.
+Step 2: This global trend, a fall followed by a rise, fits the definition of an Inverted Arch.
+B. Inverted Arch (descending and then ascending)
+2025-09-05 19:17:30,966 - Parsed Final Answer: B. Inverted Arch (descending and then ascending)
+2025-09-05 19:17:30,966 - Evaluation: Incorrect (expected=D. Descending (pitch falls over time))
+2025-09-05 19:17:30,966 - 
+--- Question 3 ---
+
+2025-09-05 19:17:30,966 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Bmaj_Scale_InvArch_Piano.wav
+2025-09-05 19:17:33,718 - [COT/GroupA] Q3 - LLM Full Response:
+Step 1: The melody starts at a lower pitch and consistently moves to higher pitches, with the final note being significantly higher than the initial note. There are no major peaks followed by a fall, or troughs followed by a rise.
+Step 2: The global trend is a continuous upward movement in pitch from start to end. This fits the definition of Ascending.
+C. Ascending (pitch raises over time)
+2025-09-05 19:17:33,718 - Parsed Final Answer: C. Ascending (pitch raises over time)
+2025-09-05 19:17:33,718 - Evaluation: Incorrect (expected=B. Inverted Arch (descending and then ascending))
+2025-09-05 19:17:33,718 - 
+--- Question 4 ---
+
+2025-09-05 19:17:33,718 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Dbmaj_Scale_InvArch_Bass.wav
+2025-09-05 19:17:37,263 - [COT/GroupA] Q4 - LLM Full Response:
+Step 1: The melody begins at a relatively high pitch and consistently moves to lower pitches throughout its duration, ending at a significantly lower point than where it started. There is no clear peak followed by a descent or trough followed by an ascent.
+Step 2: The global trend is an overall downward movement in pitch from the beginning to the end. This fits the definition of Descending.
+D. Descending (pitch falls over time)
+2025-09-05 19:17:37,263 - Parsed Final Answer: D. Descending (pitch falls over time)
+2025-09-05 19:17:37,263 - Evaluation: Incorrect (expected=B. Inverted Arch (descending and then ascending))
+2025-09-05 19:17:37,263 - 
+--- Question 5 ---
+
+2025-09-05 19:17:37,263 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/AMaj_Arp_Asc_Piano.wav
+2025-09-05 19:17:41,191 - [COT/GroupA] Q5 - LLM Full Response:
+Step 1: The melody begins at a lower pitch and progressively moves to higher pitches, ending on a significantly higher note than its starting point.
+Step 2: The global trend indicates a clear overall upward movement in pitch.
+C. Ascending (pitch raises over time)
+2025-09-05 19:17:41,191 - Parsed Final Answer: C. Ascending (pitch raises over time)
+2025-09-05 19:17:41,191 - Evaluation: Correct
+2025-09-05 19:17:41,191 - 
+--- Question 6 ---
+
+2025-09-05 19:17:41,191 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Abmin_Arp_Asc_Bass.wav
+2025-09-05 19:17:45,829 - [COT/GroupA] Q6 - LLM Full Response:
+Step 1: The melody starts at a higher pitch, then drops to a lower point, and subsequently rises towards the end.
+Step 2: This global trend, a fall followed by a rise, fits the definition of an Inverted Arch.
+B. Inverted Arch (descending and then ascending)
+2025-09-05 19:17:45,829 - Parsed Final Answer: B. Inverted Arch (descending and then ascending)
+2025-09-05 19:17:45,829 - Evaluation: Incorrect (expected=C. Ascending (pitch raises over time))
+2025-09-05 19:17:45,829 - 
+--- Question 7 ---
+
+2025-09-05 19:17:45,829 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/BbMaj_Scale_Arch_Bass.wav
+2025-09-05 19:17:50,158 - [COT/GroupA] Q7 - LLM Full Response:
+Step 1: The melody starts at a lower pitch, rises to a clear high point around the middle, and then falls towards the end.
+Step 2: This global trend, rising to a peak and then falling, fits the definition of an Arch.
+A. Arch (ascending and then descending)
+2025-09-05 19:17:50,158 - Parsed Final Answer: A. Arch (ascending and then descending)
+2025-09-05 19:17:50,158 - Evaluation: Correct
+2025-09-05 19:17:50,158 - 
+--- Question 8 ---
+
+2025-09-05 19:17:50,158 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/DMaj_Arp_Desc.wav
+2025-09-05 19:17:55,329 - [COT/GroupA] Q8 - LLM Full Response:
+Step 1: The melody starts at a higher pitch, clearly descends to a lower point around the middle, and then rises back up towards the end.
+Step 2: This global trend, a fall followed by a rise, fits the definition of an Inverted Arch.
+B. Inverted Arch (descending and then ascending)
+2025-09-05 19:17:55,329 - Parsed Final Answer: B. Inverted Arch (descending and then ascending)
+2025-09-05 19:17:55,329 - Evaluation: Incorrect (expected=D. Descending (pitch falls over time))
+2025-09-05 19:17:55,329 - 
+--- Question 9 ---
+
+2025-09-05 19:17:55,329 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Ebmaj_Scale_Arch_Piano.wav
+2025-09-05 19:18:01,234 - [COT/GroupA] Q9 - LLM Full Response:
+Step 1: The melody starts at a moderate pitch, rises to a clear peak, and then gradually descends towards the end.
+Step 2: This global trend, rising to a peak and then falling, fits the definition of an Arch.
+A. Arch (ascending and then descending)
+2025-09-05 19:18:01,235 - Parsed Final Answer: A. Arch (ascending and then descending)
+2025-09-05 19:18:01,235 - Evaluation: Correct
+2025-09-05 19:18:01,235 - 
+--- Question 10 ---
+
+2025-09-05 19:18:01,235 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/CMaj_Scale_Arch.wav
+2025-09-05 19:18:07,040 - [COT/GroupA] Q10 - LLM Full Response:
+Step 1: The melody starts at a higher pitch, descends significantly to a low point, and then rises back up towards the end.
+Step 2: This global trend, a fall followed by a rise, fits the definition of an Inverted Arch.
+B. Inverted Arch (descending and then ascending)
+2025-09-05 19:18:07,040 - Parsed Final Answer: B. Inverted Arch (descending and then ascending)
+2025-09-05 19:18:07,040 - Evaluation: Incorrect (expected=A. Arch (ascending and then descending))
+2025-09-05 19:18:07,040 - Total Correct: 3 out of 10
+2025-09-05 19:18:07,040 - === RUN END ===
+

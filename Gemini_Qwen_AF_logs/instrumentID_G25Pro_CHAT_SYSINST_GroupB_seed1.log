@@ -1,0 +1,90 @@
+2025-09-05 19:58:24,230 - === RUN START (Instrument ID • CHAT+SysInst • SYSINST • GroupB) ===
+2025-09-05 19:58:24,230 - Config: model=gemini-2.5-pro, temp=1.0, seed=1, group=GroupB, log=instrumentID_G25Pro_CHAT_SYSINST_GroupB_seed1.log
+2025-09-05 19:58:24,242 - Using one persistent chat; examples and all trials share history and audio context.
+2025-09-05 19:58:32,638 - Confirmation response: Yes, I understand.
+2025-09-05 19:58:32,638 - 
+--- Task: Instrument Identification — CHAT+SysInst SYSINST • GroupB ---
+
+2025-09-05 19:58:32,638 - 
+--- Question 1 ---
+
+2025-09-05 19:58:32,638 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/EMaj_Arp_Desc_Bass.wav
+2025-09-05 19:58:39,548 - [SYSINST/GroupB] Q1 - LLM Full Response:
+C. Bass
+2025-09-05 19:58:39,548 - Parsed Final Answer: C. Bass
+2025-09-05 19:58:39,548 - Evaluation: Correct
+2025-09-05 19:58:39,548 - 
+--- Question 2 ---
+
+2025-09-05 19:58:39,548 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Beat_3_140.wav
+2025-09-05 19:58:44,244 - [SYSINST/GroupB] Q2 - LLM Full Response:
+D. Drums
+2025-09-05 19:58:44,244 - Parsed Final Answer: D. Drums
+2025-09-05 19:58:44,244 - Evaluation: Correct
+2025-09-05 19:58:44,244 - 
+--- Question 3 ---
+
+2025-09-05 19:58:44,244 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Beat_5_140.wav
+2025-09-05 19:58:48,630 - [SYSINST/GroupB] Q3 - LLM Full Response:
+D. Drums
+2025-09-05 19:58:48,630 - Parsed Final Answer: D. Drums
+2025-09-05 19:58:48,630 - Evaluation: Correct
+2025-09-05 19:58:48,630 - 
+--- Question 4 ---
+
+2025-09-05 19:58:48,630 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Beat_1_140.wav
+2025-09-05 19:58:54,995 - [SYSINST/GroupB] Q4 - LLM Full Response:
+D. Drums
+2025-09-05 19:58:54,995 - Parsed Final Answer: D. Drums
+2025-09-05 19:58:54,995 - Evaluation: Correct
+2025-09-05 19:58:54,995 - 
+--- Question 5 ---
+
+2025-09-05 19:58:54,995 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/BbMaj_Scale_Arch_Bass.wav
+2025-09-05 19:59:02,982 - [SYSINST/GroupB] Q5 - LLM Full Response:
+C. Bass
+2025-09-05 19:59:02,982 - Parsed Final Answer: C. Bass
+2025-09-05 19:59:02,982 - Evaluation: Correct
+2025-09-05 19:59:02,982 - 
+--- Question 6 ---
+
+2025-09-05 19:59:02,982 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/FMaj_Scale_InvArch.wav
+2025-09-05 19:59:10,106 - [SYSINST/GroupB] Q6 - LLM Full Response:
+B. Guitar
+2025-09-05 19:59:10,106 - Parsed Final Answer: B. Guitar
+2025-09-05 19:59:10,106 - Evaluation: Correct
+2025-09-05 19:59:10,106 - 
+--- Question 7 ---
+
+2025-09-05 19:59:10,106 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Bbminor_Piano_120.wav
+2025-09-05 19:59:17,227 - [SYSINST/GroupB] Q7 - LLM Full Response:
+A. Piano
+2025-09-05 19:59:17,227 - Parsed Final Answer: A. Piano
+2025-09-05 19:59:17,227 - Evaluation: Correct
+2025-09-05 19:59:17,227 - 
+--- Question 8 ---
+
+2025-09-05 19:59:17,227 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/GMaj_Arp_Asc.wav
+2025-09-05 19:59:22,128 - [SYSINST/GroupB] Q8 - LLM Full Response:
+B. Guitar
+2025-09-05 19:59:22,128 - Parsed Final Answer: B. Guitar
+2025-09-05 19:59:22,128 - Evaluation: Correct
+2025-09-05 19:59:22,128 - 
+--- Question 9 ---
+
+2025-09-05 19:59:22,128 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Gbmin_Arp_Desc_Piano.wav
+2025-09-05 19:59:27,349 - [SYSINST/GroupB] Q9 - LLM Full Response:
+A. Piano
+2025-09-05 19:59:27,349 - Parsed Final Answer: A. Piano
+2025-09-05 19:59:27,349 - Evaluation: Correct
+2025-09-05 19:59:27,349 - 
+--- Question 10 ---
+
+2025-09-05 19:59:27,349 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Bmajor_Guitar_120.wav
+2025-09-05 19:59:36,379 - [SYSINST/GroupB] Q10 - LLM Full Response:
+B. Guitar
+2025-09-05 19:59:36,379 - Parsed Final Answer: B. Guitar
+2025-09-05 19:59:36,379 - Evaluation: Correct
+2025-09-05 19:59:36,379 - Total Correct: 10 out of 10
+2025-09-05 19:59:36,379 - === RUN END ===
+

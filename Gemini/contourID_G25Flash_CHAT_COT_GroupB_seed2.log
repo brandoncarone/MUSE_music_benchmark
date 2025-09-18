@@ -1,0 +1,108 @@
+2025-09-05 19:19:31,506 - === RUN START (Contour ID • CHAT+SysInst • COT • GroupB) ===
+2025-09-05 19:19:31,506 - Config: model=gemini-2.5-flash, temp=1.0, seed=2, group=GroupB, log=contourID_G25Flash_CHAT_COT_GroupB_seed2.log
+2025-09-05 19:19:31,518 - Using one persistent chat; examples and all trials share history and audio context.
+2025-09-05 19:19:34,002 - Confirmation response: Yes, I understand.
+2025-09-05 19:19:34,002 - 
+--- Task: Contour Identification — CHAT+SysInst COT • GroupB ---
+
+2025-09-05 19:19:34,002 - 
+--- Question 1 ---
+
+2025-09-05 19:19:34,003 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/GMaj_Arp_Asc.wav
+2025-09-05 19:19:36,327 - [COT/GroupB] Q1 - LLM Full Response:
+Step 1: The melodic line clearly starts at a medium pitch, ascends to a higher peak, and then descends back down to a lower pitch by the end.
+Step 2: This pattern of rising to a peak and then falling fits the definition of an Arch.
+A. Arch (ascending and then descending)
+2025-09-05 19:19:36,328 - Parsed Final Answer: A. Arch (ascending and then descending)
+2025-09-05 19:19:36,328 - Evaluation: Incorrect (expected=C. Ascending (pitch raises over time))
+2025-09-05 19:19:36,328 - 
+--- Question 2 ---
+
+2025-09-05 19:19:36,328 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Emin_Arp_Desc_Bass.wav
+2025-09-05 19:19:38,567 - [COT/GroupB] Q2 - LLM Full Response:
+Step 1: The melodic line starts at a higher pitch, descends to a low point, and then ascends again towards the end.
+Step 2: This pattern of falling to a trough and then rising fits the definition of an Inverted Arch.
+B. Inverted Arch (descending and then ascending)
+2025-09-05 19:19:38,567 - Parsed Final Answer: B. Inverted Arch (descending and then ascending)
+2025-09-05 19:19:38,567 - Evaluation: Incorrect (expected=D. Descending (pitch falls over time))
+2025-09-05 19:19:38,567 - 
+--- Question 3 ---
+
+2025-09-05 19:19:38,567 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Bmin_Scale_InvArch_Piano.wav
+2025-09-05 19:19:41,779 - [COT/GroupB] Q3 - LLM Full Response:
+Step 1: The melodic line starts at a lower pitch and progressively moves to higher pitches throughout its duration. There are no clear descents after an ascent, or ascents after a descent that would define an Arch or Inverted Arch. The overall motion is consistently upward.
+Step 2: This global trend of pitches generally rising from start to end best fits the "Ascending" category.
+C. Ascending (pitch raises over time)
+2025-09-05 19:19:41,780 - Parsed Final Answer: C. Ascending (pitch raises over time)
+2025-09-05 19:19:41,780 - Evaluation: Incorrect (expected=B. Inverted Arch (descending and then ascending))
+2025-09-05 19:19:41,780 - 
+--- Question 4 ---
+
+2025-09-05 19:19:41,780 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Dbmin_Scale_InvArch_Bass.wav
+2025-09-05 19:19:45,200 - [COT/GroupB] Q4 - LLM Full Response:
+Step 1: The melodic line starts at a relatively higher pitch, clearly descends to a lower point (a trough), and then begins to ascend again from that low point.
+Step 2: This pattern of first falling to a low point and then rising fits the definition of an Inverted Arch.
+B. Inverted Arch (descending and then ascending)
+2025-09-05 19:19:45,200 - Parsed Final Answer: B. Inverted Arch (descending and then ascending)
+2025-09-05 19:19:45,201 - Evaluation: Correct
+2025-09-05 19:19:45,201 - 
+--- Question 5 ---
+
+2025-09-05 19:19:45,201 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/AbMaj_Arp_Asc_Bass.wav
+2025-09-05 19:19:49,214 - [COT/GroupB] Q5 - LLM Full Response:
+Step 1: The melodic line clearly begins at a lower pitch and moves progressively higher, maintaining an upward trajectory throughout its duration.
+Step 2: This consistent upward movement from start to end fits the definition of an Ascending contour.
+C. Ascending (pitch raises over time)
+2025-09-05 19:19:49,214 - Parsed Final Answer: C. Ascending (pitch raises over time)
+2025-09-05 19:19:49,214 - Evaluation: Correct
+2025-09-05 19:19:49,214 - 
+--- Question 6 ---
+
+2025-09-05 19:19:49,214 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Dm_Arp_Desc.wav
+2025-09-05 19:19:53,252 - [COT/GroupB] Q6 - LLM Full Response:
+Step 1: The melodic line starts at a higher pitch, descends significantly to a low point, and then rises from that low point.
+Step 2: This pattern of first falling and then rising fits the definition of an Inverted Arch.
+B. Inverted Arch (descending and then ascending)
+2025-09-05 19:19:53,253 - Parsed Final Answer: B. Inverted Arch (descending and then ascending)
+2025-09-05 19:19:53,253 - Evaluation: Incorrect (expected=D. Descending (pitch falls over time))
+2025-09-05 19:19:53,253 - 
+--- Question 7 ---
+
+2025-09-05 19:19:53,253 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/FMaj_Scale_InvArch.wav
+2025-09-05 19:19:57,872 - [COT/GroupB] Q7 - LLM Full Response:
+Step 1: The melodic line starts at a mid-range pitch, then quickly descends to a low point, and subsequently rises from that low point towards the end of the excerpt.
+Step 2: This pattern of first falling to a trough and then rising again matches the definition of an Inverted Arch.
+B. Inverted Arch (descending and then ascending)
+2025-09-05 19:19:57,872 - Parsed Final Answer: B. Inverted Arch (descending and then ascending)
+2025-09-05 19:19:57,872 - Evaluation: Correct
+2025-09-05 19:19:57,872 - 
+--- Question 8 ---
+
+2025-09-05 19:19:57,873 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Gbmin_Arp_Desc_Piano.wav
+2025-09-05 19:20:02,536 - [COT/GroupB] Q8 - LLM Full Response:
+Step 1: The melodic line starts at a higher pitch and systematically moves to lower pitches throughout its duration. There is a clear overall downward movement.
+Step 2: This consistent downward movement from start to end best fits the "Descending" category.
+D. Descending (pitch falls over time)
+2025-09-05 19:20:02,536 - Parsed Final Answer: D. Descending (pitch falls over time)
+2025-09-05 19:20:02,536 - Evaluation: Correct
+2025-09-05 19:20:02,536 - 
+--- Question 9 ---
+
+2025-09-05 19:20:02,536 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Ebmin_Scale_Arch_Piano.wav
+2025-09-05 19:20:07,878 - [COT/GroupB] Q9 - LLM Full Response:
+Step 1: The melodic line starts at a relatively higher pitch, then drops to a lower point (a trough), and subsequently rises again from that low point.
+Step 2: This pattern of first falling and then rising fits the definition of an Inverted Arch.
+B. Inverted Arch (descending and then ascending)
+2025-09-05 19:20:07,878 - Parsed Final Answer: B. Inverted Arch (descending and then ascending)
+2025-09-05 19:20:07,879 - Evaluation: Incorrect (expected=A. Arch (ascending and then descending))
+2025-09-05 19:20:07,879 - 
+--- Question 10 ---
+
+2025-09-05 19:20:07,879 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Cmin_Scale_Arch.wav
+2025-09-05 19:20:13,840 - [COT/GroupB] Q10 - LLM Full Response:
+A. Arch (ascending and then descending)
+2025-09-05 19:20:13,840 - Parsed Final Answer: A. Arch (ascending and then descending)
+2025-09-05 19:20:13,840 - Evaluation: Correct
+2025-09-05 19:20:13,840 - Total Correct: 5 out of 10
+2025-09-05 19:20:13,840 - === RUN END ===
+

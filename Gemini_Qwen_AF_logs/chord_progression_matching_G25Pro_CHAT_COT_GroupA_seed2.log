@@ -1,0 +1,210 @@
+2025-09-07 15:31:20,320 - === RUN START (Chord Progression Matching • CHAT+SysInst • COT • GroupA) ===
+2025-09-07 15:31:20,320 - Config: model=gemini-2.5-pro, temp=1.0, seed=2, group=GroupA, log=chord_progression_matching_G25Pro_CHAT_COT_GroupA_seed2.log
+2025-09-07 15:31:20,338 - Using one persistent chat; examples and all trials share history and audio context.
+2025-09-07 15:33:06,254 - Confirmation response: Yes, I understand.
+2025-09-07 15:33:06,254 - 
+--- Task: Chord Progression Matching — CHAT+SysInst COT • GroupA ---
+
+2025-09-07 15:33:06,255 - 
+--- Question 1 ---
+
+2025-09-07 15:33:06,255 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/I-IV-V_Emaj_DistortedGuit_175.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/I-V-vi-IV_Dmaj_CrunchGuit_100.wav
+2025-09-07 15:34:48,245 - [COT/GroupA] Q1 - LLM Full Response:
+Step 1: For each excerpt, I will determine the chord progression in Roman numerals.
+- Excerpt 1 is a fast rock piece. The chord progression, relative to its key (A major), is F#m–D–A–E. Functionally, this is vi–IV–I–V. This cycle repeats.
+- Excerpt 2 is a slower piece with clean electric guitar. The chord progression, relative to its key (G major), is G–C–D–Em. Functionally, this is I–IV–V–vi. This cycle also repeats.
+
+Step 2: Compare the two progressions.
+- Progression 1: vi–IV–I–V
+- Progression 2: I–IV–V–vi
+Although both progressions use the same four chords (tonic, subdominant, dominant, and submediant), their order is different.
+
+Step 3: Apply the decision rule.
+Since the order of the harmonic functions is different, the two excerpts do not share the same underlying chord progression.
+
+B. No, these are not the same chord progression.
+2025-09-07 15:34:48,245 - Parsed Final Answer: B. No, these are not the same chord progression.
+2025-09-07 15:34:48,245 - Evaluation: Correct
+2025-09-07 15:34:48,245 - 
+--- Question 2 ---
+
+2025-09-07 15:34:48,245 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/I-IV-V_Emaj_piano_120.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/I-vi-ii-V_Cmaj_CleanGuitar_80.wav
+2025-09-07 15:37:14,686 - [COT/GroupA] Q2 - LLM Full Response:
+Step 1: For each excerpt, I will determine the chord progression in Roman numerals.
+- Excerpt 1 is a piano-led piece in the key of C major. The chords follow the sequence C major – A minor – F major – G major. In functional terms, this is a I–vi–IV–V progression.
+- Excerpt 2 is a guitar-led piece in the key of G major. The chords follow the sequence G major – E minor – C major – D major. In functional terms, this is also a I–vi–IV–V progression.
+
+Step 2: Compare the two progressions.
+- Progression 1: I–vi–IV–V
+- Progression 2: I–vi–IV–V
+The two progressions share the exact same sequence of harmonic functions.
+
+Step 3: Apply the decision rule.
+Since the functional order is identical, the two excerpts share the same underlying chord progression, despite differences in key, instrumentation, and style.
+
+A. Yes, these are the same chord progression.
+2025-09-07 15:37:14,686 - Parsed Final Answer: A. Yes, these are the same chord progression.
+2025-09-07 15:37:14,686 - Evaluation: Incorrect (expected=B. No, these are not the same chord progression., prog1=I-IV-V, prog2=I-VI-II-V)
+2025-09-07 15:37:14,686 - 
+--- Question 3 ---
+
+2025-09-07 15:37:14,686 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/I-IV-V_Emaj_piano_120.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/I-IV-V_Emaj_DistortedGuit_175.wav
+2025-09-07 15:40:16,725 - [COT/GroupA] Q3 - LLM Full Response:
+Step 1: For each excerpt, I will determine the chord progression in Roman numerals.
+- Excerpt 1 features a piano and rhythm section. The key is C major. The progression is C major – A minor – F major – G major. Functionally, this is I–vi–IV–V.
+- Excerpt 2 is a heavy rock track. The key is A major. The progression is F# minor – D major – A major – E major. Functionally, this is vi–IV–I–V.
+
+Step 2: Compare the two progressions.
+- Progression 1: I–vi–IV–V
+- Progression 2: vi–IV–I–V
+While both progressions use the same four chords (tonic, submediant, subdominant, and dominant), they are arranged in a different order.
+
+Step 3: Apply the decision rule.
+The order of the harmonic functions is different. Therefore, they are not the same chord progression.
+
+B. No, these are not the same chord progression.
+2025-09-07 15:40:16,725 - Parsed Final Answer: B. No, these are not the same chord progression.
+2025-09-07 15:40:16,725 - Evaluation: Incorrect (expected=A. Yes, these are the same chord progression., prog1=I-IV-V, prog2=I-IV-V)
+2025-09-07 15:40:16,725 - 
+--- Question 4 ---
+
+2025-09-07 15:40:16,725 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/I-vi-ii-V_Cmaj_CleanGuitar_80.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/I-vi-ii-V_Cmaj_piano_125.wav
+2025-09-07 15:43:36,374 - [COT/GroupA] Q4 - LLM Full Response:
+Step 1: For each excerpt, I will determine the chord progression in Roman numerals.
+- Excerpt 1 is a funky piece with electric guitar. The key is G major. The chords follow the sequence G major – E minor – C major – D major. In functional terms, this is a I–vi–IV–V progression.
+- Excerpt 2 is a piano-led pop-rock piece. The key is C major. The chords follow the sequence C major – G major – A minor – F major. In functional terms, this is a I–V–vi–IV progression.
+
+Step 2: Compare the two progressions.
+- Progression 1: I–vi–IV–V
+- Progression 2: I–V–vi–IV
+While both progressions use the same set of four harmonic functions (tonic, dominant, submediant, subdominant), the order in which they appear is different.
+
+Step 3: Apply the decision rule.
+Since the order of the harmonic functions is different, the two excerpts do not share the same underlying chord progression.
+
+B. No, these are not the same chord progression.
+2025-09-07 15:43:36,374 - Parsed Final Answer: B. No, these are not the same chord progression.
+2025-09-07 15:43:36,374 - Evaluation: Incorrect (expected=A. Yes, these are the same chord progression., prog1=I-VI-II-V, prog2=I-VI-II-V)
+2025-09-07 15:43:36,374 - 
+--- Question 5 ---
+
+2025-09-07 15:43:36,374 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/vi-IV-I-V_Gmaj_piano_135.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/I-vi-VI-V_Fmaj_piano_172_3_4.wav
+2025-09-07 15:49:36,215 - [COT/GroupA] Q5 - LLM Full Response:
+Step 1: For each excerpt, I will determine the chord progression in Roman numerals.
+- Excerpt 1 is an acoustic guitar piece. The key center feels like G major. The chords follow the sequence Em–C–G–D. In the key of G major, this translates to a vi–IV–I–V progression.
+- Excerpt 2 is a clean electric guitar piece with a band. The key is G major. The chords follow the sequence G–D–Em–C. This translates to a I–V–vi–IV progression.
+
+Step 2: Compare the two progressions.
+- Progression 1: vi–IV–I–V
+- Progression 2: I–V–vi–IV
+Both progressions use the same four harmonic functions (tonic, dominant, submediant, subdominant), but they are arranged in a different order.
+
+Step 3: Apply the decision rule.
+Since the order of the harmonic functions is different, the two excerpts do not share the same underlying chord progression.
+
+B. No, these are not the same chord progression.
+2025-09-07 15:49:36,215 - Parsed Final Answer: B. No, these are not the same chord progression.
+2025-09-07 15:49:36,215 - Evaluation: Correct
+2025-09-07 15:49:36,215 - 
+--- Question 6 ---
+
+2025-09-07 15:49:36,215 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/I-V-vi-IV_Dmaj_AcousticGuit_115.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/I-vi-ii-V_Cmaj_piano_125.wav
+2025-09-07 15:56:33,406 - [COT/GroupA] Q6 - LLM Full Response:
+Step 1: For each excerpt, I will determine the chord progression in Roman numerals.
+- Excerpt 1 is played on acoustic guitar. The key is G major. The chords follow the sequence G major – D major – E minor – C major. Functionally, this is a I–V–vi–IV progression.
+- Excerpt 2 is a piano-led pop piece. The key is C major. The chords follow the sequence C major – G major – A minor – F major. Functionally, this is also a I–V–vi–IV progression.
+
+Step 2: Compare the two progressions.
+- Progression 1: I–V–vi–IV
+- Progression 2: I–V–vi–IV
+The sequence of harmonic functions is identical in both excerpts.
+
+Step 3: Apply the decision rule.
+Since the functional order is the same, the two excerpts share the same underlying chord progression, despite differences in key, instrumentation, and tempo.
+
+A. Yes, these are the same chord progression.
+2025-09-07 15:56:33,406 - Parsed Final Answer: A. Yes, these are the same chord progression.
+2025-09-07 15:56:33,407 - Evaluation: Incorrect (expected=B. No, these are not the same chord progression., prog1=I-V-VI-IV, prog2=I-VI-II-V)
+2025-09-07 15:56:33,407 - 
+--- Question 7 ---
+
+2025-09-07 15:56:33,407 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/vi-IV-I-V_Gmaj_AcousticGuit_118.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/vi-IV-I-V_Gmaj_piano_135.wav
+2025-09-07 16:04:05,941 - [COT/GroupA] Q7 - LLM Full Response:
+Step 1: For each excerpt, I will determine the chord progression in Roman numerals.
+- Excerpt 1 is a solo acoustic guitar piece. The key is G major. The chords follow the sequence E minor – C major – G major – D major. In functional terms, this is a vi–IV–I–V progression.
+- Excerpt 2 is also an acoustic guitar piece, with a slightly different feel and tempo. The key is also G major. The chords follow the same sequence: E minor – C major – G major – D major. Functionally, this is also a vi–IV–I–V progression.
+
+Step 2: Compare the two progressions.
+- Progression 1: vi–IV–I–V
+- Progression 2: vi–IV–I–V
+The sequence of harmonic functions is identical in both excerpts.
+
+Step 3: Apply the decision rule.
+Since the functional order is the same, the two excerpts share the same underlying chord progression, despite differences in performance style and tempo.
+
+A. Yes, these are the same chord progression.
+2025-09-07 16:04:05,941 - Parsed Final Answer: A. Yes, these are the same chord progression.
+2025-09-07 16:04:05,941 - Evaluation: Correct
+2025-09-07 16:04:05,941 - 
+--- Question 8 ---
+
+2025-09-07 16:04:05,942 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/I-vi-VI-V_Fmaj_piano_175_6_8.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/vi-IV-I-V_Gmaj_AcousticGuit_118.wav
+2025-09-07 16:13:32,619 - [COT/GroupA] Q8 - LLM Full Response:
+Step 1: For each excerpt, I will determine the chord progression in Roman numerals.
+- Excerpt 1 features a clean electric guitar with bass and drums. The key is G major. The chords follow the sequence G major – D major – E minor – C major. Functionally, this is a I–V–vi–IV progression.
+- Excerpt 2 is a solo acoustic guitar piece. The key is G major. The chords follow the sequence E minor – C major – G major – D major. Functionally, this is a vi–IV–I–V progression.
+
+Step 2: Compare the two progressions.
+- Progression 1: I–V–vi–IV
+- Progression 2: vi–IV–I–V
+Although both progressions use the same four harmonic functions (tonic, dominant, submediant, and subdominant), their order is different.
+
+Step 3: Apply the decision rule.
+Since the order of the harmonic functions is different, the two excerpts do not share the same underlying chord progression.
+
+B. No, these are not the same chord progression.
+2025-09-07 16:13:32,619 - Parsed Final Answer: B. No, these are not the same chord progression.
+2025-09-07 16:13:32,619 - Evaluation: Correct
+2025-09-07 16:13:32,619 - 
+--- Question 9 ---
+
+2025-09-07 16:13:32,619 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/I-vi-VI-V_Fmaj_piano_172_3_4.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/I-vi-VI-V_Fmaj_piano_175_6_8.wav
+2025-09-07 16:19:15,103 - [COT/GroupA] Q9 - LLM Full Response:
+Step 1: For each excerpt, I will determine the chord progression in Roman numerals.
+- Excerpt 1 is a clean guitar-led piece. The key is G major. The chords follow the sequence G major – D major – E minor – C major. Functionally, this is a I–V–vi–IV progression.
+- Excerpt 2 is a similar clean guitar-led piece, also in the key of G major. The chords follow the exact same sequence: G major – D major – E minor – C major. Functionally, this is also a I–V–vi–IV progression.
+
+Step 2: Compare the two progressions.
+- Progression 1: I–V–vi–IV
+- Progression 2: I–V–vi–IV
+The sequence of harmonic functions is identical in both excerpts.
+
+Step 3: Apply the decision rule.
+Since the functional order is the same, the two excerpts share the same underlying chord progression, despite minor differences in tempo and performance style.
+
+A. Yes, these are the same chord progression.
+2025-09-07 16:19:15,103 - Parsed Final Answer: A. Yes, these are the same chord progression.
+2025-09-07 16:19:15,104 - Evaluation: Correct
+2025-09-07 16:19:15,104 - 
+--- Question 10 ---
+
+2025-09-07 16:19:15,104 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/I-V-vi-IV_Dmaj_CrunchGuit_100.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/I-V-vi-IV_Dmaj_AcousticGuit_115.wav
+2025-09-07 16:25:10,934 - [COT/GroupA] Q10 - LLM Full Response:
+Step 1: For each excerpt, I will determine the chord progression in Roman numerals.
+- Excerpt 1 is a clean electric guitar piece. The key is G major. The chords follow the sequence G major – C major – D major – E minor. In functional terms, this is a I–IV–V–vi progression.
+- Excerpt 2 is a solo acoustic guitar piece, also in the key of G major. The chords follow the sequence G major – D major – E minor – C major. Functionally, this is a I–V–vi–IV progression.
+
+Step 2: Compare the two progressions.
+- Progression 1: I–IV–V–vi
+- Progression 2: I–V–vi–IV
+While both excerpts use the same four harmonic functions (tonic, subdominant, dominant, and submediant), the order is different.
+
+Step 3: Apply the decision rule.
+Since the order of the harmonic functions is different, the two excerpts do not share the same underlying chord progression.
+
+B. No, these are not the same chord progression.
+2025-09-07 16:25:10,934 - Parsed Final Answer: B. No, these are not the same chord progression.
+2025-09-07 16:25:10,934 - Evaluation: Incorrect (expected=A. Yes, these are the same chord progression., prog1=I-V-VI-IV, prog2=I-V-VI-IV)
+2025-09-07 16:25:10,934 - Total Correct: 5 out of 10
+2025-09-07 16:25:10,934 - === RUN END ===
+

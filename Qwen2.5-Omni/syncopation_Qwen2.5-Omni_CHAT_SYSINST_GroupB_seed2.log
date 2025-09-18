@@ -1,0 +1,100 @@
+2025-09-07 23:49:35,380 - === RUN START (Syncopation Detection • CHAT+SysInst • SYSINST • GroupB) ===
+2025-09-07 23:49:35,381 - Config: model=Qwen/Qwen2.5-Omni-7B, temp=1.0, seed=2, group=GroupB, log=syncopation_Qwen2.5-Omni_CHAT_SYSINST_GroupB_seed2.log
+2025-09-07 23:49:45,693 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-07 23:49:46,586 - Confirmation response: Yes, I understand.
+2025-09-07 23:49:46,586 - 
+--- Task: Syncopation Detection — CHAT+SysInst SYSINST • GroupB ---
+
+2025-09-07 23:49:46,586 - 
+--- Question 1 ---
+
+2025-09-07 23:49:46,587 - Stimuli: file1=stimuli/Intermediate/Sync2_D.wav, file2=stimuli/Intermediate/Sync4_C.wav
+2025-09-07 23:49:46,614 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-07 23:49:48,691 - [SYSINST/GroupB] Q1 - LLM Full Response:
+B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-07 23:49:48,691 - Parsed Final Answer: B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-07 23:49:48,691 - Evaluation: Correct
+2025-09-07 23:49:48,691 - 
+--- Question 2 ---
+
+2025-09-07 23:49:48,691 - Stimuli: file1=stimuli/Intermediate/Sync3_D.wav, file2=stimuli/Intermediate/Sync4_C.wav
+2025-09-07 23:49:48,720 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-07 23:49:51,298 - [SYSINST/GroupB] Q2 - LLM Full Response:
+B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-07 23:49:51,299 - Parsed Final Answer: B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-07 23:49:51,299 - Evaluation: Correct
+2025-09-07 23:49:51,299 - 
+--- Question 3 ---
+
+2025-09-07 23:49:51,299 - Stimuli: file1=stimuli/Intermediate/Sync3_C.wav, file2=stimuli/Intermediate/Sync1_C.wav
+2025-09-07 23:49:51,327 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-07 23:49:54,674 - [SYSINST/GroupB] Q3 - LLM Full Response:
+B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-07 23:49:54,674 - Parsed Final Answer: B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-07 23:49:54,674 - Evaluation: Incorrect (expected=A. The rhythm in Excerpt 1 is more syncopated.)
+2025-09-07 23:49:54,674 - 
+--- Question 4 ---
+
+2025-09-07 23:49:54,674 - Stimuli: file1=stimuli/Intermediate/Sync3_D.wav, file2=stimuli/Intermediate/Sync2_C.wav
+2025-09-07 23:49:54,703 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-07 23:49:58,924 - [SYSINST/GroupB] Q4 - LLM Full Response:
+B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-07 23:49:58,925 - Parsed Final Answer: B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-07 23:49:58,925 - Evaluation: Incorrect (expected=A. The rhythm in Excerpt 1 is more syncopated.)
+2025-09-07 23:49:58,925 - 
+--- Question 5 ---
+
+2025-09-07 23:49:58,925 - Stimuli: file1=stimuli/Intermediate/Sync3_C.wav, file2=stimuli/Intermediate/Sync4_D.wav
+2025-09-07 23:49:58,963 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-07 23:50:04,181 - [SYSINST/GroupB] Q5 - LLM Full Response:
+B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-07 23:50:04,182 - Parsed Final Answer: B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-07 23:50:04,182 - Evaluation: Correct
+2025-09-07 23:50:04,182 - 
+--- Question 6 ---
+
+2025-09-07 23:50:04,182 - Stimuli: file1=stimuli/Intermediate/NoSync_D.wav, file2=stimuli/Intermediate/Sync1_D.wav
+2025-09-07 23:50:04,211 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-07 23:50:10,647 - [SYSINST/GroupB] Q6 - LLM Full Response:
+B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-07 23:50:10,648 - Parsed Final Answer: B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-07 23:50:10,648 - Evaluation: Correct
+2025-09-07 23:50:10,648 - 
+--- Question 7 ---
+
+2025-09-07 23:50:10,648 - Stimuli: file1=stimuli/Intermediate/Sync2_D.wav, file2=stimuli/Intermediate/Sync1_D.wav
+2025-09-07 23:50:10,677 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-07 23:50:18,343 - [SYSINST/GroupB] Q7 - LLM Full Response:
+B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-07 23:50:18,345 - Parsed Final Answer: B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-07 23:50:18,345 - Evaluation: Incorrect (expected=A. The rhythm in Excerpt 1 is more syncopated.)
+2025-09-07 23:50:18,345 - 
+--- Question 8 ---
+
+2025-09-07 23:50:18,345 - Stimuli: file1=stimuli/Intermediate/Sync1_C.wav, file2=stimuli/Intermediate/Sync2_C.wav
+2025-09-07 23:50:18,373 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-07 23:50:27,458 - [SYSINST/GroupB] Q8 - LLM Full Response:
+B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-07 23:50:27,460 - Parsed Final Answer: B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-07 23:50:27,460 - Evaluation: Correct
+2025-09-07 23:50:27,460 - 
+--- Question 9 ---
+
+2025-09-07 23:50:27,460 - Stimuli: file1=stimuli/Intermediate/Sync2_C.wav, file2=stimuli/Intermediate/NoSync_D.wav
+2025-09-07 23:50:27,489 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-07 23:50:38,253 - [SYSINST/GroupB] Q9 - LLM Full Response:
+B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-07 23:50:38,254 - Parsed Final Answer: B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-07 23:50:38,254 - Evaluation: Incorrect (expected=A. The rhythm in Excerpt 1 is more syncopated.)
+2025-09-07 23:50:38,254 - 
+--- Question 10 ---
+
+2025-09-07 23:50:38,254 - Stimuli: file1=stimuli/Intermediate/Sync1_C.wav, file2=stimuli/Intermediate/NoSync_C.wav
+2025-09-07 23:50:38,283 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-07 23:50:50,638 - [SYSINST/GroupB] Q10 - LLM Full Response:
+B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-07 23:50:50,639 - Parsed Final Answer: B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-07 23:50:50,639 - Evaluation: Incorrect (expected=A. The rhythm in Excerpt 1 is more syncopated.)
+2025-09-07 23:50:50,639 - Total Correct: 5 out of 10
+2025-09-07 23:50:50,639 - === RUN END ===
+

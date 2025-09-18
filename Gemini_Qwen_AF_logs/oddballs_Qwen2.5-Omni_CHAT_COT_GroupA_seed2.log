@@ -1,0 +1,119 @@
+2025-09-07 23:12:23,991 - === RUN START (Oddball Detection • CHAT+SysInst • COT • GroupA) ===
+2025-09-07 23:12:23,992 - Config: model=Qwen/Qwen2.5-Omni-7B, temp=1.0, seed=2, group=GroupA, log=oddballs_Qwen2.5-Omni_CHAT_COT_GroupA_seed2.log
+2025-09-07 23:12:35,677 - Confirmation response: Yes, I understand.
+2025-09-07 23:12:35,677 - 
+--- Task: Oddball Detection — CHAT+SysInst COT • GroupA ---
+
+2025-09-07 23:12:35,677 - 
+--- Question 1 ---
+
+2025-09-07 23:12:35,677 - Stimuli: file1=stimuli/M8_FMaj_95_Piano.wav, file2=stimuli/M8_Odd_FMaj_95_Piano.wav
+2025-09-07 23:12:40,093 - [COT/GroupA] Q1 - LLM Full Response:
+Step 1: Extract monophonic sequences.
+Step 2: Align sequences and compare pitches.
+Step 3: All corresponding pitches match exactly.
+Yes, these are the same exact melody.
+2025-09-07 23:12:40,093 - Parsed Final Answer: Yes, these are the same exact melody.
+2025-09-07 23:12:40,093 - Evaluation: Incorrect (expected=No, these are not the same exact melody.)
+2025-09-07 23:12:40,093 - 
+--- Question 2 ---
+
+2025-09-07 23:12:40,093 - Stimuli: file1=stimuli/M10_Fm_165_3_4.wav, file2=stimuli/M10_Odd_Fm_165_3_4.wav
+2025-09-07 23:12:45,455 - [COT/GroupA] Q2 - LLM Full Response:
+Step 1: Extract monophonic sequences.
+Step 2: Align sequences and compare pitches.
+Step 3: All corresponding pitches match exactly.
+Yes, these are the same exact melody.
+2025-09-07 23:12:45,455 - Parsed Final Answer: Yes, these are the same exact melody.
+2025-09-07 23:12:45,455 - Evaluation: Incorrect (expected=No, these are not the same exact melody.)
+2025-09-07 23:12:45,455 - 
+--- Question 3 ---
+
+2025-09-07 23:12:45,455 - Stimuli: file1=stimuli/M2_Abm_155_3_4.wav, file2=stimuli/M2_Odd_Abm_155_3_4.wav
+2025-09-07 23:12:51,621 - [COT/GroupA] Q3 - LLM Full Response:
+Step 1: Extract monophonic sequences.
+Step 2: Align sequences and compare pitches.
+Step 3: All corresponding pitches match exactly.
+Yes, these are the same exact melody.
+2025-09-07 23:12:51,622 - Parsed Final Answer: Yes, these are the same exact melody.
+2025-09-07 23:12:51,622 - Evaluation: Incorrect (expected=No, these are not the same exact melody.)
+2025-09-07 23:12:51,622 - 
+--- Question 4 ---
+
+2025-09-07 23:12:51,622 - Stimuli: file1=stimuli/M3_DbMaj_78.wav, file2=stimuli/M3_DbMaj_78.wav
+2025-09-07 23:12:59,035 - [COT/GroupA] Q4 - LLM Full Response:
+Step 1: Extract monophonic sequences.
+Step 2: Align sequences and compare pitches.
+Step 3: All corresponding pitches match exactly.
+Yes, these are the same exact melody.
+2025-09-07 23:12:59,040 - Parsed Final Answer: Yes, these are the same exact melody.
+2025-09-07 23:12:59,040 - Evaluation: Correct
+2025-09-07 23:12:59,040 - 
+--- Question 5 ---
+
+2025-09-07 23:12:59,040 - Stimuli: file1=stimuli/M9_Gm_200_3_4_Piano.wav, file2=stimuli/M9_Gm_200_3_4_Piano.wav
+2025-09-07 23:13:08,714 - [COT/GroupA] Q5 - LLM Full Response:
+Step 1: Extract monophonic sequences.
+Step 2: Align sequences and compare pitches.
+Step 3: All corresponding pitches match exactly.
+Yes, these are the same exact melody.
+2025-09-07 23:13:08,716 - Parsed Final Answer: Yes, these are the same exact melody.
+2025-09-07 23:13:08,716 - Evaluation: Correct
+2025-09-07 23:13:08,716 - 
+--- Question 6 ---
+
+2025-09-07 23:13:08,716 - Stimuli: file1=stimuli/M9_Gm_200_3_4_Piano.wav, file2=stimuli/M9_Odd_Gm_200_3_4_Piano.wav
+2025-09-07 23:13:20,761 - [COT/GroupA] Q6 - LLM Full Response:
+Step 1: Extract monophonic sequences.
+Step 2: Align sequences and compare pitches.
+Step 3: All corresponding pitches match exactly.
+Yes, these are the same exact melody.
+2025-09-07 23:13:20,763 - Parsed Final Answer: Yes, these are the same exact melody.
+2025-09-07 23:13:20,763 - Evaluation: Incorrect (expected=No, these are not the same exact melody.)
+2025-09-07 23:13:20,763 - 
+--- Question 7 ---
+
+2025-09-07 23:13:20,763 - Stimuli: file1=stimuli/M2_Abm_155_3_4.wav, file2=stimuli/M2_Abm_155_3_4.wav
+2025-09-07 23:13:34,067 - [COT/GroupA] Q7 - LLM Full Response:
+Step 1: Extract monophonic sequences.
+Step 2: Align sequences and compare pitches.
+Step 3: All corresponding pitches match exactly.
+Yes, these are the same exact melody.
+2025-09-07 23:13:34,069 - Parsed Final Answer: Yes, these are the same exact melody.
+2025-09-07 23:13:34,069 - Evaluation: Correct
+2025-09-07 23:13:34,069 - 
+--- Question 8 ---
+
+2025-09-07 23:13:34,069 - Stimuli: file1=stimuli/M10_Fm_165_3_4.wav, file2=stimuli/M10_Fm_165_3_4.wav
+2025-09-07 23:13:49,662 - [COT/GroupA] Q8 - LLM Full Response:
+Step 1: Extract monophonic sequences.
+Step 2: Align sequences and compare pitches.
+Step 3: All corresponding pitches match exactly.
+Yes, these are the same exact melody.
+2025-09-07 23:13:49,665 - Parsed Final Answer: Yes, these are the same exact melody.
+2025-09-07 23:13:49,665 - Evaluation: Correct
+2025-09-07 23:13:49,665 - 
+--- Question 9 ---
+
+2025-09-07 23:13:49,665 - Stimuli: file1=stimuli/M1_EbMaj_90.wav, file2=stimuli/M1_Odd_EbMaj_90.wav
+2025-09-07 23:14:06,851 - [COT/GroupA] Q9 - LLM Full Response:
+Step 1: Extract monophonic sequences.
+Step 2: Align sequences and compare pitches.
+Step 3: All corresponding pitches match exactly.
+Yes, these are the same exact melody.
+2025-09-07 23:14:06,854 - Parsed Final Answer: Yes, these are the same exact melody.
+2025-09-07 23:14:06,854 - Evaluation: Incorrect (expected=No, these are not the same exact melody.)
+2025-09-07 23:14:06,854 - 
+--- Question 10 ---
+
+2025-09-07 23:14:06,854 - Stimuli: file1=stimuli/M1_EbMaj_90.wav, file2=stimuli/M1_EbMaj_90.wav
+2025-09-07 23:14:25,762 - [COT/GroupA] Q10 - LLM Full Response:
+Step 1: Extract monophonic sequences.
+Step 2: Align sequences and compare pitches.
+Step 3: All corresponding pitches match exactly.
+Yes, these are the same exact melody.
+2025-09-07 23:14:25,766 - Parsed Final Answer: Yes, these are the same exact melody.
+2025-09-07 23:14:25,766 - Evaluation: Correct
+2025-09-07 23:14:25,766 - Total Correct: 5 out of 10
+2025-09-07 23:14:25,766 - === RUN END ===
+

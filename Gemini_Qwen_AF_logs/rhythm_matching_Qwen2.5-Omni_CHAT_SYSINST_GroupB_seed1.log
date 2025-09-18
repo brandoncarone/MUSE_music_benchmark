@@ -1,0 +1,89 @@
+2025-09-07 23:23:37,098 - === RUN START (Rhythm Matching • CHAT+SysInst • SYSINST • GroupB) ===
+2025-09-07 23:23:37,099 - Config: model=Qwen/Qwen2.5-Omni-7B, temp=1.0, seed=1, group=GroupB, log=rhythm_matching_Qwen2.5-Omni_CHAT_SYSINST_GroupB_seed1.log
+2025-09-07 23:23:48,288 - Confirmation response: Yes, I understand.
+2025-09-07 23:23:48,289 - 
+--- Task: Rhythm Matching — CHAT+SysInst SYSINST • GroupB ---
+
+2025-09-07 23:23:48,289 - 
+--- Question 1 ---
+
+2025-09-07 23:23:48,289 - Stimuli: file1=stimuli/Beat_9_140_34.wav, file2=stimuli/Beat_9_140_34.wav
+2025-09-07 23:23:50,028 - [SYSINST/GroupB] Q1 - LLM Full Response:
+Yes, these are the same exact drum set patterns.
+2025-09-07 23:23:50,029 - Parsed Final Answer: Yes, these are the same exact drum set patterns.
+2025-09-07 23:23:50,029 - Evaluation: Correct
+2025-09-07 23:23:50,029 - 
+--- Question 2 ---
+
+2025-09-07 23:23:50,029 - Stimuli: file1=stimuli/Beat_10_140.wav, file2=stimuli/Beat_10_140.wav
+2025-09-07 23:23:52,179 - [SYSINST/GroupB] Q2 - LLM Full Response:
+No, these are not the same exact drum set patterns.
+2025-09-07 23:23:52,179 - Parsed Final Answer: No, these are not the same exact drum set patterns.
+2025-09-07 23:23:52,179 - Evaluation: Incorrect (expected=Yes, these are the same exact drum set patterns.)
+2025-09-07 23:23:52,179 - 
+--- Question 3 ---
+
+2025-09-07 23:23:52,179 - Stimuli: file1=stimuli/Beat_10_140.wav, file2=stimuli/Beat_1_140.wav
+2025-09-07 23:23:54,522 - [SYSINST/GroupB] Q3 - LLM Full Response:
+Yes, these are the same exact drum set patterns.
+2025-09-07 23:23:54,523 - Parsed Final Answer: Yes, these are the same exact drum set patterns.
+2025-09-07 23:23:54,523 - Evaluation: Incorrect (expected=No, these are not the same exact drum set patterns.)
+2025-09-07 23:23:54,523 - 
+--- Question 4 ---
+
+2025-09-07 23:23:54,523 - Stimuli: file1=stimuli/Beat_9_140_34.wav, file2=stimuli/Beat_10_140.wav
+2025-09-07 23:23:57,329 - [SYSINST/GroupB] Q4 - LLM Full Response:
+No, these are not the same exact drum set patterns.
+2025-09-07 23:23:57,330 - Parsed Final Answer: No, these are not the same exact drum set patterns.
+2025-09-07 23:23:57,330 - Evaluation: Correct
+2025-09-07 23:23:57,330 - 
+--- Question 5 ---
+
+2025-09-07 23:23:57,330 - Stimuli: file1=stimuli/Beat_8_140.wav, file2=stimuli/Beat_9_140_34.wav
+2025-09-07 23:24:00,690 - [SYSINST/GroupB] Q5 - LLM Full Response:
+Yes, these are the same exact drum set patterns.
+2025-09-07 23:24:00,691 - Parsed Final Answer: Yes, these are the same exact drum set patterns.
+2025-09-07 23:24:00,691 - Evaluation: Incorrect (expected=No, these are not the same exact drum set patterns.)
+2025-09-07 23:24:00,691 - 
+--- Question 6 ---
+
+2025-09-07 23:24:00,691 - Stimuli: file1=stimuli/Beat_7_140.wav, file2=stimuli/Beat_8_140.wav
+2025-09-07 23:24:04,811 - [SYSINST/GroupB] Q6 - LLM Full Response:
+No, these are not the same exact drum set patterns.
+2025-09-07 23:24:04,812 - Parsed Final Answer: No, these are not the same exact drum set patterns.
+2025-09-07 23:24:04,812 - Evaluation: Correct
+2025-09-07 23:24:04,812 - 
+--- Question 7 ---
+
+2025-09-07 23:24:04,812 - Stimuli: file1=stimuli/Beat_6_140_34.wav, file2=stimuli/Beat_6_140_34.wav
+2025-09-07 23:24:09,000 - [SYSINST/GroupB] Q7 - LLM Full Response:
+Yes, these are the same exact drum set patterns.
+2025-09-07 23:24:09,000 - Parsed Final Answer: Yes, these are the same exact drum set patterns.
+2025-09-07 23:24:09,000 - Evaluation: Correct
+2025-09-07 23:24:09,000 - 
+--- Question 8 ---
+
+2025-09-07 23:24:09,000 - Stimuli: file1=stimuli/Beat_8_140.wav, file2=stimuli/Beat_8_140.wav
+2025-09-07 23:24:13,906 - [SYSINST/GroupB] Q8 - LLM Full Response:
+No, these are not the same exact drum set patterns.
+2025-09-07 23:24:13,907 - Parsed Final Answer: No, these are not the same exact drum set patterns.
+2025-09-07 23:24:13,907 - Evaluation: Incorrect (expected=Yes, these are the same exact drum set patterns.)
+2025-09-07 23:24:13,907 - 
+--- Question 9 ---
+
+2025-09-07 23:24:13,907 - Stimuli: file1=stimuli/Beat_6_140_34.wav, file2=stimuli/Beat_7_140.wav
+2025-09-07 23:24:19,018 - [SYSINST/GroupB] Q9 - LLM Full Response:
+Yes, these are the same exact drum set patterns.
+2025-09-07 23:24:19,019 - Parsed Final Answer: Yes, these are the same exact drum set patterns.
+2025-09-07 23:24:19,019 - Evaluation: Incorrect (expected=No, these are not the same exact drum set patterns.)
+2025-09-07 23:24:19,019 - 
+--- Question 10 ---
+
+2025-09-07 23:24:19,019 - Stimuli: file1=stimuli/Beat_7_140.wav, file2=stimuli/Beat_7_140.wav
+2025-09-07 23:24:24,991 - [SYSINST/GroupB] Q10 - LLM Full Response:
+No, these are not the same exact drum set patterns.
+2025-09-07 23:24:24,992 - Parsed Final Answer: No, these are not the same exact drum set patterns.
+2025-09-07 23:24:24,992 - Evaluation: Incorrect (expected=Yes, these are the same exact drum set patterns.)
+2025-09-07 23:24:24,992 - Total Correct: 4 out of 10
+2025-09-07 23:24:24,992 - === RUN END ===
+

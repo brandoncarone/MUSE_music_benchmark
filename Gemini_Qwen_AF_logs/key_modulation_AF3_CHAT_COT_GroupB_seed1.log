@@ -1,0 +1,78 @@
+2025-09-10 15:39:12,112 - === RUN START (Key Modulation • AF3-CHAT • STATELESS • COT • GroupB) ===
+2025-09-10 15:39:12,112 - Config: model=nvidia/audio-flamingo-3-chat, temp=1.0, top_p=0.95, top_k=40, seed=1, group=GroupB, log=key_modulation_AF3_CHAT_COT_GroupB_seed1.log
+2025-09-10 15:39:12,112 - 
+--- Task: Key Modulation Detection — STATELESS • COT • GroupB ---
+
+2025-09-10 15:39:12,112 - 
+--- Question 1 ---
+2025-09-10 15:39:12,112 - Stimulus: file=stimuli/Intermediate/I-V-vi-IV_Dmaj_AcousticGuit_115.wav
+2025-09-10 15:39:30,686 - [COT/GroupB] Q1 - LLM Full Response:
+B. No, the key stays the same.
+2025-09-10 15:39:30,686 - Parsed Final Answer: B. No, the key stays the same.
+2025-09-10 15:39:30,686 - Evaluation: Correct
+2025-09-10 15:39:30,686 - 
+--- Question 2 ---
+2025-09-10 15:39:30,686 - Stimulus: file=stimuli/Intermediate/I-vi-ii-V_Cmaj_piano_125.wav
+2025-09-10 15:39:49,266 - [COT/GroupB] Q2 - LLM Full Response:
+B. No, the key stays the same.
+2025-09-10 15:39:49,266 - Parsed Final Answer: B. No, the key stays the same.
+2025-09-10 15:39:49,266 - Evaluation: Correct
+2025-09-10 15:39:49,266 - 
+--- Question 3 ---
+2025-09-10 15:39:49,266 - Stimulus: file=stimuli/Intermediate/vi-IV-I-V_Gmaj_piano_165.wav
+2025-09-10 15:40:07,868 - [COT/GroupB] Q3 - LLM Full Response:
+B. No, the key stays the same.
+2025-09-10 15:40:07,868 - Parsed Final Answer: B. No, the key stays the same.
+2025-09-10 15:40:07,868 - Evaluation: Correct
+2025-09-10 15:40:07,868 - 
+--- Question 4 ---
+2025-09-10 15:40:07,869 - Stimulus: file=stimuli/Intermediate/I-IV-V_Emaj_CleanGuit_132.wav
+2025-09-10 15:40:44,679 - [COT/GroupB] Q4 - LLM Full Response:
+B. No, the key stays the same.
+2025-09-10 15:40:44,680 - Parsed Final Answer: B. No, the key stays the same.
+2025-09-10 15:40:44,680 - Evaluation: Correct
+2025-09-10 15:40:44,680 - 
+--- Question 5 ---
+2025-09-10 15:40:44,680 - Stimulus: file=stimuli/Intermediate/I-vi-IV-V_Fmaj_CrunchGuit_140.wav
+2025-09-10 15:41:03,384 - [COT/GroupB] Q5 - LLM Full Response:
+B. No, the key stays the same.
+2025-09-10 15:41:03,384 - Parsed Final Answer: B. No, the key stays the same.
+2025-09-10 15:41:03,384 - Evaluation: Correct
+2025-09-10 15:41:03,384 - 
+--- Question 6 ---
+2025-09-10 15:41:03,384 - Stimulus: file=stimuli/Intermediate/I-V-vi-IV_Dbmaj_mod_Bbmin_piano_115.wav
+2025-09-10 15:41:22,065 - [COT/GroupB] Q6 - LLM Full Response:
+B. No, the key stays the same.
+2025-09-10 15:41:22,065 - Parsed Final Answer: B. No, the key stays the same.
+2025-09-10 15:41:22,065 - Evaluation: Incorrect (expected=A. Yes, a key modulation occurs.)
+2025-09-10 15:41:22,065 - 
+--- Question 7 ---
+2025-09-10 15:41:22,065 - Stimulus: file=stimuli/Intermediate/I-IV-V_Abmaj_Mod_Fmin_pivot_relative_minor_175.wav
+2025-09-10 15:41:40,688 - [COT/GroupB] Q7 - LLM Full Response:
+B. No, the key stays the same.
+2025-09-10 15:41:40,688 - Parsed Final Answer: B. No, the key stays the same.
+2025-09-10 15:41:40,688 - Evaluation: Incorrect (expected=A. Yes, a key modulation occurs.)
+2025-09-10 15:41:40,688 - 
+--- Question 8 ---
+2025-09-10 15:41:40,688 - Stimulus: file=stimuli/Intermediate/I-vi-ii-V_Bmaj_mod_Fsmaj_128.wav
+2025-09-10 15:42:17,499 - [COT/GroupB] Q8 - LLM Full Response:
+B. No, the key stays the same.
+2025-09-10 15:42:17,499 - Parsed Final Answer: B. No, the key stays the same.
+2025-09-10 15:42:17,499 - Evaluation: Incorrect (expected=A. Yes, a key modulation occurs.)
+2025-09-10 15:42:17,499 - 
+--- Question 9 ---
+2025-09-10 15:42:17,499 - Stimulus: file=stimuli/Intermediate/I-vi_IV-V_Amaj_mod_Bbmaj_CrunchEffectsGuit_140.wav
+2025-09-10 15:42:35,969 - [COT/GroupB] Q9 - LLM Full Response:
+B. No, the key stays the same.
+2025-09-10 15:42:35,969 - Parsed Final Answer: B. No, the key stays the same.
+2025-09-10 15:42:35,969 - Evaluation: Incorrect (expected=A. Yes, a key modulation occurs.)
+2025-09-10 15:42:35,969 - 
+--- Question 10 ---
+2025-09-10 15:42:35,973 - Stimulus: file=stimuli/Intermediate/I-IV-V_Abmaj_Mod_Bbmaj_piano_132.wav
+2025-09-10 15:43:12,718 - [COT/GroupB] Q10 - LLM Full Response:
+B. No, the key stays the same.
+2025-09-10 15:43:12,719 - Parsed Final Answer: B. No, the key stays the same.
+2025-09-10 15:43:12,719 - Evaluation: Incorrect (expected=A. Yes, a key modulation occurs.)
+2025-09-10 15:43:12,719 - Total Correct: 5 out of 10
+2025-09-10 15:43:12,719 - === RUN END ===
+

@@ -1,0 +1,90 @@
+2025-09-05 20:48:07,562 - === RUN START (Oddball Detection • CHAT+SysInst • SYSINST • GroupB) ===
+2025-09-05 20:48:07,562 - Config: model=gemini-2.5-flash, temp=1.0, seed=2, group=GroupB, log=oddballs_G25Flash_CHAT_SYSINST_GroupB_seed2.log
+2025-09-05 20:48:07,573 - Using one persistent chat; examples and all trials share history and audio context.
+2025-09-05 20:48:11,668 - Confirmation response: Yes, I understand.
+2025-09-05 20:48:11,668 - 
+--- Task: Oddball Detection — CHAT+SysInst SYSINST • GroupB ---
+
+2025-09-05 20:48:11,668 - 
+--- Question 1 ---
+
+2025-09-05 20:48:11,668 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/M6_Cm_120_Piano.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/M6_Cm_120_Piano.wav
+2025-09-05 20:48:14,532 - [SYSINST/GroupB] Q1 - LLM Full Response:
+Yes, these are the same exact melody.
+2025-09-05 20:48:14,533 - Parsed Final Answer: Yes, these are the same exact melody.
+2025-09-05 20:48:14,533 - Evaluation: Correct
+2025-09-05 20:48:14,533 - 
+--- Question 2 ---
+
+2025-09-05 20:48:14,533 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/M8_FMaj_95_Piano.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/M8_FMaj_95_Piano.wav
+2025-09-05 20:48:18,761 - [SYSINST/GroupB] Q2 - LLM Full Response:
+Yes, these are the same exact melody.
+2025-09-05 20:48:18,761 - Parsed Final Answer: Yes, these are the same exact melody.
+2025-09-05 20:48:18,761 - Evaluation: Correct
+2025-09-05 20:48:18,761 - 
+--- Question 3 ---
+
+2025-09-05 20:48:18,761 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/M5_Dm_100.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/M5_Dm_100.wav
+2025-09-05 20:48:23,109 - [SYSINST/GroupB] Q3 - LLM Full Response:
+Yes, these are the same exact melody.
+2025-09-05 20:48:23,109 - Parsed Final Answer: Yes, these are the same exact melody.
+2025-09-05 20:48:23,109 - Evaluation: Correct
+2025-09-05 20:48:23,109 - 
+--- Question 4 ---
+
+2025-09-05 20:48:23,109 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/M5_Dm_100.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/M5_Odd_Dm_100.wav
+2025-09-05 20:48:29,154 - [SYSINST/GroupB] Q4 - LLM Full Response:
+Yes, these are the same exact melody.
+2025-09-05 20:48:29,154 - Parsed Final Answer: Yes, these are the same exact melody.
+2025-09-05 20:48:29,154 - Evaluation: Incorrect (expected=No, these are not the same exact melody.)
+2025-09-05 20:48:29,154 - 
+--- Question 5 ---
+
+2025-09-05 20:48:29,154 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/M6_Cm_120_Piano.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/M6_Odd_Cm_120_Piano.wav
+2025-09-05 20:48:35,084 - [SYSINST/GroupB] Q5 - LLM Full Response:
+No, these are not the same exact melody.
+2025-09-05 20:48:35,084 - Parsed Final Answer: No, these are not the same exact melody.
+2025-09-05 20:48:35,084 - Evaluation: Correct
+2025-09-05 20:48:35,084 - 
+--- Question 6 ---
+
+2025-09-05 20:48:35,084 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/M7_CMaj_140_Piano.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/M7_CMaj_140_Piano.wav
+2025-09-05 20:48:43,110 - [SYSINST/GroupB] Q6 - LLM Full Response:
+Yes, these are the same exact melody.
+2025-09-05 20:48:43,110 - Parsed Final Answer: Yes, these are the same exact melody.
+2025-09-05 20:48:43,110 - Evaluation: Correct
+2025-09-05 20:48:43,110 - 
+--- Question 7 ---
+
+2025-09-05 20:48:43,110 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/M4_EMaj_130.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/M4_Odd_EMaj_130.wav
+2025-09-05 20:48:51,814 - [SYSINST/GroupB] Q7 - LLM Full Response:
+No, these are not the same exact melody.
+2025-09-05 20:48:51,814 - Parsed Final Answer: No, these are not the same exact melody.
+2025-09-05 20:48:51,814 - Evaluation: Correct
+2025-09-05 20:48:51,814 - 
+--- Question 8 ---
+
+2025-09-05 20:48:51,814 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/M7_CMaj_140_Piano.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/M7_Odd_CMaj_140_Piano.wav
+2025-09-05 20:49:00,025 - [SYSINST/GroupB] Q8 - LLM Full Response:
+No, these are not the same exact melody.
+2025-09-05 20:49:00,025 - Parsed Final Answer: No, these are not the same exact melody.
+2025-09-05 20:49:00,025 - Evaluation: Correct
+2025-09-05 20:49:00,025 - 
+--- Question 9 ---
+
+2025-09-05 20:49:00,025 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/M4_EMaj_130.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/M4_EMaj_130.wav
+2025-09-05 20:49:09,755 - [SYSINST/GroupB] Q9 - LLM Full Response:
+Yes, these are the same exact melody.
+2025-09-05 20:49:09,755 - Parsed Final Answer: Yes, these are the same exact melody.
+2025-09-05 20:49:09,755 - Evaluation: Correct
+2025-09-05 20:49:09,755 - 
+--- Question 10 ---
+
+2025-09-05 20:49:09,755 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/M3_DbMaj_78.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/M3_Odd_DbMaj_78.wav
+2025-09-05 20:49:21,071 - [SYSINST/GroupB] Q10 - LLM Full Response:
+No, these are not the same exact melody.
+2025-09-05 20:49:21,072 - Parsed Final Answer: No, these are not the same exact melody.
+2025-09-05 20:49:21,072 - Evaluation: Correct
+2025-09-05 20:49:21,072 - Total Correct: 9 out of 10
+2025-09-05 20:49:21,072 - === RUN END ===
+

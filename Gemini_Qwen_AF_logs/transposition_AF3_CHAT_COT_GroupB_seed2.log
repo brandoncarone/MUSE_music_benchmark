@@ -1,0 +1,78 @@
+2025-09-11 21:27:16,140 - === RUN START (Transposition Detection • AF3-CHAT • STATELESS • COT • GroupB) ===
+2025-09-11 21:27:16,141 - Config: model=nvidia/audio-flamingo-3-chat, temp=1.0, top_p=0.95, top_k=40, seed=2, group=GroupB, log=transposition_AF3_CHAT_COT_GroupB_seed2.log
+2025-09-11 21:27:16,141 - 
+--- Task: Transposition Detection — STATELESS • COT • GroupB ---
+
+2025-09-11 21:27:16,141 - 
+--- Question 1 ---
+2025-09-11 21:27:16,141 - Stimulus (combined): file=stimuli/combined/M6_Cm_120_Piano__M6_Bbm_120_Piano.wav
+2025-09-11 21:27:52,127 - [COT/GroupB] Q1 - LLM Full Response:
+Yes, these are the same melody.
+2025-09-11 21:27:52,127 - Parsed Final Answer: Yes, these are the same melody.
+2025-09-11 21:27:52,127 - Evaluation: Correct
+2025-09-11 21:27:52,127 - 
+--- Question 2 ---
+2025-09-11 21:27:52,127 - Stimulus (combined): file=stimuli/combined/M8_AbMaj_95_Piano__M8_FMaj_95_Piano.wav
+2025-09-11 21:28:28,180 - [COT/GroupB] Q2 - LLM Full Response:
+Yes, these are the same melody.
+2025-09-11 21:28:28,180 - Parsed Final Answer: Yes, these are the same melody.
+2025-09-11 21:28:28,180 - Evaluation: Correct
+2025-09-11 21:28:28,180 - 
+--- Question 3 ---
+2025-09-11 21:28:28,180 - Stimulus (combined): file=stimuli/combined/M5_Bm_100__M5_Dm_100.wav
+2025-09-11 21:29:04,244 - [COT/GroupB] Q3 - LLM Full Response:
+Yes, these are the same melody.
+2025-09-11 21:29:04,245 - Parsed Final Answer: Yes, these are the same melody.
+2025-09-11 21:29:04,245 - Evaluation: Correct
+2025-09-11 21:29:04,245 - 
+--- Question 4 ---
+2025-09-11 21:29:04,245 - Stimulus (combined): file=stimuli/combined/M5_Dm_100__M1_GMaj_90.wav
+2025-09-11 21:29:40,441 - [COT/GroupB] Q4 - LLM Full Response:
+Yes, these are the same melody.
+2025-09-11 21:29:40,441 - Parsed Final Answer: Yes, these are the same melody.
+2025-09-11 21:29:40,441 - Evaluation: Incorrect (expected=No, these are not the same melody.)
+2025-09-11 21:29:40,441 - 
+--- Question 5 ---
+2025-09-11 21:29:40,442 - Stimulus (combined): file=stimuli/combined/M6_Cm_120_Piano__M7_CMaj_140_Piano.wav
+2025-09-11 21:30:16,489 - [COT/GroupB] Q5 - LLM Full Response:
+Yes, these are the same melody.
+2025-09-11 21:30:16,490 - Parsed Final Answer: Yes, these are the same melody.
+2025-09-11 21:30:16,490 - Evaluation: Incorrect (expected=No, these are not the same melody.)
+2025-09-11 21:30:16,490 - 
+--- Question 6 ---
+2025-09-11 21:30:16,490 - Stimulus (combined): file=stimuli/combined/M7_CMaj_140_Piano__M7_DbMaj_140_Piano.wav
+2025-09-11 21:30:52,525 - [COT/GroupB] Q6 - LLM Full Response:
+Yes, these are the same melody.
+2025-09-11 21:30:52,526 - Parsed Final Answer: Yes, these are the same melody.
+2025-09-11 21:30:52,526 - Evaluation: Correct
+2025-09-11 21:30:52,526 - 
+--- Question 7 ---
+2025-09-11 21:30:52,526 - Stimulus (combined): file=stimuli/combined/M4_EMaj_130__M5_Bm_100.wav
+2025-09-11 21:31:09,490 - [COT/GroupB] Q7 - LLM Full Response:
+Yes, these are the same melody.
+2025-09-11 21:31:09,491 - Parsed Final Answer: Yes, these are the same melody.
+2025-09-11 21:31:09,491 - Evaluation: Incorrect (expected=No, these are not the same melody.)
+2025-09-11 21:31:09,491 - 
+--- Question 8 ---
+2025-09-11 21:31:09,491 - Stimulus (combined): file=stimuli/combined/M7_DbMaj_140_Piano__M8_AbMaj_95_Piano.wav
+2025-09-11 21:31:45,503 - [COT/GroupB] Q8 - LLM Full Response:
+Yes, these are the same melody.
+2025-09-11 21:31:45,503 - Parsed Final Answer: Yes, these are the same melody.
+2025-09-11 21:31:45,503 - Evaluation: Incorrect (expected=No, these are not the same melody.)
+2025-09-11 21:31:45,503 - 
+--- Question 9 ---
+2025-09-11 21:31:45,503 - Stimulus (combined): file=stimuli/combined/M4_AMaj_130__M4_EMaj_130.wav
+2025-09-11 21:32:02,465 - [COT/GroupB] Q9 - LLM Full Response:
+Yes, these are the same melody.
+2025-09-11 21:32:02,465 - Parsed Final Answer: Yes, these are the same melody.
+2025-09-11 21:32:02,465 - Evaluation: Correct
+2025-09-11 21:32:02,470 - 
+--- Question 10 ---
+2025-09-11 21:32:02,470 - Stimulus (combined): file=stimuli/combined/M3_GbMaj_78__M4_AMaj_130.wav
+2025-09-11 21:32:38,773 - [COT/GroupB] Q10 - LLM Full Response:
+Yes, these are the same melody.
+2025-09-11 21:32:38,774 - Parsed Final Answer: Yes, these are the same melody.
+2025-09-11 21:32:38,774 - Evaluation: Incorrect (expected=No, these are not the same melody.)
+2025-09-11 21:32:38,774 - Total Correct: 5 out of 10
+2025-09-11 21:32:38,774 - === RUN END ===
+

@@ -1,0 +1,131 @@
+2025-09-04 21:27:50,660 - === RUN START (Transposition • CHAT+SysInst • COT • GroupB) ===
+2025-09-04 21:27:50,661 - Config: model=Qwen/Qwen2.5-Omni-7B, temp=1.0, seed=2, group=GroupB, log=transposition_Qwen2.5-Omni_CHAT_COT_GroupB_seed2.log
+2025-09-04 21:28:00,555 - hf_device_map keys: [('thinker.audio_tower', 0), ('thinker.visual', 0), ('thinker.model.embed_tokens', 0), ('thinker.model.layers.0', 0), ('thinker.model.layers.1', 0), ('thinker.model.layers.2', 1)] ...
+2025-09-04 21:28:00,587 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-04 21:28:01,793 - Confirmation response: Yes, I understand.
+2025-09-04 21:28:01,793 - 
+--- Task: Melody Matching (Transposition) — CHAT+SysInst COT • GroupB ---
+
+2025-09-04 21:28:01,793 - 
+--- Question 1 ---
+
+2025-09-04 21:28:01,794 - Stimuli: file1=stimuli/M6_Cm_120_Piano.wav, file2=stimuli/M6_Bbm_120_Piano.wav
+2025-09-04 21:28:01,818 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-04 21:28:06,668 - [COT/GroupB] Q1 - LLM Full Response:
+Step 1: Identify notes; both sequences have the same length.
+Step 2: Interval sequences match element-by-element.
+Step 3: Therefore, they are the same melody up to transposition.
+Yes, these are the same melody.
+2025-09-04 21:28:06,668 - Parsed Final Answer: Yes, these are the same melody.
+2025-09-04 21:28:06,669 - Evaluation: Correct
+2025-09-04 21:28:06,669 - 
+--- Question 2 ---
+
+2025-09-04 21:28:06,669 - Stimuli: file1=stimuli/M8_AbMaj_95_Piano.wav, file2=stimuli/M8_FMaj_95_Piano.wav
+2025-09-04 21:28:06,708 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-04 21:28:12,585 - [COT/GroupB] Q2 - LLM Full Response:
+Step 1: Identify notes; both sequences have the same length.
+Step 2: Interval sequences match element-by-element.
+Step 3: Therefore, they are the same melody up to transposition.
+Yes, these are the same melody.
+2025-09-04 21:28:12,585 - Parsed Final Answer: Yes, these are the same melody.
+2025-09-04 21:28:12,585 - Evaluation: Correct
+2025-09-04 21:28:12,585 - 
+--- Question 3 ---
+
+2025-09-04 21:28:12,585 - Stimuli: file1=stimuli/M5_Bm_100.wav, file2=stimuli/M5_Dm_100.wav
+2025-09-04 21:28:12,602 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-04 21:28:19,455 - [COT/GroupB] Q3 - LLM Full Response:
+Step 1: Identify notes; both sequences have the same length.
+Step 2: Interval sequences match element-by-element.
+Step 3: Therefore, they are the same melody up to transposition.
+Yes, these are the same melody.
+2025-09-04 21:28:19,455 - Parsed Final Answer: Yes, these are the same melody.
+2025-09-04 21:28:19,455 - Evaluation: Correct
+2025-09-04 21:28:19,455 - 
+--- Question 4 ---
+
+2025-09-04 21:28:19,456 - Stimuli: file1=stimuli/M5_Dm_100.wav, file2=stimuli/M1_GMaj_90.wav
+2025-09-04 21:28:19,471 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-04 21:28:27,207 - [COT/GroupB] Q4 - LLM Full Response:
+Step 1: Identify notes; both sequences have the same length.
+Step 2: Interval sequences match element-by-element.
+Step 3: Therefore, they are the same melody up to transposition.
+Yes, these are the same melody.
+2025-09-04 21:28:27,208 - Parsed Final Answer: Yes, these are the same melody.
+2025-09-04 21:28:27,208 - Evaluation: Incorrect (expected=No, these are not the same melody.)
+2025-09-04 21:28:27,208 - 
+--- Question 5 ---
+
+2025-09-04 21:28:27,208 - Stimuli: file1=stimuli/M6_Cm_120_Piano.wav, file2=stimuli/M7_CMaj_140_Piano.wav
+2025-09-04 21:28:27,229 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-04 21:28:35,792 - [COT/GroupB] Q5 - LLM Full Response:
+Step 1: Identify notes; both sequences have the same length.
+Step 2: Interval sequences match element-by-element.
+Step 3: Therefore, they are the same melody up to transposition.
+Yes, these are the same melody.
+2025-09-04 21:28:35,793 - Parsed Final Answer: Yes, these are the same melody.
+2025-09-04 21:28:35,794 - Evaluation: Incorrect (expected=No, these are not the same melody.)
+2025-09-04 21:28:35,794 - 
+--- Question 6 ---
+
+2025-09-04 21:28:35,794 - Stimuli: file1=stimuli/M7_CMaj_140_Piano.wav, file2=stimuli/M7_DbMaj_140_Piano.wav
+2025-09-04 21:28:35,809 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-04 21:28:45,057 - [COT/GroupB] Q6 - LLM Full Response:
+Step 1: Identify notes; both sequences have the same length.
+Step 2: Interval sequences match element-by-element.
+Step 3: Therefore, they are the same melody up to transposition.
+Yes, these are the same melody.
+2025-09-04 21:28:45,058 - Parsed Final Answer: Yes, these are the same melody.
+2025-09-04 21:28:45,058 - Evaluation: Correct
+2025-09-04 21:28:45,058 - 
+--- Question 7 ---
+
+2025-09-04 21:28:45,058 - Stimuli: file1=stimuli/M4_EMaj_130.wav, file2=stimuli/M5_Bm_100.wav
+2025-09-04 21:28:45,146 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-04 21:28:55,665 - [COT/GroupB] Q7 - LLM Full Response:
+Step 1: Identify notes; both sequences have the same length.
+Step 2: Interval sequences match element-by-element.
+Step 3: Therefore, they are the same melody up to transposition.
+Yes, these are the same melody.
+2025-09-04 21:28:55,666 - Parsed Final Answer: Yes, these are the same melody.
+2025-09-04 21:28:55,666 - Evaluation: Incorrect (expected=No, these are not the same melody.)
+2025-09-04 21:28:55,667 - 
+--- Question 8 ---
+
+2025-09-04 21:28:55,667 - Stimuli: file1=stimuli/M7_DbMaj_140_Piano.wav, file2=stimuli/M8_AbMaj_95_Piano.wav
+2025-09-04 21:28:55,694 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-04 21:29:07,775 - [COT/GroupB] Q8 - LLM Full Response:
+Step 1: Identify notes; both sequences have the same length.
+Step 2: Interval sequences match element-by-element.
+Step 3: Therefore, they are the same melody up to transposition.
+Yes, these are the same melody.
+2025-09-04 21:29:07,777 - Parsed Final Answer: Yes, these are the same melody.
+2025-09-04 21:29:07,777 - Evaluation: Incorrect (expected=No, these are not the same melody.)
+2025-09-04 21:29:07,777 - 
+--- Question 9 ---
+
+2025-09-04 21:29:07,777 - Stimuli: file1=stimuli/M4_AMaj_130.wav, file2=stimuli/M4_EMaj_130.wav
+2025-09-04 21:29:07,795 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-04 21:29:21,878 - [COT/GroupB] Q9 - LLM Full Response:
+Step 1: Identify notes; both sequences have the same length.
+Step 2: Interval sequences match element-by-element.
+Step 3: Therefore, they are the same melody up to transposition.
+Yes, these are the same melody.
+2025-09-04 21:29:21,880 - Parsed Final Answer: Yes, these are the same melody.
+2025-09-04 21:29:21,880 - Evaluation: Correct
+2025-09-04 21:29:21,880 - 
+--- Question 10 ---
+
+2025-09-04 21:29:21,880 - Stimuli: file1=stimuli/M3_GbMaj_78.wav, file2=stimuli/M4_AMaj_130.wav
+2025-09-04 21:29:21,898 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-04 21:29:37,784 - [COT/GroupB] Q10 - LLM Full Response:
+Step 1: Identify notes; both sequences have the same length.
+Step 2: Interval sequences match element-by-element.
+Step 3: Therefore, they are the same melody up to transposition.
+Yes, these are the same melody.
+2025-09-04 21:29:37,786 - Parsed Final Answer: Yes, these are the same melody.
+2025-09-04 21:29:37,786 - Evaluation: Incorrect (expected=No, these are not the same melody.)
+2025-09-04 21:29:37,786 - Total Correct: 5 out of 10
+2025-09-04 21:29:37,786 - === RUN END ===
+

@@ -1,0 +1,110 @@
+2025-09-05 19:16:37,662 - === RUN START (Contour ID • CHAT+SysInst • COT • GroupA) ===
+2025-09-05 19:16:37,662 - Config: model=gemini-2.5-flash, temp=1.0, seed=1, group=GroupA, log=contourID_G25Flash_CHAT_COT_GroupA_seed1.log
+2025-09-05 19:16:37,674 - Using one persistent chat; examples and all trials share history and audio context.
+2025-09-05 19:16:40,030 - Confirmation response: Yes, I understand.
+2025-09-05 19:16:40,030 - 
+--- Task: Contour Identification — CHAT+SysInst COT • GroupA ---
+
+2025-09-05 19:16:40,030 - 
+--- Question 1 ---
+
+2025-09-05 19:16:40,030 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/AMaj_Arp_Asc_Piano.wav
+2025-09-05 19:16:42,828 - [COT/GroupA] Q1 - LLM Full Response:
+Step 1: The single melodic line begins on a lower pitch and gradually moves to higher pitches, maintaining an upward trajectory throughout.
+Step 2: The overall trend is a rise in pitch from the beginning to the end.
+C. Ascending (pitch raises over time)
+2025-09-05 19:16:42,828 - Parsed Final Answer: C. Ascending (pitch raises over time)
+2025-09-05 19:16:42,828 - Evaluation: Correct
+2025-09-05 19:16:42,829 - 
+--- Question 2 ---
+
+2025-09-05 19:16:42,829 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/DMaj_Arp_Desc.wav
+2025-09-05 19:16:45,443 - [COT/GroupA] Q2 - LLM Full Response:
+Step 1: The single melodic line starts at a higher pitch, quickly descends to a low point, and then gradually ascends to a higher pitch by the end.
+Step 2: The overall trend is a fall in pitch followed by a rise in pitch.
+B. Inverted Arch (descending and then ascending)
+2025-09-05 19:16:45,443 - Parsed Final Answer: B. Inverted Arch (descending and then ascending)
+2025-09-05 19:16:45,443 - Evaluation: Incorrect (expected=D. Descending (pitch falls over time))
+2025-09-05 19:16:45,443 - 
+--- Question 3 ---
+
+2025-09-05 19:16:45,443 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/EMaj_Arp_Desc_Bass.wav
+2025-09-05 19:16:48,507 - [COT/GroupA] Q3 - LLM Full Response:
+Step 1: The single melodic line starts at a moderate pitch, descends significantly to a low point, and then ascends back to a higher pitch.
+Step 2: The overall trend of the pitch is a fall followed by a rise.
+B. Inverted Arch (descending and then ascending)
+2025-09-05 19:16:48,507 - Parsed Final Answer: B. Inverted Arch (descending and then ascending)
+2025-09-05 19:16:48,507 - Evaluation: Incorrect (expected=D. Descending (pitch falls over time))
+2025-09-05 19:16:48,507 - 
+--- Question 4 ---
+
+2025-09-05 19:16:48,507 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Abmin_Arp_Asc_Bass.wav
+2025-09-05 19:16:51,232 - [COT/GroupA] Q4 - LLM Full Response:
+Step 1: The single melodic line begins at a lower pitch and progressively moves to higher pitches, exhibiting a clear upward trend throughout.
+Step 2: The overall trend of the pitch is a consistent rise from start to end.
+C. Ascending (pitch raises over time)
+2025-09-05 19:16:51,232 - Parsed Final Answer: C. Ascending (pitch raises over time)
+2025-09-05 19:16:51,232 - Evaluation: Correct
+2025-09-05 19:16:51,232 - 
+--- Question 5 ---
+
+2025-09-05 19:16:51,232 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Gm_Arp_Asc.wav
+2025-09-05 19:16:55,117 - [COT/GroupA] Q5 - LLM Full Response:
+Step 1: The single melodic line begins at a lower pitch, rises to a clear peak in the middle, and then falls back down towards the end.
+Step 2: The overall trend is a rise in pitch followed by a fall in pitch.
+A. Arch (ascending and then descending)
+2025-09-05 19:16:55,117 - Parsed Final Answer: A. Arch (ascending and then descending)
+2025-09-05 19:16:55,117 - Evaluation: Incorrect (expected=C. Ascending (pitch raises over time))
+2025-09-05 19:16:55,117 - 
+--- Question 6 ---
+
+2025-09-05 19:16:55,117 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Bmaj_Scale_InvArch_Piano.wav
+2025-09-05 19:16:59,386 - [COT/GroupA] Q6 - LLM Full Response:
+Step 1: The single melodic line starts at a higher pitch and consistently moves to lower pitches throughout the excerpt.
+Step 2: The overall trend of the pitch is a steady fall from the beginning to the end.
+D. Descending (pitch falls over time)
+2025-09-05 19:16:59,386 - Parsed Final Answer: D. Descending (pitch falls over time)
+2025-09-05 19:16:59,386 - Evaluation: Incorrect (expected=B. Inverted Arch (descending and then ascending))
+2025-09-05 19:16:59,386 - 
+--- Question 7 ---
+
+2025-09-05 19:16:59,386 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/CMaj_Scale_Arch.wav
+2025-09-05 19:17:04,292 - [COT/GroupA] Q7 - LLM Full Response:
+Step 1: The single melodic line starts at a moderate pitch, descends to a lower pitch, and then ascends back up to a higher pitch by the end.
+Step 2: The overall trend is a fall in pitch followed by a rise in pitch.
+B. Inverted Arch (descending and then ascending)
+2025-09-05 19:17:04,292 - Parsed Final Answer: B. Inverted Arch (descending and then ascending)
+2025-09-05 19:17:04,292 - Evaluation: Incorrect (expected=A. Arch (ascending and then descending))
+2025-09-05 19:17:04,292 - 
+--- Question 8 ---
+
+2025-09-05 19:17:04,292 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Dbmaj_Scale_InvArch_Bass.wav
+2025-09-05 19:17:09,795 - [COT/GroupA] Q8 - LLM Full Response:
+Step 1: The single melodic line starts at a lower pitch, ascends to a peak in the middle, and then descends back to a lower pitch towards the end.
+Step 2: The overall trend of the pitch is a rise followed by a fall.
+A. Arch (ascending and then descending)
+2025-09-05 19:17:09,795 - Parsed Final Answer: A. Arch (ascending and then descending)
+2025-09-05 19:17:09,796 - Evaluation: Incorrect (expected=B. Inverted Arch (descending and then ascending))
+2025-09-05 19:17:09,796 - 
+--- Question 9 ---
+
+2025-09-05 19:17:09,796 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Ebmaj_Scale_Arch_Piano.wav
+2025-09-05 19:17:15,009 - [COT/GroupA] Q9 - LLM Full Response:
+Step 1: The single melodic line begins at a higher pitch, quickly descends to a low point, and then gradually ascends to a moderate pitch towards the end.
+Step 2: The overall trend of the pitch is a fall followed by a rise.
+B. Inverted Arch (descending and then ascending)
+2025-09-05 19:17:15,009 - Parsed Final Answer: B. Inverted Arch (descending and then ascending)
+2025-09-05 19:17:15,009 - Evaluation: Incorrect (expected=A. Arch (ascending and then descending))
+2025-09-05 19:17:15,009 - 
+--- Question 10 ---
+
+2025-09-05 19:17:15,009 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/BbMaj_Scale_Arch_Bass.wav
+2025-09-05 19:17:21,082 - [COT/GroupA] Q10 - LLM Full Response:
+Step 1: The single melodic line starts at a moderate pitch, ascends to a peak in the middle of the phrase, and then descends back to a lower pitch by the end.
+Step 2: The overall trend of the pitch is a rise followed by a fall.
+A. Arch (ascending and then descending)
+2025-09-05 19:17:21,082 - Parsed Final Answer: A. Arch (ascending and then descending)
+2025-09-05 19:17:21,082 - Evaluation: Correct
+2025-09-05 19:17:21,082 - Total Correct: 3 out of 10
+2025-09-05 19:17:21,082 - === RUN END ===
+

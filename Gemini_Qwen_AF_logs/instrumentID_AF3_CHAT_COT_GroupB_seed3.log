@@ -1,0 +1,78 @@
+2025-09-09 21:58:45,120 - === RUN START (Instrument ID • AF3-CHAT • STATELESS • COT • GroupB) ===
+2025-09-09 21:58:45,120 - Config: model=nvidia/audio-flamingo-3-chat, temp=1.0, top_p=0.95, top_k=40, seed=3, group=GroupB, log=instrumentID_AF3_CHAT_COT_GroupB_seed3.log
+2025-09-09 21:58:45,120 - 
+--- Task: Instrument Identification — STATELESS • COT • GroupB ---
+
+2025-09-09 21:58:45,120 - 
+--- Question 1 ---
+2025-09-09 21:58:45,120 - Stimulus: file=stimuli/Gbmin_Arp_Desc_Piano.wav
+2025-09-09 21:59:03,086 - [COT/GroupB] Q1 - LLM Full Response:
+A. Piano
+2025-09-09 21:59:03,086 - Parsed Final Answer: A. Piano
+2025-09-09 21:59:03,086 - Evaluation: Correct
+2025-09-09 21:59:03,086 - 
+--- Question 2 ---
+2025-09-09 21:59:03,086 - Stimulus: file=stimuli/BbMaj_Scale_Arch_Bass.wav
+2025-09-09 21:59:21,044 - [COT/GroupB] Q2 - LLM Full Response:
+C. Bass
+2025-09-09 21:59:21,044 - Parsed Final Answer: C. Bass
+2025-09-09 21:59:21,044 - Evaluation: Correct
+2025-09-09 21:59:21,044 - 
+--- Question 3 ---
+2025-09-09 21:59:21,044 - Stimulus: file=stimuli/EMaj_Arp_Desc_Bass.wav
+2025-09-09 21:59:39,016 - [COT/GroupB] Q3 - LLM Full Response:
+C. Bass
+2025-09-09 21:59:39,016 - Parsed Final Answer: C. Bass
+2025-09-09 21:59:39,016 - Evaluation: Correct
+2025-09-09 21:59:39,016 - 
+--- Question 4 ---
+2025-09-09 21:59:39,016 - Stimulus: file=stimuli/Bbminor_Piano_120.wav
+2025-09-09 21:59:57,026 - [COT/GroupB] Q4 - LLM Full Response:
+A. Piano
+2025-09-09 21:59:57,026 - Parsed Final Answer: A. Piano
+2025-09-09 21:59:57,026 - Evaluation: Correct
+2025-09-09 21:59:57,026 - 
+--- Question 5 ---
+2025-09-09 21:59:57,027 - Stimulus: file=stimuli/Beat_5_140.wav
+2025-09-09 22:00:15,039 - [COT/GroupB] Q5 - LLM Full Response:
+A. Piano
+2025-09-09 22:00:15,040 - Parsed Final Answer: A. Piano
+2025-09-09 22:00:15,040 - Evaluation: Incorrect (expected=D. Drums)
+2025-09-09 22:00:15,040 - 
+--- Question 6 ---
+2025-09-09 22:00:15,040 - Stimulus: file=stimuli/GMaj_Arp_Asc.wav
+2025-09-09 22:00:33,002 - [COT/GroupB] Q6 - LLM Full Response:
+B. Guitar
+2025-09-09 22:00:33,002 - Parsed Final Answer: B. Guitar
+2025-09-09 22:00:33,003 - Evaluation: Correct
+2025-09-09 22:00:33,003 - 
+--- Question 7 ---
+2025-09-09 22:00:33,003 - Stimulus: file=stimuli/Beat_1_140.wav
+2025-09-09 22:00:51,005 - [COT/GroupB] Q7 - LLM Full Response:
+A. Piano
+2025-09-09 22:00:51,005 - Parsed Final Answer: A. Piano
+2025-09-09 22:00:51,005 - Evaluation: Incorrect (expected=D. Drums)
+2025-09-09 22:00:51,005 - 
+--- Question 8 ---
+2025-09-09 22:00:51,005 - Stimulus: file=stimuli/Bmajor_Guitar_120.wav
+2025-09-09 22:01:09,019 - [COT/GroupB] Q8 - LLM Full Response:
+B. Guitar
+2025-09-09 22:01:09,019 - Parsed Final Answer: B. Guitar
+2025-09-09 22:01:09,019 - Evaluation: Correct
+2025-09-09 22:01:09,019 - 
+--- Question 9 ---
+2025-09-09 22:01:09,019 - Stimulus: file=stimuli/Beat_3_140.wav
+2025-09-09 22:01:26,990 - [COT/GroupB] Q9 - LLM Full Response:
+A. Piano
+2025-09-09 22:01:26,991 - Parsed Final Answer: A. Piano
+2025-09-09 22:01:26,991 - Evaluation: Incorrect (expected=D. Drums)
+2025-09-09 22:01:26,991 - 
+--- Question 10 ---
+2025-09-09 22:01:26,991 - Stimulus: file=stimuli/FMaj_Scale_InvArch.wav
+2025-09-09 22:01:44,960 - [COT/GroupB] Q10 - LLM Full Response:
+B. Guitar
+2025-09-09 22:01:44,960 - Parsed Final Answer: B. Guitar
+2025-09-09 22:01:44,960 - Evaluation: Correct
+2025-09-09 22:01:44,960 - Total Correct: 7 out of 10
+2025-09-09 22:01:44,960 - === RUN END ===
+

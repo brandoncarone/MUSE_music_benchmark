@@ -1,0 +1,78 @@
+2025-09-11 22:26:07,068 - === RUN START (Oddball Detection • AF3-CHAT • STATELESS • COT • GroupA) ===
+2025-09-11 22:26:07,069 - Config: model=nvidia/audio-flamingo-3-chat, temp=1.0, top_p=0.95, top_k=40, seed=3, group=GroupA, log=oddballs_AF3_CHAT_COT_GroupA_seed3.log
+2025-09-11 22:26:07,069 - 
+--- Task: Oddball Detection — STATELESS • COT • GroupA ---
+
+2025-09-11 22:26:07,069 - 
+--- Question 1 ---
+2025-09-11 22:26:07,069 - Stimulus (combined): file=stimuli/combined/M1_EbMaj_90__M1_Odd_EbMaj_90.wav
+2025-09-11 22:26:24,071 - [COT/GroupA] Q1 - LLM Full Response:
+Yes, these are the same exact melody.
+2025-09-11 22:26:24,071 - Parsed Final Answer: Yes, these are the same exact melody.
+2025-09-11 22:26:24,071 - Evaluation: Incorrect (expected=No, these are not the same exact melody.)
+2025-09-11 22:26:24,071 - 
+--- Question 2 ---
+2025-09-11 22:26:24,071 - Stimulus (combined): file=stimuli/combined/M8_FMaj_95_Piano__M8_Odd_FMaj_95_Piano.wav
+2025-09-11 22:26:41,136 - [COT/GroupA] Q2 - LLM Full Response:
+Yes, these are the same exact melody.
+2025-09-11 22:26:41,136 - Parsed Final Answer: Yes, these are the same exact melody.
+2025-09-11 22:26:41,136 - Evaluation: Incorrect (expected=No, these are not the same exact melody.)
+2025-09-11 22:26:41,136 - 
+--- Question 3 ---
+2025-09-11 22:26:41,136 - Stimulus (combined): file=stimuli/combined/M9_Gm_200_3_4_Piano__M9_Gm_200_3_4_Piano.wav
+2025-09-11 22:27:14,815 - [COT/GroupA] Q3 - LLM Full Response:
+Yes, these are the same exact melody.
+2025-09-11 22:27:14,815 - Parsed Final Answer: Yes, these are the same exact melody.
+2025-09-11 22:27:14,815 - Evaluation: Correct
+2025-09-11 22:27:14,815 - 
+--- Question 4 ---
+2025-09-11 22:27:14,815 - Stimulus (combined): file=stimuli/combined/M1_EbMaj_90__M1_EbMaj_90.wav
+2025-09-11 22:27:31,846 - [COT/GroupA] Q4 - LLM Full Response:
+Yes, these are the same exact melody.
+2025-09-11 22:27:31,846 - Parsed Final Answer: Yes, these are the same exact melody.
+2025-09-11 22:27:31,846 - Evaluation: Correct
+2025-09-11 22:27:31,846 - 
+--- Question 5 ---
+2025-09-11 22:27:31,846 - Stimulus (combined): file=stimuli/combined/M10_Fm_165_3_4__M10_Odd_Fm_165_3_4.wav
+2025-09-11 22:27:48,876 - [COT/GroupA] Q5 - LLM Full Response:
+Yes, these are the same exact melody.
+2025-09-11 22:27:48,876 - Parsed Final Answer: Yes, these are the same exact melody.
+2025-09-11 22:27:48,876 - Evaluation: Incorrect (expected=No, these are not the same exact melody.)
+2025-09-11 22:27:48,876 - 
+--- Question 6 ---
+2025-09-11 22:27:48,876 - Stimulus (combined): file=stimuli/combined/M3_DbMaj_78__M3_DbMaj_78.wav
+2025-09-11 22:28:05,956 - [COT/GroupA] Q6 - LLM Full Response:
+Yes, these are the same exact melody.
+2025-09-11 22:28:05,956 - Parsed Final Answer: Yes, these are the same exact melody.
+2025-09-11 22:28:05,956 - Evaluation: Correct
+2025-09-11 22:28:05,956 - 
+--- Question 7 ---
+2025-09-11 22:28:05,956 - Stimulus (combined): file=stimuli/combined/M9_Gm_200_3_4_Piano__M9_Odd_Gm_200_3_4_Piano.wav
+2025-09-11 22:28:39,645 - [COT/GroupA] Q7 - LLM Full Response:
+Yes, these are the same exact melody.
+2025-09-11 22:28:39,646 - Parsed Final Answer: Yes, these are the same exact melody.
+2025-09-11 22:28:39,646 - Evaluation: Incorrect (expected=No, these are not the same exact melody.)
+2025-09-11 22:28:39,646 - 
+--- Question 8 ---
+2025-09-11 22:28:39,646 - Stimulus (combined): file=stimuli/combined/M2_Abm_155_3_4__M2_Abm_155_3_4.wav
+2025-09-11 22:28:56,700 - [COT/GroupA] Q8 - LLM Full Response:
+Yes, these are the same exact melody.
+2025-09-11 22:28:56,700 - Parsed Final Answer: Yes, these are the same exact melody.
+2025-09-11 22:28:56,700 - Evaluation: Correct
+2025-09-11 22:28:56,700 - 
+--- Question 9 ---
+2025-09-11 22:28:56,700 - Stimulus (combined): file=stimuli/combined/M10_Fm_165_3_4__M10_Fm_165_3_4.wav
+2025-09-11 22:29:13,781 - [COT/GroupA] Q9 - LLM Full Response:
+Yes, these are the same exact melody.
+2025-09-11 22:29:13,785 - Parsed Final Answer: Yes, these are the same exact melody.
+2025-09-11 22:29:13,785 - Evaluation: Correct
+2025-09-11 22:29:13,785 - 
+--- Question 10 ---
+2025-09-11 22:29:13,785 - Stimulus (combined): file=stimuli/combined/M2_Abm_155_3_4__M2_Odd_Abm_155_3_4.wav
+2025-09-11 22:29:30,765 - [COT/GroupA] Q10 - LLM Full Response:
+Yes, these are the same exact melody.
+2025-09-11 22:29:30,765 - Parsed Final Answer: Yes, these are the same exact melody.
+2025-09-11 22:29:30,765 - Evaluation: Incorrect (expected=No, these are not the same exact melody.)
+2025-09-11 22:29:30,765 - Total Correct: 5 out of 10
+2025-09-11 22:29:30,765 - === RUN END ===
+

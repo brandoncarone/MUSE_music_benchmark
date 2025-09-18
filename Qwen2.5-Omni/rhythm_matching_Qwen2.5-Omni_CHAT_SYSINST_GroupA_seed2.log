@@ -1,0 +1,100 @@
+2025-09-07 23:22:04,944 - === RUN START (Rhythm Matching • CHAT+SysInst • SYSINST • GroupA) ===
+2025-09-07 23:22:04,945 - Config: model=Qwen/Qwen2.5-Omni-7B, temp=1.0, seed=2, group=GroupA, log=rhythm_matching_Qwen2.5-Omni_CHAT_SYSINST_GroupA_seed2.log
+2025-09-07 23:22:15,213 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-07 23:22:16,155 - Confirmation response: Yes, I understand.
+2025-09-07 23:22:16,155 - 
+--- Task: Rhythm Matching — CHAT+SysInst SYSINST • GroupA ---
+
+2025-09-07 23:22:16,156 - 
+--- Question 1 ---
+
+2025-09-07 23:22:16,156 - Stimuli: file1=stimuli/Beat_3_140.wav, file2=stimuli/Beat_4_140_34.wav
+2025-09-07 23:22:16,173 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-07 23:22:17,723 - [SYSINST/GroupA] Q1 - LLM Full Response:
+Yes, these are the same exact drum set patterns.
+2025-09-07 23:22:17,723 - Parsed Final Answer: Yes, these are the same exact drum set patterns.
+2025-09-07 23:22:17,723 - Evaluation: Incorrect (expected=No, these are not the same exact drum set patterns.)
+2025-09-07 23:22:17,723 - 
+--- Question 2 ---
+
+2025-09-07 23:22:17,723 - Stimuli: file1=stimuli/Beat_5_140.wav, file2=stimuli/Beat_6_140_34.wav
+2025-09-07 23:22:17,740 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-07 23:22:19,607 - [SYSINST/GroupA] Q2 - LLM Full Response:
+No, these are not the same exact drum set patterns.
+2025-09-07 23:22:19,608 - Parsed Final Answer: No, these are not the same exact drum set patterns.
+2025-09-07 23:22:19,608 - Evaluation: Correct
+2025-09-07 23:22:19,608 - 
+--- Question 3 ---
+
+2025-09-07 23:22:19,608 - Stimuli: file1=stimuli/Beat_2_140.wav, file2=stimuli/Beat_3_140.wav
+2025-09-07 23:22:19,627 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-07 23:22:21,797 - [SYSINST/GroupA] Q3 - LLM Full Response:
+Yes, these are the same exact drum set patterns.
+2025-09-07 23:22:21,798 - Parsed Final Answer: Yes, these are the same exact drum set patterns.
+2025-09-07 23:22:21,798 - Evaluation: Incorrect (expected=No, these are not the same exact drum set patterns.)
+2025-09-07 23:22:21,798 - 
+--- Question 4 ---
+
+2025-09-07 23:22:21,798 - Stimuli: file1=stimuli/Beat_3_140.wav, file2=stimuli/Beat_3_140.wav
+2025-09-07 23:22:21,817 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-07 23:22:24,576 - [SYSINST/GroupA] Q4 - LLM Full Response:
+No, these are not the same exact drum set patterns.
+2025-09-07 23:22:24,576 - Parsed Final Answer: No, these are not the same exact drum set patterns.
+2025-09-07 23:22:24,577 - Evaluation: Incorrect (expected=Yes, these are the same exact drum set patterns.)
+2025-09-07 23:22:24,577 - 
+--- Question 5 ---
+
+2025-09-07 23:22:24,577 - Stimuli: file1=stimuli/Beat_4_140_34.wav, file2=stimuli/Beat_4_140_34.wav
+2025-09-07 23:22:24,596 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-07 23:22:27,732 - [SYSINST/GroupA] Q5 - LLM Full Response:
+Yes, these are the same exact drum set patterns.
+2025-09-07 23:22:27,732 - Parsed Final Answer: Yes, these are the same exact drum set patterns.
+2025-09-07 23:22:27,732 - Evaluation: Correct
+2025-09-07 23:22:27,733 - 
+--- Question 6 ---
+
+2025-09-07 23:22:27,733 - Stimuli: file1=stimuli/Beat_4_140_34.wav, file2=stimuli/Beat_5_140.wav
+2025-09-07 23:22:27,749 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-07 23:22:31,236 - [SYSINST/GroupA] Q6 - LLM Full Response:
+No, these are not the same exact drum set patterns.
+2025-09-07 23:22:31,236 - Parsed Final Answer: No, these are not the same exact drum set patterns.
+2025-09-07 23:22:31,236 - Evaluation: Correct
+2025-09-07 23:22:31,236 - 
+--- Question 7 ---
+
+2025-09-07 23:22:31,236 - Stimuli: file1=stimuli/Beat_2_140.wav, file2=stimuli/Beat_2_140.wav
+2025-09-07 23:22:31,255 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-07 23:22:35,212 - [SYSINST/GroupA] Q7 - LLM Full Response:
+Yes, these are the same exact drum set patterns.
+2025-09-07 23:22:35,212 - Parsed Final Answer: Yes, these are the same exact drum set patterns.
+2025-09-07 23:22:35,212 - Evaluation: Correct
+2025-09-07 23:22:35,212 - 
+--- Question 8 ---
+
+2025-09-07 23:22:35,212 - Stimuli: file1=stimuli/Beat_5_140.wav, file2=stimuli/Beat_5_140.wav
+2025-09-07 23:22:35,229 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-07 23:22:39,755 - [SYSINST/GroupA] Q8 - LLM Full Response:
+No, these are not the same exact drum set patterns.
+2025-09-07 23:22:39,756 - Parsed Final Answer: No, these are not the same exact drum set patterns.
+2025-09-07 23:22:39,756 - Evaluation: Incorrect (expected=Yes, these are the same exact drum set patterns.)
+2025-09-07 23:22:39,756 - 
+--- Question 9 ---
+
+2025-09-07 23:22:39,756 - Stimuli: file1=stimuli/Beat_1_140.wav, file2=stimuli/Beat_2_140.wav
+2025-09-07 23:22:39,775 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-07 23:22:44,928 - [SYSINST/GroupA] Q9 - LLM Full Response:
+No, these are not the same exact drum set patterns.
+2025-09-07 23:22:44,929 - Parsed Final Answer: No, these are not the same exact drum set patterns.
+2025-09-07 23:22:44,929 - Evaluation: Correct
+2025-09-07 23:22:44,929 - 
+--- Question 10 ---
+
+2025-09-07 23:22:44,929 - Stimuli: file1=stimuli/Beat_1_140.wav, file2=stimuli/Beat_1_140.wav
+2025-09-07 23:22:44,946 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-07 23:22:50,599 - [SYSINST/GroupA] Q10 - LLM Full Response:
+Yes, these are the same exact drum set patterns.
+2025-09-07 23:22:50,600 - Parsed Final Answer: Yes, these are the same exact drum set patterns.
+2025-09-07 23:22:50,600 - Evaluation: Correct
+2025-09-07 23:22:50,600 - Total Correct: 6 out of 10
+2025-09-07 23:22:50,600 - === RUN END ===
+

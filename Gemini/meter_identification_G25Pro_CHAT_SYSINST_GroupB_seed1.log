@@ -1,0 +1,90 @@
+2025-09-08 04:08:56,661 - === RUN START (Meter Identification • CHAT+SysInst • SYSINST • GroupB) ===
+2025-09-08 04:08:56,662 - Config: model=gemini-2.5-pro, temp=1.0, seed=1, group=GroupB, log=meter_identification_G25Pro_CHAT_SYSINST_GroupB_seed1.log
+2025-09-08 04:08:56,679 - Using one persistent chat; examples and all trials share history and audio context.
+2025-09-08 04:09:06,380 - Confirmation response: Yes, I understand.
+2025-09-08 04:09:06,380 - 
+--- Task: Meter Identification — CHAT+SysInst SYSINST • GroupB ---
+
+2025-09-08 04:09:06,380 - 
+--- Question 1 ---
+
+2025-09-08 04:09:06,380 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/Flow_4.wav
+2025-09-08 04:09:15,432 - [SYSINST/GroupB] Q1 - LLM Full Response:
+B. Groups of 4
+2025-09-08 04:09:15,432 - Parsed Final Answer: B. Groups of 4
+2025-09-08 04:09:15,432 - Evaluation: Correct
+2025-09-08 04:09:15,432 - 
+--- Question 2 ---
+
+2025-09-08 04:09:15,432 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/Dance_5.wav
+2025-09-08 04:09:23,545 - [SYSINST/GroupB] Q2 - LLM Full Response:
+B. Groups of 4
+2025-09-08 04:09:23,546 - Parsed Final Answer: B. Groups of 4
+2025-09-08 04:09:23,546 - Evaluation: Incorrect (expected=C. Groups of 5)
+2025-09-08 04:09:23,546 - 
+--- Question 3 ---
+
+2025-09-08 04:09:23,546 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/Falling_5.wav
+2025-09-08 04:09:31,807 - [SYSINST/GroupB] Q3 - LLM Full Response:
+B. Groups of 4
+2025-09-08 04:09:31,807 - Parsed Final Answer: B. Groups of 4
+2025-09-08 04:09:31,807 - Evaluation: Incorrect (expected=C. Groups of 5)
+2025-09-08 04:09:31,807 - 
+--- Question 4 ---
+
+2025-09-08 04:09:31,807 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/Harm_4.wav
+2025-09-08 04:09:42,910 - [SYSINST/GroupB] Q4 - LLM Full Response:
+B. Groups of 4
+2025-09-08 04:09:42,911 - Parsed Final Answer: B. Groups of 4
+2025-09-08 04:09:42,911 - Evaluation: Correct
+2025-09-08 04:09:42,911 - 
+--- Question 5 ---
+
+2025-09-08 04:09:42,911 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/DoDoDoDoDo_4.wav
+2025-09-08 04:09:50,946 - [SYSINST/GroupB] Q5 - LLM Full Response:
+B. Groups of 4
+2025-09-08 04:09:50,946 - Parsed Final Answer: B. Groups of 4
+2025-09-08 04:09:50,946 - Evaluation: Correct
+2025-09-08 04:09:50,946 - 
+--- Question 6 ---
+
+2025-09-08 04:09:50,946 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/I-vi-VI-V_Fmaj_piano_172_3_4.wav
+2025-09-08 04:10:01,459 - [SYSINST/GroupB] Q6 - LLM Full Response:
+B. Groups of 4
+2025-09-08 04:10:01,459 - Parsed Final Answer: B. Groups of 4
+2025-09-08 04:10:01,459 - Evaluation: Incorrect (expected=A. Groups of 3)
+2025-09-08 04:10:01,459 - 
+--- Question 7 ---
+
+2025-09-08 04:10:01,459 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/50s_3.wav
+2025-09-08 04:10:11,681 - [SYSINST/GroupB] Q7 - LLM Full Response:
+A. Groups of 3
+2025-09-08 04:10:11,681 - Parsed Final Answer: A. Groups of 3
+2025-09-08 04:10:11,681 - Evaluation: Correct
+2025-09-08 04:10:11,681 - 
+--- Question 8 ---
+
+2025-09-08 04:10:11,681 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/ComeOn_4.wav
+2025-09-08 04:10:23,867 - [SYSINST/GroupB] Q8 - LLM Full Response:
+B. Groups of 4
+2025-09-08 04:10:23,867 - Parsed Final Answer: B. Groups of 4
+2025-09-08 04:10:23,867 - Evaluation: Correct
+2025-09-08 04:10:23,867 - 
+--- Question 9 ---
+
+2025-09-08 04:10:23,867 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/Circles_solo_3.wav
+2025-09-08 04:10:35,705 - [SYSINST/GroupB] Q9 - LLM Full Response:
+B. Groups of 4
+2025-09-08 04:10:35,705 - Parsed Final Answer: B. Groups of 4
+2025-09-08 04:10:35,705 - Evaluation: Incorrect (expected=A. Groups of 3)
+2025-09-08 04:10:35,705 - 
+--- Question 10 ---
+
+2025-09-08 04:10:35,705 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/Scene_3.wav
+2025-09-08 04:10:47,419 - [SYSINST/GroupB] Q10 - LLM Full Response:
+B. Groups of 4
+2025-09-08 04:10:47,419 - Parsed Final Answer: B. Groups of 4
+2025-09-08 04:10:47,419 - Evaluation: Incorrect (expected=A. Groups of 3)
+2025-09-08 04:10:47,419 - Total Correct: 5 out of 10
+2025-09-08 04:10:47,419 - === RUN END ===
+

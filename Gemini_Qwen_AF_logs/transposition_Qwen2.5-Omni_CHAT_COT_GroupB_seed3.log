@@ -1,0 +1,120 @@
+2025-09-04 21:29:38,532 - === RUN START (Transposition • CHAT+SysInst • COT • GroupB) ===
+2025-09-04 21:29:38,534 - Config: model=Qwen/Qwen2.5-Omni-7B, temp=1.0, seed=3, group=GroupB, log=transposition_Qwen2.5-Omni_CHAT_COT_GroupB_seed3.log
+2025-09-04 21:29:49,073 - hf_device_map keys: [('thinker.audio_tower', 0), ('thinker.visual', 0), ('thinker.model.embed_tokens', 0), ('thinker.model.layers.0', 0), ('thinker.model.layers.1', 0), ('thinker.model.layers.2', 1)] ...
+2025-09-04 21:29:50,406 - Confirmation response: Yes, I understand.
+2025-09-04 21:29:50,406 - 
+--- Task: Melody Matching (Transposition) — CHAT+SysInst COT • GroupB ---
+
+2025-09-04 21:29:50,406 - 
+--- Question 1 ---
+
+2025-09-04 21:29:50,406 - Stimuli: file1=stimuli/M4_AMaj_130.wav, file2=stimuli/M4_EMaj_130.wav
+2025-09-04 21:29:55,659 - [COT/GroupB] Q1 - LLM Full Response:
+Step 1: Identify notes; both sequences have the same length.
+Step 2: Interval sequences match element-by-element.
+Step 3: Therefore, they are the same melody up to transposition.
+Yes, these are the same melody.
+2025-09-04 21:29:55,659 - Parsed Final Answer: Yes, these are the same melody.
+2025-09-04 21:29:55,659 - Evaluation: Correct
+2025-09-04 21:29:55,659 - 
+--- Question 2 ---
+
+2025-09-04 21:29:55,659 - Stimuli: file1=stimuli/M6_Cm_120_Piano.wav, file2=stimuli/M6_Bbm_120_Piano.wav
+2025-09-04 21:30:01,638 - [COT/GroupB] Q2 - LLM Full Response:
+Step 1: Identify notes; both sequences have the same length.
+Step 2: Interval sequences match element-by-element.
+Step 3: Therefore, they are the same melody up to transposition.
+Yes, these are the same melody.
+2025-09-04 21:30:01,638 - Parsed Final Answer: Yes, these are the same melody.
+2025-09-04 21:30:01,638 - Evaluation: Correct
+2025-09-04 21:30:01,638 - 
+--- Question 3 ---
+
+2025-09-04 21:30:01,638 - Stimuli: file1=stimuli/M6_Cm_120_Piano.wav, file2=stimuli/M7_CMaj_140_Piano.wav
+2025-09-04 21:30:08,632 - [COT/GroupB] Q3 - LLM Full Response:
+Step 1: Identify notes; both sequences have the same length.
+Step 2: Interval sequences do not match element-by-element.
+Step 3: Therefore, they are not the same melody up to transposition.
+No, these are not the same melody.
+2025-09-04 21:30:08,633 - Parsed Final Answer: No, these are not the same melody.
+2025-09-04 21:30:08,633 - Evaluation: Correct
+2025-09-04 21:30:08,633 - 
+--- Question 4 ---
+
+2025-09-04 21:30:08,633 - Stimuli: file1=stimuli/M3_GbMaj_78.wav, file2=stimuli/M4_AMaj_130.wav
+2025-09-04 21:30:16,453 - [COT/GroupB] Q4 - LLM Full Response:
+Step 1: Identify notes; both sequences have the same length.
+Step 2: Interval sequences match element-by-element.
+Step 3: Therefore, they are the same melody up to transposition.
+Yes, these are the same melody.
+2025-09-04 21:30:16,453 - Parsed Final Answer: Yes, these are the same melody.
+2025-09-04 21:30:16,454 - Evaluation: Incorrect (expected=No, these are not the same melody.)
+2025-09-04 21:30:16,454 - 
+--- Question 5 ---
+
+2025-09-04 21:30:16,454 - Stimuli: file1=stimuli/M8_AbMaj_95_Piano.wav, file2=stimuli/M8_FMaj_95_Piano.wav
+2025-09-04 21:30:25,644 - [COT/GroupB] Q5 - LLM Full Response:
+Step 1: Identify notes; both sequences have the same length.
+Step 2: Interval sequences match element-by-element.
+Step 3: Therefore, they are the same melody up to transposition.
+Yes, these are the same melody.
+2025-09-04 21:30:25,645 - Parsed Final Answer: Yes, these are the same melody.
+2025-09-04 21:30:25,645 - Evaluation: Correct
+2025-09-04 21:30:25,645 - 
+--- Question 6 ---
+
+2025-09-04 21:30:25,645 - Stimuli: file1=stimuli/M5_Dm_100.wav, file2=stimuli/M1_GMaj_90.wav
+2025-09-04 21:30:36,407 - [COT/GroupB] Q6 - LLM Full Response:
+Step 1: Identify notes; both sequences have the same length.
+Step 2: Interval sequences do not match element-by-element.
+Step 3: Therefore, they are not the same melody up to transposition.
+No, these are not the same melody.
+2025-09-04 21:30:36,409 - Parsed Final Answer: No, these are not the same melody.
+2025-09-04 21:30:36,409 - Evaluation: Correct
+2025-09-04 21:30:36,409 - 
+--- Question 7 ---
+
+2025-09-04 21:30:36,409 - Stimuli: file1=stimuli/M7_CMaj_140_Piano.wav, file2=stimuli/M7_DbMaj_140_Piano.wav
+2025-09-04 21:30:47,601 - [COT/GroupB] Q7 - LLM Full Response:
+Step 1: Identify notes; both sequences have the same length.
+Step 2: Interval sequences match element-by-element.
+Step 3: Therefore, they are the same melody up to transposition.
+Yes, these are the same melody.
+2025-09-04 21:30:47,603 - Parsed Final Answer: Yes, these are the same melody.
+2025-09-04 21:30:47,603 - Evaluation: Correct
+2025-09-04 21:30:47,603 - 
+--- Question 8 ---
+
+2025-09-04 21:30:47,603 - Stimuli: file1=stimuli/M4_EMaj_130.wav, file2=stimuli/M5_Bm_100.wav
+2025-09-04 21:31:00,371 - [COT/GroupB] Q8 - LLM Full Response:
+Step 1: Identify notes; both sequences have the same length.
+Step 2: Interval sequences do not match element-by-element.
+Step 3: Therefore, they are not the same melody up to transposition.
+No, these are not the same melody.
+2025-09-04 21:31:00,373 - Parsed Final Answer: No, these are not the same melody.
+2025-09-04 21:31:00,373 - Evaluation: Correct
+2025-09-04 21:31:00,373 - 
+--- Question 9 ---
+
+2025-09-04 21:31:00,373 - Stimuli: file1=stimuli/M7_DbMaj_140_Piano.wav, file2=stimuli/M8_AbMaj_95_Piano.wav
+2025-09-04 21:31:14,830 - [COT/GroupB] Q9 - LLM Full Response:
+Step 1: Identify notes; both sequences have the same length.
+Step 2: Interval sequences match element-by-element.
+Step 3: Therefore, they are the same melody up to transposition.
+Yes, these are the same melody.
+2025-09-04 21:31:14,832 - Parsed Final Answer: Yes, these are the same melody.
+2025-09-04 21:31:14,832 - Evaluation: Incorrect (expected=No, these are not the same melody.)
+2025-09-04 21:31:14,832 - 
+--- Question 10 ---
+
+2025-09-04 21:31:14,832 - Stimuli: file1=stimuli/M5_Bm_100.wav, file2=stimuli/M5_Dm_100.wav
+2025-09-04 21:31:30,868 - [COT/GroupB] Q10 - LLM Full Response:
+Step 1: Identify notes; both sequences have the same length.
+Step 2: Interval sequences match element-by-element.
+Step 3: Therefore, they are the same melody up to transposition.
+Yes, these are the same melody.
+2025-09-04 21:31:30,870 - Parsed Final Answer: Yes, these are the same melody.
+2025-09-04 21:31:30,870 - Evaluation: Correct
+2025-09-04 21:31:30,870 - Total Correct: 8 out of 10
+2025-09-04 21:31:30,870 - === RUN END ===
+

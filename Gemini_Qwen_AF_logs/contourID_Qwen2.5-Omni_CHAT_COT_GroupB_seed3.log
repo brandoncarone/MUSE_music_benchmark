@@ -1,0 +1,109 @@
+2025-09-07 22:03:55,638 - === RUN START (Contour ID • CHAT+SysInst • COT • GroupB) ===
+2025-09-07 22:03:55,639 - Config: model=Qwen/Qwen2.5-Omni-7B, temp=1.0, seed=3, group=GroupB, log=contourID_Qwen2.5-Omni_CHAT_COT_GroupB_seed3.log
+2025-09-07 22:04:05,769 - Confirmation response: Yes, I understand.
+2025-09-07 22:04:05,770 - 
+--- Task: Contour Identification — CHAT+SysInst COT • GroupB ---
+
+2025-09-07 22:04:05,770 - 
+--- Question 1 ---
+
+2025-09-07 22:04:05,770 - Stimulus: file=stimuli/Ebmin_Scale_Arch_Piano.wav
+2025-09-07 22:04:09,614 - [COT/GroupB] Q1 - LLM Full Response:
+Step 1: Single melodic line moves downward overall from beginning to end.
+Step 2: This matches a descending contour.
+D. Descending (pitch falls over time)
+2025-09-07 22:04:09,614 - Parsed Final Answer: D. Descending (pitch falls over time)
+2025-09-07 22:04:09,614 - Evaluation: Incorrect (expected=A. Arch (ascending and then descending))
+2025-09-07 22:04:09,614 - 
+--- Question 2 ---
+
+2025-09-07 22:04:09,614 - Stimulus: file=stimuli/GMaj_Arp_Asc.wav
+2025-09-07 22:04:14,299 - [COT/GroupB] Q2 - LLM Full Response:
+Step 1: Single melodic line rises to a clear peak around the midpoint, then falls.
+Step 2: This global trend is rise-then-fall.
+A. Arch (ascending and then descending)
+2025-09-07 22:04:14,300 - Parsed Final Answer: A. Arch (ascending and then descending)
+2025-09-07 22:04:14,300 - Evaluation: Incorrect (expected=C. Ascending (pitch raises over time))
+2025-09-07 22:04:14,300 - 
+--- Question 3 ---
+
+2025-09-07 22:04:14,300 - Stimulus: file=stimuli/AbMaj_Arp_Asc_Bass.wav
+2025-09-07 22:04:19,683 - [COT/GroupB] Q3 - LLM Full Response:
+Step 1: Single melodic line descends to a low point around the midpoint, then rises toward the end.
+Step 2: This global trend is fall-then-rise.
+B. Inverted Arch (descending and then ascending)
+2025-09-07 22:04:19,685 - Parsed Final Answer: B. Inverted Arch (descending and then ascending)
+2025-09-07 22:04:19,685 - Evaluation: Incorrect (expected=C. Ascending (pitch raises over time))
+2025-09-07 22:04:19,686 - 
+--- Question 4 ---
+
+2025-09-07 22:04:19,686 - Stimulus: file=stimuli/Cmin_Scale_Arch.wav
+2025-09-07 22:04:25,110 - [COT/GroupB] Q4 - LLM Full Response:
+Step 1: Single melodic line rises to a clear peak around the midpoint, then falls.
+Step 2: This global trend is rise-then-fall.
+A. Arch (ascending and then descending)
+2025-09-07 22:04:25,115 - Parsed Final Answer: A. Arch (ascending and then descending)
+2025-09-07 22:04:25,115 - Evaluation: Correct
+2025-09-07 22:04:25,116 - 
+--- Question 5 ---
+
+2025-09-07 22:04:25,116 - Stimulus: file=stimuli/Emin_Arp_Desc_Bass.wav
+2025-09-07 22:04:31,261 - [COT/GroupB] Q5 - LLM Full Response:
+Step 1: Single melodic line descends to a low point around the midpoint, then rises toward the end.
+Step 2: This global trend is fall-then-rise.
+B. Inverted Arch (descending and then ascending)
+2025-09-07 22:04:31,262 - Parsed Final Answer: B. Inverted Arch (descending and then ascending)
+2025-09-07 22:04:31,262 - Evaluation: Incorrect (expected=D. Descending (pitch falls over time))
+2025-09-07 22:04:31,262 - 
+--- Question 6 ---
+
+2025-09-07 22:04:31,262 - Stimulus: file=stimuli/Dbmin_Scale_InvArch_Bass.wav
+2025-09-07 22:04:37,333 - [COT/GroupB] Q6 - LLM Full Response:
+Step 1: Single melodic line rises to a clear peak around the midpoint, then falls.
+Step 2: This global trend is rise-then-fall.
+A. Arch (ascending and then descending)
+2025-09-07 22:04:37,334 - Parsed Final Answer: A. Arch (ascending and then descending)
+2025-09-07 22:04:37,334 - Evaluation: Incorrect (expected=B. Inverted Arch (descending and then ascending))
+2025-09-07 22:04:37,334 - 
+--- Question 7 ---
+
+2025-09-07 22:04:37,334 - Stimulus: file=stimuli/Dm_Arp_Desc.wav
+2025-09-07 22:04:44,208 - [COT/GroupB] Q7 - LLM Full Response:
+Step 1: Single melodic line descends to a low point around the midpoint, then rises toward the end.
+Step 2: This global trend is fall-then-rise.
+B. Inverted Arch (descending and then ascending)
+2025-09-07 22:04:44,209 - Parsed Final Answer: B. Inverted Arch (descending and then ascending)
+2025-09-07 22:04:44,209 - Evaluation: Incorrect (expected=D. Descending (pitch falls over time))
+2025-09-07 22:04:44,209 - 
+--- Question 8 ---
+
+2025-09-07 22:04:44,209 - Stimulus: file=stimuli/FMaj_Scale_InvArch.wav
+2025-09-07 22:04:51,002 - [COT/GroupB] Q8 - LLM Full Response:
+Step 1: Single melodic line rises to a clear peak around the midpoint, then falls.
+Step 2: This global trend is rise-then-fall.
+A. Arch (ascending and then descending)
+2025-09-07 22:04:51,003 - Parsed Final Answer: A. Arch (ascending and then descending)
+2025-09-07 22:04:51,003 - Evaluation: Incorrect (expected=B. Inverted Arch (descending and then ascending))
+2025-09-07 22:04:51,003 - 
+--- Question 9 ---
+
+2025-09-07 22:04:51,003 - Stimulus: file=stimuli/Gbmin_Arp_Desc_Piano.wav
+2025-09-07 22:04:57,418 - [COT/GroupB] Q9 - LLM Full Response:
+Step 1: Single melodic line moves downward overall from beginning to end.
+Step 2: This matches a descending contour.
+D. Descending (pitch falls over time)
+2025-09-07 22:04:57,419 - Parsed Final Answer: D. Descending (pitch falls over time)
+2025-09-07 22:04:57,419 - Evaluation: Correct
+2025-09-07 22:04:57,419 - 
+--- Question 10 ---
+
+2025-09-07 22:04:57,419 - Stimulus: file=stimuli/Bmin_Scale_InvArch_Piano.wav
+2025-09-07 22:05:04,977 - [COT/GroupB] Q10 - LLM Full Response:
+Step 1: Single melodic line rises to a clear peak around the midpoint, then falls.
+Step 2: This global trend is rise-then-fall.
+A. Arch (ascending and then descending)
+2025-09-07 22:05:04,978 - Parsed Final Answer: A. Arch (ascending and then descending)
+2025-09-07 22:05:04,978 - Evaluation: Incorrect (expected=B. Inverted Arch (descending and then ascending))
+2025-09-07 22:05:04,978 - Total Correct: 2 out of 10
+2025-09-07 22:05:04,978 - === RUN END ===
+

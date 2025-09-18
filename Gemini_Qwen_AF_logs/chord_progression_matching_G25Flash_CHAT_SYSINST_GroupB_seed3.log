@@ -1,0 +1,90 @@
+2025-09-07 18:31:47,759 - === RUN START (Chord Progression Matching • CHAT+SysInst • SYSINST • GroupB) ===
+2025-09-07 18:31:47,759 - Config: model=gemini-2.5-flash, temp=1.0, seed=3, group=GroupB, log=chord_progression_matching_G25Flash_CHAT_SYSINST_GroupB_seed3.log
+2025-09-07 18:31:47,776 - Using one persistent chat; examples and all trials share history and audio context.
+2025-09-07 18:32:52,181 - Confirmation response: Yes, I understand.
+2025-09-07 18:32:52,181 - 
+--- Task: Chord Progression Matching — CHAT+SysInst SYSINST • GroupB ---
+
+2025-09-07 18:32:52,181 - 
+--- Question 1 ---
+
+2025-09-07 18:32:52,181 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/I-IV-V_Emaj_piano_150.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/I-IV-V_Emaj_piano_120.wav
+2025-09-07 18:34:10,818 - [SYSINST/GroupB] Q1 - LLM Full Response:
+Yes, these are the same chord progression.
+2025-09-07 18:34:10,819 - Parsed Final Answer: A. Yes, these are the same chord progression.
+2025-09-07 18:34:10,819 - Evaluation: Correct
+2025-09-07 18:34:10,819 - 
+--- Question 2 ---
+
+2025-09-07 18:34:10,819 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/I-vi-ii-V_Cmaj_CleanWahGuitar_120.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/I-vi-IV-V_Fmaj_CrunchGuit_140.wav
+2025-09-07 18:36:20,872 - [SYSINST/GroupB] Q2 - LLM Full Response:
+Yes, these are the same chord progression.
+2025-09-07 18:36:20,872 - Parsed Final Answer: A. Yes, these are the same chord progression.
+2025-09-07 18:36:20,872 - Evaluation: Incorrect (expected=B. No, these are not the same chord progression., prog1=I-VI-II-V, prog2=I-VI-IV-V)
+2025-09-07 18:36:20,873 - 
+--- Question 3 ---
+
+2025-09-07 18:36:20,873 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/I-IV-V_Emaj_piano_150.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/I-V-vi-IV_Dmaj_piano_115.wav
+2025-09-07 18:38:59,596 - [SYSINST/GroupB] Q3 - LLM Full Response:
+Yes, these are the same chord progression.
+2025-09-07 18:38:59,596 - Parsed Final Answer: A. Yes, these are the same chord progression.
+2025-09-07 18:38:59,596 - Evaluation: Incorrect (expected=B. No, these are not the same chord progression., prog1=I-IV-V, prog2=I-V-VI-IV)
+2025-09-07 18:38:59,597 - 
+--- Question 4 ---
+
+2025-09-07 18:38:59,597 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/I-vi-IV-V_Fmaj_CrunchGuit_140.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/I-vi-IV-V_Fmaj_CrunchEffectsGuit_160.wav
+2025-09-07 18:41:57,342 - [SYSINST/GroupB] Q4 - LLM Full Response:
+Yes, these are the same chord progression.
+2025-09-07 18:41:57,343 - Parsed Final Answer: A. Yes, these are the same chord progression.
+2025-09-07 18:41:57,343 - Evaluation: Correct
+2025-09-07 18:41:57,343 - 
+--- Question 5 ---
+
+2025-09-07 18:41:57,343 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/I-IV-V_Emaj_piano_120.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/I-vi-ii-V_Cmaj_piano_165.wav
+2025-09-07 18:45:32,932 - [SYSINST/GroupB] Q5 - LLM Full Response:
+Yes, these are the same chord progression.
+2025-09-07 18:45:32,932 - Parsed Final Answer: A. Yes, these are the same chord progression.
+2025-09-07 18:45:32,932 - Evaluation: Incorrect (expected=B. No, these are not the same chord progression., prog1=I-IV-V, prog2=I-VI-II-V)
+2025-09-07 18:45:32,932 - 
+--- Question 6 ---
+
+2025-09-07 18:45:32,932 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/vi-IV-I-V_Gmaj_piano_165.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/vi-IV-I-V_Gmaj_CrunchGuit_150.wav
+2025-09-07 18:49:45,341 - [SYSINST/GroupB] Q6 - LLM Full Response:
+Yes, these are the same chord progression.
+2025-09-07 18:49:45,341 - Parsed Final Answer: A. Yes, these are the same chord progression.
+2025-09-07 18:49:45,341 - Evaluation: Correct
+2025-09-07 18:49:45,341 - 
+--- Question 7 ---
+
+2025-09-07 18:49:45,341 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/I-vi-IV-V_Fmaj_CrunchEffectsGuit_160.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/vi-IV-I-V_Gmaj_piano_165.wav
+2025-09-07 18:54:17,852 - [SYSINST/GroupB] Q7 - LLM Full Response:
+No, these are not the same chord progression.
+2025-09-07 18:54:17,852 - Parsed Final Answer: B. No, these are not the same chord progression.
+2025-09-07 18:54:17,852 - Evaluation: Correct
+2025-09-07 18:54:17,852 - 
+--- Question 8 ---
+
+2025-09-07 18:54:17,852 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/I-V-vi-IV_Dmaj_piano_145.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/I-V-vi-IV_Dmaj_piano_115.wav
+2025-09-07 18:58:59,559 - [SYSINST/GroupB] Q8 - LLM Full Response:
+No, these are not the same chord progression.
+2025-09-07 18:58:59,559 - Parsed Final Answer: B. No, these are not the same chord progression.
+2025-09-07 18:58:59,559 - Evaluation: Incorrect (expected=A. Yes, these are the same chord progression., prog1=I-V-VI-IV, prog2=I-V-VI-IV)
+2025-09-07 18:58:59,559 - 
+--- Question 9 ---
+
+2025-09-07 18:58:59,559 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/I-V-vi-IV_Dmaj_piano_145.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/vi-IV-I-V_Gmaj_CrunchGuit_150.wav
+2025-09-07 19:04:18,273 - [SYSINST/GroupB] Q9 - LLM Full Response:
+No, these are not the same chord progression.
+2025-09-07 19:04:18,274 - Parsed Final Answer: B. No, these are not the same chord progression.
+2025-09-07 19:04:18,274 - Evaluation: Correct
+2025-09-07 19:04:18,274 - 
+--- Question 10 ---
+
+2025-09-07 19:04:18,274 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/I-vi-ii-V_Cmaj_CleanWahGuitar_120.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Intermediate/I-vi-ii-V_Cmaj_piano_165.wav
+2025-09-07 19:10:35,724 - [SYSINST/GroupB] Q10 - LLM Full Response:
+No, these are not the same chord progression.
+2025-09-07 19:10:35,724 - Parsed Final Answer: B. No, these are not the same chord progression.
+2025-09-07 19:10:35,725 - Evaluation: Incorrect (expected=A. Yes, these are the same chord progression., prog1=I-VI-II-V, prog2=I-VI-II-V)
+2025-09-07 19:10:35,725 - Total Correct: 5 out of 10
+2025-09-07 19:10:35,725 - === RUN END ===
+

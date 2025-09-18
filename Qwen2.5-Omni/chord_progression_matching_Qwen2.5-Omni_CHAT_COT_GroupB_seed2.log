@@ -1,0 +1,160 @@
+2025-09-08 10:55:35,119 - === RUN START (Chord Progression Matching • CHAT+SysInst • COT • GroupB) ===
+2025-09-08 10:55:35,120 - Config: model=Qwen/Qwen2.5-Omni-7B, temp=1.0, seed=2, group=GroupB, log=chord_progression_matching_Qwen2.5-Omni_CHAT_COT_GroupB_seed2.log
+2025-09-08 10:55:46,349 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-08 10:55:48,051 - Confirmation response: Yes, I understand.
+2025-09-08 10:55:48,051 - 
+--- Task: Chord Progression Matching — CHAT+SysInst COT • GroupB ---
+
+2025-09-08 10:55:48,051 - 
+--- Question 1 ---
+
+2025-09-08 10:55:48,051 - Stimuli: file1=stimuli/Intermediate/I-vi-ii-V_Cmaj_CleanWahGuitar_120.wav, file2=stimuli/Intermediate/I-vi-IV-V_Fmaj_CrunchGuit_140.wav
+2025-09-08 10:55:48,153 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-08 10:55:55,116 - [COT/GroupB] Q1 - LLM Full Response:
+Step 1: Segment and abstract each excerpt to harmonic functions.
+Excerpt 1: The first excerpt follows a I–vi–ii–V progression in the key of C major.
+Excerpt 2: The second excerpt follows a I–vi–ii–V progression in the key of F major.
+Step 2: Compare the progressions across one cycle.
+- Both contain the same set of harmonic functions (I–vi–ii–V) in the same ORDER.
+Step 3: ORDER matches across the cycle.
+A. Yes, these are the same chord progression.
+2025-09-08 10:55:55,116 - Parsed Final Answer: A. Yes, these are the same chord progression.
+2025-09-08 10:55:55,117 - Evaluation: Incorrect (expected=B. No, these are not the same chord progression., prog1=I-VI-II-V, prog2=I-VI-IV-V)
+2025-09-08 10:55:55,117 - 
+--- Question 2 ---
+
+2025-09-08 10:55:55,117 - Stimuli: file1=stimuli/Intermediate/I-IV-V_Emaj_piano_120.wav, file2=stimuli/Intermediate/I-vi-ii-V_Cmaj_piano_165.wav
+2025-09-08 10:55:55,224 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-08 10:56:04,680 - [COT/GroupB] Q2 - LLM Full Response:
+Step 1: Segment and abstract each excerpt to harmonic functions.
+Excerpt 1: The first excerpt follows a I–vi–ii–V progression in the key of E major.
+Excerpt 2: The second excerpt follows a I–vi–ii–V progression in the key of A major.
+Step 2: Compare the progressions across one cycle.
+- Both contain the same set of harmonic functions (I–vi–ii–V) in the same ORDER.
+Step 3: ORDER matches across the cycle.
+A. Yes, these are the same chord progression.
+2025-09-08 10:56:04,680 - Parsed Final Answer: A. Yes, these are the same chord progression.
+2025-09-08 10:56:04,680 - Evaluation: Incorrect (expected=B. No, these are not the same chord progression., prog1=I-IV-V, prog2=I-VI-II-V)
+2025-09-08 10:56:04,680 - 
+--- Question 3 ---
+
+2025-09-08 10:56:04,680 - Stimuli: file1=stimuli/Intermediate/I-vi-ii-V_Cmaj_CleanWahGuitar_120.wav, file2=stimuli/Intermediate/I-vi-ii-V_Cmaj_piano_165.wav
+2025-09-08 10:56:04,788 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-08 10:56:17,558 - [COT/GroupB] Q3 - LLM Full Response:
+Step 1: Segment and abstract each excerpt to harmonic functions.
+Excerpt 1: The first excerpt follows a I–vi–ii–V progression in the key of C major.
+Excerpt 2: The second excerpt follows a I–vi–ii–V progression in the key of G major.
+Step 2: Compare the progressions across one cycle.
+- Both contain the same set of harmonic functions (I–vi–ii–V) in the same ORDER.
+Step 3: ORDER matches across the cycle.
+A. Yes, these are the same chord progression.
+2025-09-08 10:56:17,560 - Parsed Final Answer: A. Yes, these are the same chord progression.
+2025-09-08 10:56:17,560 - Evaluation: Correct
+2025-09-08 10:56:17,560 - 
+--- Question 4 ---
+
+2025-09-08 10:56:17,560 - Stimuli: file1=stimuli/Intermediate/vi-IV-I-V_Gmaj_piano_165.wav, file2=stimuli/Intermediate/vi-IV-I-V_Gmaj_CrunchGuit_150.wav
+2025-09-08 10:56:17,636 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-08 10:56:33,027 - [COT/GroupB] Q4 - LLM Full Response:
+Step 1: Segment and abstract each excerpt to harmonic functions.
+Excerpt 1: The first excerpt follows a I–vi–ii–V progression in the key of C major.
+Excerpt 2: The second excerpt follows a I–vi–ii–V progression in the key of G major.
+Step 2: Compare the progressions across one cycle.
+- Both contain the same set of harmonic functions (I–vi–ii–V) in the same ORDER.
+Step 3: ORDER matches across the cycle.
+A. Yes, these are the same chord progression.
+2025-09-08 10:56:33,027 - Parsed Final Answer: A. Yes, these are the same chord progression.
+2025-09-08 10:56:33,027 - Evaluation: Correct
+2025-09-08 10:56:33,027 - 
+--- Question 5 ---
+
+2025-09-08 10:56:33,027 - Stimuli: file1=stimuli/Intermediate/I-IV-V_Emaj_piano_150.wav, file2=stimuli/Intermediate/I-V-vi-IV_Dmaj_piano_115.wav
+2025-09-08 10:56:33,087 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-08 10:56:50,811 - [COT/GroupB] Q5 - LLM Full Response:
+Step 1: Segment and abstract each excerpt to harmonic functions.
+Excerpt 1: The first excerpt follows a I–vi–ii–V progression in the key of E major.
+Excerpt 2: The second excerpt follows a I–vi–ii–V progression in the key of G major.
+Step 2: Compare the progressions across one cycle.
+- Both contain the same set of harmonic functions (I–vi–ii–V) in the same ORDER.
+Step 3: ORDER matches across the cycle.
+A. Yes, these are the same chord progression.
+2025-09-08 10:56:50,812 - Parsed Final Answer: A. Yes, these are the same chord progression.
+2025-09-08 10:56:50,812 - Evaluation: Incorrect (expected=B. No, these are not the same chord progression., prog1=I-IV-V, prog2=I-V-VI-IV)
+2025-09-08 10:56:50,812 - 
+--- Question 6 ---
+
+2025-09-08 10:56:50,812 - Stimuli: file1=stimuli/Intermediate/I-vi-IV-V_Fmaj_CrunchEffectsGuit_160.wav, file2=stimuli/Intermediate/vi-IV-I-V_Gmaj_piano_165.wav
+2025-09-08 10:56:50,885 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-08 10:57:07,384 - [COT/GroupB] Q6 - LLM Full Response:
+Step 1: Segment and abstract each excerpt to harmonic functions.
+Excerpt 1: The first excerpt follows a I–vi–ii–V progression in the key of C major.
+Excerpt 2: The second excerpt follows a I–vi–ii–V progression in the key of G major.
+Step 2: Compare the progressions across one cycle.
+- Both contain the same set of harmonic functions (I–vi–ii–V) in the same ORDER.
+Step 3: ORDER matches across the cycle.
+A. Yes, these are the same chord progression.
+2025-09-08 10:57:07,384 - Parsed Final Answer: A. Yes, these are the same chord progression.
+2025-09-08 10:57:07,384 - Evaluation: Incorrect (expected=B. No, these are not the same chord progression., prog1=I-VI-IV-V, prog2=VI-IV-I-V)
+2025-09-08 10:57:07,385 - 
+--- Question 7 ---
+
+2025-09-08 10:57:07,385 - Stimuli: file1=stimuli/Intermediate/I-V-vi-IV_Dmaj_piano_145.wav, file2=stimuli/Intermediate/I-V-vi-IV_Dmaj_piano_115.wav
+2025-09-08 10:57:07,444 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-08 10:57:22,117 - [COT/GroupB] Q7 - LLM Full Response:
+Step 1: Segment and abstract each excerpt to harmonic functions.
+Excerpt 1: The first excerpt follows a I–vi–ii–V progression in the key of C major.
+Excerpt 2: The second excerpt follows a I–vi–ii–V progression in the key of G major.
+Step 2: Compare the progressions across one cycle.
+- Both contain the same set of harmonic functions (I–vi–ii–V) in the same ORDER.
+Step 3: ORDER matches across the cycle.
+A. Yes, these are the same chord progression.
+2025-09-08 10:57:22,117 - Parsed Final Answer: A. Yes, these are the same chord progression.
+2025-09-08 10:57:22,117 - Evaluation: Correct
+2025-09-08 10:57:22,117 - 
+--- Question 8 ---
+
+2025-09-08 10:57:22,117 - Stimuli: file1=stimuli/Intermediate/I-V-vi-IV_Dmaj_piano_145.wav, file2=stimuli/Intermediate/vi-IV-I-V_Gmaj_CrunchGuit_150.wav
+2025-09-08 10:57:22,182 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-08 10:57:35,395 - [COT/GroupB] Q8 - LLM Full Response:
+Step 1: Segment and abstract each excerpt to harmonic functions.
+Excerpt 1: The first excerpt follows a I–vi–ii–V progression in the key of C major.
+Excerpt 2: The second excerpt follows a I–vi–ii–V progression in the key of G major.
+Step 2: Compare the progressions across one cycle.
+- Both contain the same set of harmonic functions (I–vi–ii–V) in the same ORDER.
+Step 3: ORDER matches across the cycle.
+A. Yes, these are the same chord progression.
+2025-09-08 10:57:35,395 - Parsed Final Answer: A. Yes, these are the same chord progression.
+2025-09-08 10:57:35,395 - Evaluation: Incorrect (expected=B. No, these are not the same chord progression., prog1=I-V-VI-IV, prog2=VI-IV-I-V)
+2025-09-08 10:57:35,395 - 
+--- Question 9 ---
+
+2025-09-08 10:57:35,395 - Stimuli: file1=stimuli/Intermediate/I-IV-V_Emaj_piano_150.wav, file2=stimuli/Intermediate/I-IV-V_Emaj_piano_120.wav
+2025-09-08 10:57:35,482 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-08 10:57:49,024 - [COT/GroupB] Q9 - LLM Full Response:
+Step 1: Segment and abstract each excerpt to harmonic functions.
+Excerpt 1: The first excerpt follows a I–vi–ii–V progression in the key of E major.
+Excerpt 2: The second excerpt follows a I–vi–ii–V progression in the key of B major.
+Step 2: Compare the progressions across one cycle.
+- Both contain the same set of harmonic functions (I–vi–ii–V) in the same ORDER.
+Step 3: ORDER matches across the cycle.
+A. Yes, these are the same chord progression.
+2025-09-08 10:57:49,025 - Parsed Final Answer: A. Yes, these are the same chord progression.
+2025-09-08 10:57:49,025 - Evaluation: Correct
+2025-09-08 10:57:49,025 - 
+--- Question 10 ---
+
+2025-09-08 10:57:49,025 - Stimuli: file1=stimuli/Intermediate/I-vi-IV-V_Fmaj_CrunchGuit_140.wav, file2=stimuli/Intermediate/I-vi-IV-V_Fmaj_CrunchEffectsGuit_160.wav
+2025-09-08 10:57:49,102 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-08 10:58:03,296 - [COT/GroupB] Q10 - LLM Full Response:
+Step 1: Segment and abstract each excerpt to harmonic functions.
+Excerpt 1: The first excerpt follows a I–vi–ii–V progression in the key of F major.
+Excerpt 2: The second excerpt follows a I–vi–ii–V progression in the key of D minor.
+Step 2: Compare the progressions across one cycle.
+- Both contain the same set of harmonic functions (I–vi–ii–V) in the same ORDER.
+Step 3: ORDER matches across the cycle.
+A. Yes, these are the same chord progression.
+2025-09-08 10:58:03,296 - Parsed Final Answer: A. Yes, these are the same chord progression.
+2025-09-08 10:58:03,296 - Evaluation: Correct
+2025-09-08 10:58:03,297 - Total Correct: 5 out of 10
+2025-09-08 10:58:03,297 - === RUN END ===
+

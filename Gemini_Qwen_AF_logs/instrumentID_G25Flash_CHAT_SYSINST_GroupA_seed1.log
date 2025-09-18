@@ -1,0 +1,90 @@
+2025-09-05 20:12:42,147 - === RUN START (Instrument ID • CHAT+SysInst • SYSINST • GroupA) ===
+2025-09-05 20:12:42,147 - Config: model=gemini-2.5-flash, temp=1.0, seed=1, group=GroupA, log=instrumentID_G25Flash_CHAT_SYSINST_GroupA_seed1.log
+2025-09-05 20:12:42,159 - Using one persistent chat; examples and all trials share history and audio context.
+2025-09-05 20:12:44,904 - Confirmation response: Yes, I understand.
+2025-09-05 20:12:44,905 - 
+--- Task: Instrument Identification — CHAT+SysInst SYSINST • GroupA ---
+
+2025-09-05 20:12:44,905 - 
+--- Question 1 ---
+
+2025-09-05 20:12:44,905 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Dbmin_Scale_InvArch_Bass.wav
+2025-09-05 20:12:47,594 - [SYSINST/GroupA] Q1 - LLM Full Response:
+C. Bass
+2025-09-05 20:12:47,594 - Parsed Final Answer: C. Bass
+2025-09-05 20:12:47,594 - Evaluation: Correct
+2025-09-05 20:12:47,594 - 
+--- Question 2 ---
+
+2025-09-05 20:12:47,594 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Beat_2_140.wav
+2025-09-05 20:12:49,918 - [SYSINST/GroupA] Q2 - LLM Full Response:
+D. Drums
+2025-09-05 20:12:49,918 - Parsed Final Answer: D. Drums
+2025-09-05 20:12:49,918 - Evaluation: Correct
+2025-09-05 20:12:49,918 - 
+--- Question 3 ---
+
+2025-09-05 20:12:49,918 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Beat_4_140_34.wav
+2025-09-05 20:12:52,660 - [SYSINST/GroupA] Q3 - LLM Full Response:
+D. Drums
+2025-09-05 20:12:52,660 - Parsed Final Answer: D. Drums
+2025-09-05 20:12:52,660 - Evaluation: Correct
+2025-09-05 20:12:52,660 - 
+--- Question 4 ---
+
+2025-09-05 20:12:52,660 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Emin_Arp_Desc_Bass.wav
+2025-09-05 20:12:55,669 - [SYSINST/GroupA] Q4 - LLM Full Response:
+C. Bass
+2025-09-05 20:12:55,669 - Parsed Final Answer: C. Bass
+2025-09-05 20:12:55,669 - Evaluation: Correct
+2025-09-05 20:12:55,669 - 
+--- Question 5 ---
+
+2025-09-05 20:12:55,669 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Abmin_Arp_Asc_Bass.wav
+2025-09-05 20:12:59,338 - [SYSINST/GroupA] Q5 - LLM Full Response:
+C. Bass
+2025-09-05 20:12:59,338 - Parsed Final Answer: C. Bass
+2025-09-05 20:12:59,339 - Evaluation: Correct
+2025-09-05 20:12:59,339 - 
+--- Question 6 ---
+
+2025-09-05 20:12:59,339 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/DMaj_Arp_Desc.wav
+2025-09-05 20:13:03,284 - [SYSINST/GroupA] Q6 - LLM Full Response:
+B. Guitar
+2025-09-05 20:13:03,284 - Parsed Final Answer: B. Guitar
+2025-09-05 20:13:03,284 - Evaluation: Correct
+2025-09-05 20:13:03,284 - 
+--- Question 7 ---
+
+2025-09-05 20:13:03,284 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Abmajor_Piano_120.wav
+2025-09-05 20:13:08,018 - [SYSINST/GroupA] Q7 - LLM Full Response:
+B. Guitar
+2025-09-05 20:13:08,018 - Parsed Final Answer: B. Guitar
+2025-09-05 20:13:08,018 - Evaluation: Incorrect (expected=A. Piano)
+2025-09-05 20:13:08,018 - 
+--- Question 8 ---
+
+2025-09-05 20:13:08,018 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Eminor_Guitar_120.wav
+2025-09-05 20:13:12,445 - [SYSINST/GroupA] Q8 - LLM Full Response:
+B. Guitar
+2025-09-05 20:13:12,445 - Parsed Final Answer: B. Guitar
+2025-09-05 20:13:12,445 - Evaluation: Correct
+2025-09-05 20:13:12,445 - 
+--- Question 9 ---
+
+2025-09-05 20:13:12,445 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Bmaj_Scale_InvArch_Piano.wav
+2025-09-05 20:13:16,903 - [SYSINST/GroupA] Q9 - LLM Full Response:
+A. Piano
+2025-09-05 20:13:16,903 - Parsed Final Answer: A. Piano
+2025-09-05 20:13:16,903 - Evaluation: Correct
+2025-09-05 20:13:16,903 - 
+--- Question 10 ---
+
+2025-09-05 20:13:16,903 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Ebmin_Scale_Arch_Piano.wav
+2025-09-05 20:13:22,767 - [SYSINST/GroupA] Q10 - LLM Full Response:
+A. Piano
+2025-09-05 20:13:22,767 - Parsed Final Answer: A. Piano
+2025-09-05 20:13:22,767 - Evaluation: Correct
+2025-09-05 20:13:22,767 - Total Correct: 9 out of 10
+2025-09-05 20:13:22,767 - === RUN END ===
+

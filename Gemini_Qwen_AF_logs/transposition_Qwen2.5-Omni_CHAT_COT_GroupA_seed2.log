@@ -1,0 +1,120 @@
+2025-09-04 21:21:28,160 - === RUN START (Transposition • CHAT+SysInst • COT • GroupA) ===
+2025-09-04 21:21:28,161 - Config: model=Qwen/Qwen2.5-Omni-7B, temp=1.0, seed=2, group=GroupA, log=transposition_Qwen2.5-Omni_CHAT_COT_GroupA_seed2.log
+2025-09-04 21:21:38,195 - hf_device_map keys: [('thinker.audio_tower', 0), ('thinker.visual', 0), ('thinker.model.embed_tokens', 0), ('thinker.model.layers.0', 0), ('thinker.model.layers.1', 0), ('thinker.model.layers.2', 1)] ...
+2025-09-04 21:21:39,439 - Confirmation response: Yes, I understand.
+2025-09-04 21:21:39,440 - 
+--- Task: Melody Matching (Transposition) — CHAT+SysInst COT • GroupA ---
+
+2025-09-04 21:21:39,440 - 
+--- Question 1 ---
+
+2025-09-04 21:21:39,440 - Stimuli: file1=stimuli/M8_FMaj_95_Piano.wav, file2=stimuli/M9_Em_200_3_4_Piano.wav
+2025-09-04 21:21:45,158 - [COT/GroupA] Q1 - LLM Full Response:
+Step 1: Identify notes; sequences differ in structure.
+Step 2: Interval sequences do not align; there are insertions/deletions.
+Step 3: Thus not the same melody up to transposition.
+No, these are not the same melody.
+2025-09-04 21:21:45,159 - Parsed Final Answer: No, these are not the same melody.
+2025-09-04 21:21:45,159 - Evaluation: Correct
+2025-09-04 21:21:45,159 - 
+--- Question 2 ---
+
+2025-09-04 21:21:45,159 - Stimuli: file1=stimuli/M10_Fm_165_3_4.wav, file2=stimuli/M6_Bbm_120_Piano.wav
+2025-09-04 21:21:51,812 - [COT/GroupA] Q2 - LLM Full Response:
+Step 1: Identify notes; sequences differ in structure.
+Step 2: Interval sequences do not align; there are insertions/deletions.
+Step 3: Thus not the same melody up to transposition.
+No, these are not the same melody.
+2025-09-04 21:21:51,813 - Parsed Final Answer: No, these are not the same melody.
+2025-09-04 21:21:51,813 - Evaluation: Correct
+2025-09-04 21:21:51,813 - 
+--- Question 3 ---
+
+2025-09-04 21:21:51,813 - Stimuli: file1=stimuli/M2_Fm_155_3_4.wav, file2=stimuli/M3_DbMaj_78.wav
+2025-09-04 21:21:59,538 - [COT/GroupA] Q3 - LLM Full Response:
+Step 1: Identify notes; sequences differ in structure.
+Step 2: Interval sequences do not align; there are insertions/deletions.
+Step 3: Thus not the same melody up to transposition.
+No, these are not the same melody.
+2025-09-04 21:21:59,539 - Parsed Final Answer: No, these are not the same melody.
+2025-09-04 21:21:59,539 - Evaluation: Correct
+2025-09-04 21:21:59,539 - 
+--- Question 4 ---
+
+2025-09-04 21:21:59,539 - Stimuli: file1=stimuli/M3_DbMaj_78.wav, file2=stimuli/M3_GbMaj_78.wav
+2025-09-04 21:22:08,582 - [COT/GroupA] Q4 - LLM Full Response:
+Step 1: Identify notes; sequences differ in structure.
+Step 2: Interval sequences do not align; there are insertions/deletions.
+Step 3: Thus not the same melody up to transposition.
+No, these are not the same melody.
+2025-09-04 21:22:08,584 - Parsed Final Answer: No, these are not the same melody.
+2025-09-04 21:22:08,584 - Evaluation: Incorrect (expected=Yes, these are the same melody.)
+2025-09-04 21:22:08,584 - 
+--- Question 5 ---
+
+2025-09-04 21:22:08,584 - Stimuli: file1=stimuli/M9_Em_200_3_4_Piano.wav, file2=stimuli/M9_Gm_200_3_4_Piano.wav
+2025-09-04 21:22:20,200 - [COT/GroupA] Q5 - LLM Full Response:
+Step 1: Identify notes; sequences differ in structure.
+Step 2: Interval sequences do not align; there are insertions/deletions.
+Step 3: Thus not the same melody up to transposition.
+No, these are not the same melody.
+2025-09-04 21:22:20,201 - Parsed Final Answer: No, these are not the same melody.
+2025-09-04 21:22:20,201 - Evaluation: Incorrect (expected=Yes, these are the same melody.)
+2025-09-04 21:22:20,201 - 
+--- Question 6 ---
+
+2025-09-04 21:22:20,201 - Stimuli: file1=stimuli/M9_Gm_200_3_4_Piano.wav, file2=stimuli/M10_Dbm_165_3_4.wav
+2025-09-04 21:22:34,081 - [COT/GroupA] Q6 - LLM Full Response:
+Step 1: Identify notes; sequences differ in structure.
+Step 2: Interval sequences do not align; there are insertions/deletions.
+Step 3: Thus not the same melody up to transposition.
+No, these are not the same melody.
+2025-09-04 21:22:34,083 - Parsed Final Answer: No, these are not the same melody.
+2025-09-04 21:22:34,083 - Evaluation: Correct
+2025-09-04 21:22:34,083 - 
+--- Question 7 ---
+
+2025-09-04 21:22:34,083 - Stimuli: file1=stimuli/M2_Abm_155_3_4.wav, file2=stimuli/M2_Fm_155_3_4.wav
+2025-09-04 21:22:49,356 - [COT/GroupA] Q7 - LLM Full Response:
+Step 1: Identify notes; sequences differ in structure.
+Step 2: Interval sequences do not align; there are insertions/deletions.
+Step 3: Thus not the same melody up to transposition.
+No, these are not the same melody.
+2025-09-04 21:22:49,358 - Parsed Final Answer: No, these are not the same melody.
+2025-09-04 21:22:49,358 - Evaluation: Incorrect (expected=Yes, these are the same melody.)
+2025-09-04 21:22:49,358 - 
+--- Question 8 ---
+
+2025-09-04 21:22:49,359 - Stimuli: file1=stimuli/M10_Dbm_165_3_4.wav, file2=stimuli/M10_Fm_165_3_4.wav
+2025-09-04 21:23:06,534 - [COT/GroupA] Q8 - LLM Full Response:
+Step 1: Identify notes; sequences differ in structure.
+Step 2: Interval sequences do not align; there are insertions/deletions.
+Step 3: Thus not the same melody up to transposition.
+No, these are not the same melody.
+2025-09-04 21:23:06,536 - Parsed Final Answer: No, these are not the same melody.
+2025-09-04 21:23:06,536 - Evaluation: Incorrect (expected=Yes, these are the same melody.)
+2025-09-04 21:23:06,536 - 
+--- Question 9 ---
+
+2025-09-04 21:23:06,536 - Stimuli: file1=stimuli/M1_EbMaj_90.wav, file2=stimuli/M2_Abm_155_3_4.wav
+2025-09-04 21:23:24,754 - [COT/GroupA] Q9 - LLM Full Response:
+Step 1: Identify notes; sequences differ in structure.
+Step 2: Interval sequences do not align; there are insertions/deletions.
+Step 3: Thus not the same melody up to transposition.
+No, these are not the same melody.
+2025-09-04 21:23:24,757 - Parsed Final Answer: No, these are not the same melody.
+2025-09-04 21:23:24,757 - Evaluation: Correct
+2025-09-04 21:23:24,757 - 
+--- Question 10 ---
+
+2025-09-04 21:23:24,757 - Stimuli: file1=stimuli/M1_EbMaj_90.wav, file2=stimuli/M1_GMaj_90.wav
+2025-09-04 21:23:45,216 - [COT/GroupA] Q10 - LLM Full Response:
+Step 1: Identify notes; sequences differ in structure.
+Step 2: Interval sequences do not align; there are insertions/deletions.
+Step 3: Thus not the same melody up to transposition.
+No, these are not the same melody.
+2025-09-04 21:23:45,220 - Parsed Final Answer: No, these are not the same melody.
+2025-09-04 21:23:45,220 - Evaluation: Incorrect (expected=Yes, these are the same melody.)
+2025-09-04 21:23:45,220 - Total Correct: 5 out of 10
+2025-09-04 21:23:45,220 - === RUN END ===
+

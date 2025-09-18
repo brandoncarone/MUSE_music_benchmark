@@ -1,0 +1,100 @@
+2025-09-05 19:09:42,870 - === RUN START (Contour ID • CHAT+SysInst • COT • GroupB) ===
+2025-09-05 19:09:42,871 - Config: model=gemini-2.5-pro, temp=1.0, seed=2, group=GroupB, log=contourID_G25Pro_CHAT_COT_GroupB_seed2.log
+2025-09-05 19:09:42,882 - Using one persistent chat; examples and all trials share history and audio context.
+2025-09-05 19:09:47,464 - Confirmation response: Yes, I understand.
+2025-09-05 19:09:47,464 - 
+--- Task: Contour Identification — CHAT+SysInst COT • GroupB ---
+
+2025-09-05 19:09:47,465 - 
+--- Question 1 ---
+
+2025-09-05 19:09:47,465 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/GMaj_Arp_Asc.wav
+2025-09-05 19:09:56,141 - [COT/GroupB] Q1 - LLM Full Response:
+The melodic line starts on a low note and consistently moves upwards, ending on the highest pitch of the phrase. This is a clear overall ascending motion.
+C. Ascending (pitch raises over time)
+2025-09-05 19:09:56,141 - Parsed Final Answer: C. Ascending (pitch raises over time)
+2025-09-05 19:09:56,141 - Evaluation: Correct
+2025-09-05 19:09:56,141 - 
+--- Question 2 ---
+
+2025-09-05 19:09:56,141 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Emin_Arp_Desc_Bass.wav
+2025-09-05 19:10:04,028 - [COT/GroupB] Q2 - LLM Full Response:
+The melody starts on a relatively high note and moves consistently downward to end on a much lower note. The overall trend is clearly descending.
+D. Descending (pitch falls over time)
+2025-09-05 19:10:04,028 - Parsed Final Answer: D. Descending (pitch falls over time)
+2025-09-05 19:10:04,028 - Evaluation: Correct
+2025-09-05 19:10:04,028 - 
+--- Question 3 ---
+
+2025-09-05 19:10:04,028 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Bmin_Scale_InvArch_Piano.wav
+2025-09-05 19:10:08,623 - [COT/GroupB] Q3 - LLM Full Response:
+The melody starts on a high pitch, descends to a low point around the middle of the excerpt, and then ascends back up, ending on a high pitch. This fall-then-rise motion creates an Inverted Arch shape.
+B. Inverted Arch (descending and then ascending)
+2025-09-05 19:10:08,623 - Parsed Final Answer: B. Inverted Arch (descending and then ascending)
+2025-09-05 19:10:08,624 - Evaluation: Correct
+2025-09-05 19:10:08,624 - 
+--- Question 4 ---
+
+2025-09-05 19:10:08,624 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Dbmin_Scale_InvArch_Bass.wav
+2025-09-05 19:10:17,741 - [COT/GroupB] Q4 - LLM Full Response:
+The melody begins in a lower register and climbs steadily throughout the excerpt, ending on a significantly higher pitch. The global trend is clearly upward.
+C. Ascending (pitch raises over time)
+2025-09-05 19:10:17,741 - Parsed Final Answer: C. Ascending (pitch raises over time)
+2025-09-05 19:10:17,741 - Evaluation: Incorrect (expected=B. Inverted Arch (descending and then ascending))
+2025-09-05 19:10:17,741 - 
+--- Question 5 ---
+
+2025-09-05 19:10:17,741 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/AbMaj_Arp_Asc_Bass.wav
+2025-09-05 19:10:25,715 - [COT/GroupB] Q5 - LLM Full Response:
+The melody starts on a lower note and moves consistently upward, ending on the highest pitch of the phrase. This overall motion is ascending.
+C. Ascending (pitch raises over time)
+2025-09-05 19:10:25,715 - Parsed Final Answer: C. Ascending (pitch raises over time)
+2025-09-05 19:10:25,715 - Evaluation: Correct
+2025-09-05 19:10:25,716 - 
+--- Question 6 ---
+
+2025-09-05 19:10:25,716 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Dm_Arp_Desc.wav
+2025-09-05 19:10:33,442 - [COT/GroupB] Q6 - LLM Full Response:
+The melody begins on a high pitch and moves consistently downward, ending on the lowest note of the phrase. This constitutes a clear descending contour.
+D. Descending (pitch falls over time)
+2025-09-05 19:10:33,442 - Parsed Final Answer: D. Descending (pitch falls over time)
+2025-09-05 19:10:33,443 - Evaluation: Correct
+2025-09-05 19:10:33,443 - 
+--- Question 7 ---
+
+2025-09-05 19:10:33,443 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/FMaj_Scale_InvArch.wav
+2025-09-05 19:10:41,412 - [COT/GroupB] Q7 - LLM Full Response:
+The melody begins on a high note, descends to a distinct low point in the middle of the phrase, and then rises again to finish on a high note. This overall shape is a fall-then-rise pattern.
+B. Inverted Arch (descending and then ascending)
+2025-09-05 19:10:41,412 - Parsed Final Answer: B. Inverted Arch (descending and then ascending)
+2025-09-05 19:10:41,412 - Evaluation: Correct
+2025-09-05 19:10:41,412 - 
+--- Question 8 ---
+
+2025-09-05 19:10:41,412 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Gbmin_Arp_Desc_Piano.wav
+2025-09-05 19:10:48,216 - [COT/GroupB] Q8 - LLM Full Response:
+The melody starts on a high pitch and moves consistently downward, ending on the lowest note of the phrase. The overall trajectory is descending.
+D. Descending (pitch falls over time)
+2025-09-05 19:10:48,216 - Parsed Final Answer: D. Descending (pitch falls over time)
+2025-09-05 19:10:48,216 - Evaluation: Correct
+2025-09-05 19:10:48,216 - 
+--- Question 9 ---
+
+2025-09-05 19:10:48,216 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Ebmin_Scale_Arch_Piano.wav
+2025-09-05 19:10:57,105 - [COT/GroupB] Q9 - LLM Full Response:
+The melody begins on a low note, ascends scalewise to a clear peak in the middle of the excerpt, and then descends in a similar scalewise fashion to a low note. This rise-then-fall pattern is a classic example of an arch contour.
+A. Arch (ascending and then descending)
+2025-09-05 19:10:57,106 - Parsed Final Answer: A. Arch (ascending and then descending)
+2025-09-05 19:10:57,106 - Evaluation: Correct
+2025-09-05 19:10:57,106 - 
+--- Question 10 ---
+
+2025-09-05 19:10:57,106 - Stimulus: file=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/Cmin_Scale_Arch.wav
+2025-09-05 19:11:05,073 - [COT/GroupB] Q10 - LLM Full Response:
+The melody starts on a low note, ascends to a clear peak in the middle of the phrase, and then descends to end on a low note. This rise-then-fall motion clearly defines an arch shape.
+A. Arch (ascending and then descending)
+2025-09-05 19:11:05,073 - Parsed Final Answer: A. Arch (ascending and then descending)
+2025-09-05 19:11:05,073 - Evaluation: Correct
+2025-09-05 19:11:05,073 - Total Correct: 9 out of 10
+2025-09-05 19:11:05,073 - === RUN END ===
+

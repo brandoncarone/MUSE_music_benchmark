@@ -1,0 +1,105 @@
+2025-09-04 21:15:42,065 - === RUN START (Transposition • CHAT+SysInst • SYSINST • GroupB) ===
+2025-09-04 21:15:42,066 - Config: model=Qwen/Qwen2.5-Omni-7B, temp=1.0, seed=1, group=GroupB, log=transposition_Qwen2.5-Omni_CHAT_SYSINST_GroupB_seed1.log
+2025-09-04 21:15:52,585 - hf_device_map keys: [('thinker.audio_tower', 0), ('thinker.visual', 0), ('thinker.model.embed_tokens', 0), ('thinker.model.layers.0', 0), ('thinker.model.layers.1', 0), ('thinker.model.layers.2', 1)] ...
+2025-09-04 21:15:52,646 - --- Example 1: Same Melody ---
+2025-09-04 21:15:52,646 - Example 1 - Stimuli: stimuli/M11_CMaj_180_Piano.wav, stimuli/M11_EMaj_180_Piano.wav
+2025-09-04 21:15:52,646 - --- Example 2: Different Melody ---
+2025-09-04 21:15:52,646 - Example 2 - Stimuli: stimuli/M11_EMaj_180_Piano.wav, stimuli/M12_FMaj_155_Piano.wav
+2025-09-04 21:15:52,647 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-04 21:15:53,671 - Confirmation response: Yes, I understand.
+2025-09-04 21:15:53,671 - 
+--- Task: Melody Matching (Transposition) — CHAT+SysInst SYSINST • GroupB ---
+
+2025-09-04 21:15:53,672 - 
+--- Question 1 ---
+
+2025-09-04 21:15:53,672 - Stimuli: file1=stimuli/M6_Cm_120_Piano.wav, file2=stimuli/M7_CMaj_140_Piano.wav
+2025-09-04 21:15:53,732 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-04 21:15:55,361 - [SYSINST/GroupB] Q1 - LLM Full Response:
+No, these are not the same melody.
+2025-09-04 21:15:55,362 - Parsed Final Answer: No, these are not the same melody.
+2025-09-04 21:15:55,362 - Evaluation: Correct
+2025-09-04 21:15:55,362 - 
+--- Question 2 ---
+
+2025-09-04 21:15:55,362 - Stimuli: file1=stimuli/M7_DbMaj_140_Piano.wav, file2=stimuli/M8_AbMaj_95_Piano.wav
+2025-09-04 21:15:55,412 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-04 21:15:57,544 - [SYSINST/GroupB] Q2 - LLM Full Response:
+Yes, these are the same melody.
+2025-09-04 21:15:57,544 - Parsed Final Answer: Yes, these are the same melody.
+2025-09-04 21:15:57,544 - Evaluation: Incorrect (expected=No, these are not the same melody.)
+2025-09-04 21:15:57,544 - 
+--- Question 3 ---
+
+2025-09-04 21:15:57,544 - Stimuli: file1=stimuli/M8_AbMaj_95_Piano.wav, file2=stimuli/M8_FMaj_95_Piano.wav
+2025-09-04 21:15:57,583 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-04 21:16:00,744 - [SYSINST/GroupB] Q3 - LLM Full Response:
+No, these are not the same melody.
+2025-09-04 21:16:00,744 - Parsed Final Answer: No, these are not the same melody.
+2025-09-04 21:16:00,744 - Evaluation: Incorrect (expected=Yes, these are the same melody.)
+2025-09-04 21:16:00,744 - 
+--- Question 4 ---
+
+2025-09-04 21:16:00,744 - Stimuli: file1=stimuli/M7_CMaj_140_Piano.wav, file2=stimuli/M7_DbMaj_140_Piano.wav
+2025-09-04 21:16:00,760 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-04 21:16:04,346 - [SYSINST/GroupB] Q4 - LLM Full Response:
+No, these are not the same melody.
+2025-09-04 21:16:04,347 - Parsed Final Answer: No, these are not the same melody.
+2025-09-04 21:16:04,347 - Evaluation: Incorrect (expected=Yes, these are the same melody.)
+2025-09-04 21:16:04,347 - 
+--- Question 5 ---
+
+2025-09-04 21:16:04,347 - Stimuli: file1=stimuli/M6_Cm_120_Piano.wav, file2=stimuli/M6_Bbm_120_Piano.wav
+2025-09-04 21:16:04,411 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-04 21:16:08,668 - [SYSINST/GroupB] Q5 - LLM Full Response:
+No, these are not the same melody.
+2025-09-04 21:16:08,669 - Parsed Final Answer: No, these are not the same melody.
+2025-09-04 21:16:08,669 - Evaluation: Incorrect (expected=Yes, these are the same melody.)
+2025-09-04 21:16:08,669 - 
+--- Question 6 ---
+
+2025-09-04 21:16:08,669 - Stimuli: file1=stimuli/M5_Bm_100.wav, file2=stimuli/M5_Dm_100.wav
+2025-09-04 21:16:08,685 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-04 21:16:13,841 - [SYSINST/GroupB] Q6 - LLM Full Response:
+Yes, these are the same melody.
+2025-09-04 21:16:13,841 - Parsed Final Answer: Yes, these are the same melody.
+2025-09-04 21:16:13,841 - Evaluation: Correct
+2025-09-04 21:16:13,842 - 
+--- Question 7 ---
+
+2025-09-04 21:16:13,842 - Stimuli: file1=stimuli/M3_GbMaj_78.wav, file2=stimuli/M4_AMaj_130.wav
+2025-09-04 21:16:13,916 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-04 21:16:20,266 - [SYSINST/GroupB] Q7 - LLM Full Response:
+No, these are not the same melody.
+2025-09-04 21:16:20,267 - Parsed Final Answer: No, these are not the same melody.
+2025-09-04 21:16:20,267 - Evaluation: Correct
+2025-09-04 21:16:20,267 - 
+--- Question 8 ---
+
+2025-09-04 21:16:20,267 - Stimuli: file1=stimuli/M5_Dm_100.wav, file2=stimuli/M1_GMaj_90.wav
+2025-09-04 21:16:20,282 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-04 21:16:28,011 - [SYSINST/GroupB] Q8 - LLM Full Response:
+No, these are not the same melody.
+2025-09-04 21:16:28,012 - Parsed Final Answer: No, these are not the same melody.
+2025-09-04 21:16:28,012 - Evaluation: Correct
+2025-09-04 21:16:28,012 - 
+--- Question 9 ---
+
+2025-09-04 21:16:28,012 - Stimuli: file1=stimuli/M4_AMaj_130.wav, file2=stimuli/M4_EMaj_130.wav
+2025-09-04 21:16:28,053 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-04 21:16:37,358 - [SYSINST/GroupB] Q9 - LLM Full Response:
+No, these are not the same melody.
+2025-09-04 21:16:37,360 - Parsed Final Answer: No, these are not the same melody.
+2025-09-04 21:16:37,360 - Evaluation: Incorrect (expected=Yes, these are the same melody.)
+2025-09-04 21:16:37,360 - 
+--- Question 10 ---
+
+2025-09-04 21:16:37,360 - Stimuli: file1=stimuli/M4_EMaj_130.wav, file2=stimuli/M5_Bm_100.wav
+2025-09-04 21:16:37,377 - System prompt modified, audio output may not work as expected. Audio output mode only works when using default system prompt 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+2025-09-04 21:16:48,444 - [SYSINST/GroupB] Q10 - LLM Full Response:
+No, these are not the same melody.
+2025-09-04 21:16:48,446 - Parsed Final Answer: No, these are not the same melody.
+2025-09-04 21:16:48,446 - Evaluation: Correct
+2025-09-04 21:16:48,446 - Total Correct: 5 out of 10
+2025-09-04 21:16:48,446 - === RUN END ===
+

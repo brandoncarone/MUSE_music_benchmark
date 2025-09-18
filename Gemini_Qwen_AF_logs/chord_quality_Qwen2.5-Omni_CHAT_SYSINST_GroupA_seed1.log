@@ -1,0 +1,99 @@
+2025-09-07 22:41:06,172 - === RUN START (Chord Quality • CHAT+SysInst • SYSINST • GroupA) ===
+2025-09-07 22:41:06,172 - Config: model=Qwen/Qwen2.5-Omni-7B, temp=1.0, seed=1, group=GroupA, log=chord_quality_Qwen2.5-Omni_CHAT_SYSINST_GroupA_seed1.log
+2025-09-07 22:41:27,979 - Confirmation response: Yes, I understand.
+2025-09-07 22:41:27,979 - 
+--- Task: Chord Quality (Major vs Minor) — CHAT+SysInst SYSINST • GroupA ---
+
+2025-09-07 22:41:27,979 - 
+--- Question 1 ---
+
+2025-09-07 22:41:27,979 - Stimulus: file=stimuli/Dminor_Guitar_120.wav
+2025-09-07 22:41:29,267 - [SYSINST/GroupA] Q1 - LLM Full Response:
+B. Minor
+2025-09-07 22:41:29,267 - Parsed Final Answer: B. Minor
+2025-09-07 22:41:29,267 - Expected Final Answer: B. Minor
+2025-09-07 22:41:29,267 - Evaluation: Correct
+2025-09-07 22:41:29,267 - 
+--- Question 2 ---
+
+2025-09-07 22:41:29,267 - Stimulus: file=stimuli/Cminor_Guitar_120.wav
+2025-09-07 22:41:30,755 - [SYSINST/GroupA] Q2 - LLM Full Response:
+A. Major
+2025-09-07 22:41:30,756 - Parsed Final Answer: A. Major
+2025-09-07 22:41:30,756 - Expected Final Answer: B. Minor
+2025-09-07 22:41:30,756 - Evaluation: Incorrect (expected=B. Minor)
+2025-09-07 22:41:30,756 - 
+--- Question 3 ---
+
+2025-09-07 22:41:30,756 - Stimulus: file=stimuli/Ebminor_Piano_120.wav
+2025-09-07 22:41:32,654 - [SYSINST/GroupA] Q3 - LLM Full Response:
+B. Minor
+2025-09-07 22:41:32,654 - Parsed Final Answer: B. Minor
+2025-09-07 22:41:32,654 - Expected Final Answer: B. Minor
+2025-09-07 22:41:32,654 - Evaluation: Correct
+2025-09-07 22:41:32,654 - 
+--- Question 4 ---
+
+2025-09-07 22:41:32,654 - Stimulus: file=stimuli/Gbminor_Piano_120.wav
+2025-09-07 22:41:34,835 - [SYSINST/GroupA] Q4 - LLM Full Response:
+A. Major
+2025-09-07 22:41:34,835 - Parsed Final Answer: A. Major
+2025-09-07 22:41:34,835 - Expected Final Answer: B. Minor
+2025-09-07 22:41:34,835 - Evaluation: Incorrect (expected=B. Minor)
+2025-09-07 22:41:34,835 - 
+--- Question 5 ---
+
+2025-09-07 22:41:34,835 - Stimulus: file=stimuli/Abminor_Piano_120.wav
+2025-09-07 22:41:37,420 - [SYSINST/GroupA] Q5 - LLM Full Response:
+A. Major
+2025-09-07 22:41:37,420 - Parsed Final Answer: A. Major
+2025-09-07 22:41:37,420 - Expected Final Answer: B. Minor
+2025-09-07 22:41:37,420 - Evaluation: Incorrect (expected=B. Minor)
+2025-09-07 22:41:37,420 - 
+--- Question 6 ---
+
+2025-09-07 22:41:37,420 - Stimulus: file=stimuli/Dbmajor_Piano_120.wav
+2025-09-07 22:41:40,400 - [SYSINST/GroupA] Q6 - LLM Full Response:
+B. Minor
+2025-09-07 22:41:40,400 - Parsed Final Answer: B. Minor
+2025-09-07 22:41:40,400 - Expected Final Answer: A. Major
+2025-09-07 22:41:40,400 - Evaluation: Incorrect (expected=A. Major)
+2025-09-07 22:41:40,400 - 
+--- Question 7 ---
+
+2025-09-07 22:41:40,400 - Stimulus: file=stimuli/Amajor_Guitar_120.wav
+2025-09-07 22:41:43,949 - [SYSINST/GroupA] Q7 - LLM Full Response:
+B. Minor
+2025-09-07 22:41:43,949 - Parsed Final Answer: B. Minor
+2025-09-07 22:41:43,949 - Expected Final Answer: A. Major
+2025-09-07 22:41:43,949 - Evaluation: Incorrect (expected=A. Major)
+2025-09-07 22:41:43,949 - 
+--- Question 8 ---
+
+2025-09-07 22:41:43,950 - Stimulus: file=stimuli/Cmajor_Guitar_120.wav
+2025-09-07 22:41:47,900 - [SYSINST/GroupA] Q8 - LLM Full Response:
+B. Minor
+2025-09-07 22:41:47,900 - Parsed Final Answer: B. Minor
+2025-09-07 22:41:47,900 - Expected Final Answer: A. Major
+2025-09-07 22:41:47,900 - Evaluation: Incorrect (expected=A. Major)
+2025-09-07 22:41:47,900 - 
+--- Question 9 ---
+
+2025-09-07 22:41:47,900 - Stimulus: file=stimuli/Gbmajor_Piano_120.wav
+2025-09-07 22:41:52,416 - [SYSINST/GroupA] Q9 - LLM Full Response:
+B. Minor
+2025-09-07 22:41:52,417 - Parsed Final Answer: B. Minor
+2025-09-07 22:41:52,417 - Expected Final Answer: A. Major
+2025-09-07 22:41:52,417 - Evaluation: Incorrect (expected=A. Major)
+2025-09-07 22:41:52,417 - 
+--- Question 10 ---
+
+2025-09-07 22:41:52,417 - Stimulus: file=stimuli/Bmajor_Guitar_120.wav
+2025-09-07 22:41:57,536 - [SYSINST/GroupA] Q10 - LLM Full Response:
+B. Minor
+2025-09-07 22:41:57,536 - Parsed Final Answer: B. Minor
+2025-09-07 22:41:57,537 - Expected Final Answer: A. Major
+2025-09-07 22:41:57,537 - Evaluation: Incorrect (expected=A. Major)
+2025-09-07 22:41:57,537 - Total Correct: 2 out of 10
+2025-09-07 22:41:57,537 - === RUN END ===
+

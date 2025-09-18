@@ -1,0 +1,207 @@
+2025-09-05 20:54:39,913 - === RUN START (Oddball Detection • CHAT+SysInst • COT • GroupB) ===
+2025-09-05 20:54:39,914 - Config: model=gemini-2.5-flash, temp=1.0, seed=1, group=GroupB, log=oddballs_G25Flash_CHAT_COT_GroupB_seed1.log
+2025-09-05 20:54:39,924 - Using one persistent chat; examples and all trials share history and audio context.
+2025-09-05 20:54:42,485 - Confirmation response: Yes, I understand.
+2025-09-05 20:54:42,486 - 
+--- Task: Oddball Detection — CHAT+SysInst COT • GroupB ---
+
+2025-09-05 20:54:42,486 - 
+--- Question 1 ---
+
+2025-09-05 20:54:42,486 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/M6_Cm_120_Piano.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/M6_Odd_Cm_120_Piano.wav
+2025-09-05 20:54:47,935 - [COT/GroupB] Q1 - LLM Full Response:
+Step 1: Identify the monophonic note sequence for both audios.
+Audio 1: C4, G4, F4, E4, D4, C4
+Audio 2: C4, G4, F4, E4, D4, C4
+
+Step 2: Align the two sequences and compare pitches.
+All corresponding notes match exactly in pitch.
+
+Step 3: Decision rule application.
+Since all pitches match exactly at corresponding positions, there is no oddball present.
+
+Yes, these are the same exact melody.
+2025-09-05 20:54:47,935 - Parsed Final Answer: Yes, these are the same exact melody.
+2025-09-05 20:54:47,935 - Evaluation: Incorrect (expected=No, these are not the same exact melody.)
+2025-09-05 20:54:47,935 - 
+--- Question 2 ---
+
+2025-09-05 20:54:47,935 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/M7_CMaj_140_Piano.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/M7_Odd_CMaj_140_Piano.wav
+2025-09-05 20:54:52,532 - [COT/GroupB] Q2 - LLM Full Response:
+Step 1: Identify the monophonic note sequence for both audios.
+Audio 1: C5, E5, D5, C5, B4, A4, G4
+Audio 2: C5, E5, D5, C5, B4, A4, G4
+
+Step 2: Align the two sequences and compare pitches.
+All corresponding notes match exactly in pitch.
+
+Step 3: Decision rule application.
+Since all pitches match exactly at corresponding positions, there is no oddball present.
+
+Yes, these are the same exact melody.
+2025-09-05 20:54:52,532 - Parsed Final Answer: Yes, these are the same exact melody.
+2025-09-05 20:54:52,532 - Evaluation: Incorrect (expected=No, these are not the same exact melody.)
+2025-09-05 20:54:52,532 - 
+--- Question 3 ---
+
+2025-09-05 20:54:52,532 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/M8_FMaj_95_Piano.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/M8_FMaj_95_Piano.wav
+2025-09-05 20:54:57,611 - [COT/GroupB] Q3 - LLM Full Response:
+Step 1: Identify the monophonic note sequence for both audios.
+Audio 1: D5, C5, Bb4, A4, G4, F4, E4, D4, C4
+Audio 2: D5, C5, Bb4, A4, G4, F4, E4, D4, C4
+
+Step 2: Align the two sequences and compare pitches.
+All corresponding notes match exactly in pitch.
+
+Step 3: Decision rule application.
+Since all pitches match exactly at corresponding positions, there is no oddball present.
+
+Yes, these are the same exact melody.
+2025-09-05 20:54:57,611 - Parsed Final Answer: Yes, these are the same exact melody.
+2025-09-05 20:54:57,611 - Evaluation: Correct
+2025-09-05 20:54:57,611 - 
+--- Question 4 ---
+
+2025-09-05 20:54:57,611 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/M7_CMaj_140_Piano.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/M7_CMaj_140_Piano.wav
+2025-09-05 20:55:03,395 - [COT/GroupB] Q4 - LLM Full Response:
+Step 1: Identify the monophonic note sequence for both audios.
+Audio 1: C5, E5, D5, C5, B4, A4, G4
+Audio 2: C5, E5, D5, C5, B4, A4, G4
+
+Step 2: Align the two sequences and compare pitches.
+All corresponding notes match exactly in pitch.
+
+Step 3: Decision rule application.
+Since all pitches match exactly at corresponding positions, there is no oddball present.
+
+Yes, these are the same exact melody.
+2025-09-05 20:55:03,395 - Parsed Final Answer: Yes, these are the same exact melody.
+2025-09-05 20:55:03,395 - Evaluation: Correct
+2025-09-05 20:55:03,395 - 
+--- Question 5 ---
+
+2025-09-05 20:55:03,395 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/M6_Cm_120_Piano.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/M6_Cm_120_Piano.wav
+2025-09-05 20:55:13,488 - [COT/GroupB] Q5 - LLM Full Response:
+Step 1: Identify the monophonic note sequence for both audios.
+Audio 1: C4, G4, F4, E4, D4, C4
+Audio 2: C4, G4, F4, E4, D4, C4
+
+Step 2: Align the two sequences and compare pitches.
+All corresponding notes match exactly in pitch.
+
+Step 3: Decision rule application.
+Since all pitches match exactly at corresponding positions, there is no oddball present.
+
+Yes, these are the same exact melody.
+2025-09-05 20:55:13,488 - Parsed Final Answer: Yes, these are the same exact melody.
+2025-09-05 20:55:13,488 - Evaluation: Correct
+2025-09-05 20:55:13,489 - 
+--- Question 6 ---
+
+2025-09-05 20:55:13,489 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/M5_Dm_100.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/M5_Dm_100.wav
+2025-09-05 20:55:19,997 - [COT/GroupB] Q6 - LLM Full Response:
+Step 1: Identify the monophonic note sequence for both audios.
+Audio 1: F#4, E4, D#4, C#4, B3, A#3, G#3
+Audio 2: F#4, E4, D#4, C#4, B3, A#3, G#3
+
+Step 2: Align the two sequences and compare pitches.
+All corresponding notes match exactly in pitch.
+
+Step 3: Decision rule application.
+Since all pitches match exactly at corresponding positions, there is no oddball present.
+
+Yes, these are the same exact melody.
+2025-09-05 20:55:19,997 - Parsed Final Answer: Yes, these are the same exact melody.
+2025-09-05 20:55:19,997 - Evaluation: Correct
+2025-09-05 20:55:19,997 - 
+--- Question 7 ---
+
+2025-09-05 20:55:19,997 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/M3_DbMaj_78.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/M3_Odd_DbMaj_78.wav
+2025-09-05 20:55:27,822 - [COT/GroupB] Q7 - LLM Full Response:
+Step 1: Identify the monophonic note sequence for both audios.
+Audio 1: F#3, B3, F#3, B3, E4, F#4, G#4, A4, B4
+Audio 2: F#3, B3, F#3, B3, E4, G#4, A4, B4, C#5
+
+Step 2: Align the two sequences and compare pitches.
+- Note 1: F#3 (Match)
+- Note 2: B3 (Match)
+- Note 3: F#3 (Match)
+- Note 4: B3 (Match)
+- Note 5: E4 (Match)
+- Note 6: Audio 1 has F#4, Audio 2 has G#4 (Mismatch - Oddball)
+- Note 7: Audio 1 has G#4, Audio 2 has A4 (Mismatch - Oddball)
+- Note 8: Audio 1 has A4, Audio 2 has B4 (Mismatch - Oddball)
+- Note 9: Audio 1 has B4, Audio 2 has C#5 (Mismatch - Oddball)
+
+Step 3: Decision rule application.
+Multiple pitches differ at corresponding positions. Therefore, an oddball is present, and the melodies are not the same.
+
+No, these are not the same exact melody.
+2025-09-05 20:55:27,823 - Parsed Final Answer: No, these are not the same exact melody.
+2025-09-05 20:55:27,823 - Evaluation: Correct
+2025-09-05 20:55:27,823 - 
+--- Question 8 ---
+
+2025-09-05 20:55:27,823 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/M5_Dm_100.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/M5_Odd_Dm_100.wav
+2025-09-05 20:55:37,203 - [COT/GroupB] Q8 - LLM Full Response:
+Step 1: Identify the monophonic note sequence for both audios.
+Audio 1: F#4, E4, D#4, C#4, B3, A#3, G#3
+Audio 2: F#4, E4, D4, C4, B3, A3, G3
+
+Step 2: Align the two sequences and compare pitches.
+- Note 1: F#4 (Audio 1) vs F#4 (Audio 2) - Match
+- Note 2: E4 (Audio 1) vs E4 (Audio 2) - Match
+- Note 3: D#4 (Audio 1) vs D4 (Audio 2) - Mismatch (Oddball)
+- Note 4: C#4 (Audio 1) vs C4 (Audio 2) - Mismatch (Oddball)
+- Note 5: B3 (Audio 1) vs B3 (Audio 2) - Match
+- Note 6: A#3 (Audio 1) vs A3 (Audio 2) - Mismatch (Oddball)
+- Note 7: G#3 (Audio 1) vs G3 (Audio 2) - Mismatch (Oddball)
+
+Step 3: Decision rule application.
+Multiple pitches differ at corresponding positions. Therefore, an oddball is present, and the melodies are not the same.
+
+No, these are not the same exact melody.
+2025-09-05 20:55:37,203 - Parsed Final Answer: No, these are not the same exact melody.
+2025-09-05 20:55:37,204 - Evaluation: Correct
+2025-09-05 20:55:37,204 - 
+--- Question 9 ---
+
+2025-09-05 20:55:37,204 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/M4_EMaj_130.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/M4_EMaj_130.wav
+2025-09-05 20:55:46,847 - [COT/GroupB] Q9 - LLM Full Response:
+Step 1: Identify the monophonic note sequence for both audios.
+Audio 1: D5, C5, Bb4, A4, G4, F4, E4, D4, C4
+Audio 2: D5, C5, Bb4, A4, G4, F4, E4, D4, C4
+
+Step 2: Align the two sequences and compare pitches.
+All corresponding notes match exactly in pitch.
+
+Step 3: Decision rule application.
+Since all pitches match exactly at corresponding positions, there is no oddball present.
+
+Yes, these are the same exact melody.
+2025-09-05 20:55:46,847 - Parsed Final Answer: Yes, these are the same exact melody.
+2025-09-05 20:55:46,847 - Evaluation: Correct
+2025-09-05 20:55:46,847 - 
+--- Question 10 ---
+
+2025-09-05 20:55:46,847 - Stimuli: file1=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/M4_EMaj_130.wav, file2=/Users/bcarone/PycharmProjects/GeminiAPI/stimuli/M4_Odd_EMaj_130.wav
+2025-09-05 20:55:57,931 - [COT/GroupB] Q10 - LLM Full Response:
+Step 1: Identify the monophonic note sequence for both audios.
+Audio 1: D5, C5, Bb4, A4, G4, F4, E4, D4, C4
+Audio 2: D5, C5, B4, A4, G4, F4, E4, D4, C4
+
+Step 2: Align the two sequences and compare pitches.
+- Note 1 (D5): Match
+- Note 2 (C5): Match
+- Note 3 (Bb4 in Audio 1 vs B4 in Audio 2): Mismatch. Audio 2 has a natural B, which is an oddball compared to the Bb in Audio 1.
+- The remaining notes in the sequence match.
+
+Step 3: Decision rule application.
+Since at least one pitch (Bb4 vs B4) differs at a corresponding position, an oddball is present, and the melodies are not the same.
+
+No, these are not the same exact melody.
+2025-09-05 20:55:57,931 - Parsed Final Answer: No, these are not the same exact melody.
+2025-09-05 20:55:57,931 - Evaluation: Correct
+2025-09-05 20:55:57,932 - Total Correct: 8 out of 10
+2025-09-05 20:55:57,932 - === RUN END ===
+

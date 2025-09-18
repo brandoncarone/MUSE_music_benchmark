@@ -1,0 +1,99 @@
+2025-09-07 22:44:49,666 - === RUN START (Chord Quality • CHAT+SysInst • SYSINST • GroupB) ===
+2025-09-07 22:44:49,667 - Config: model=Qwen/Qwen2.5-Omni-7B, temp=1.0, seed=3, group=GroupB, log=chord_quality_Qwen2.5-Omni_CHAT_SYSINST_GroupB_seed3.log
+2025-09-07 22:45:02,252 - Confirmation response: Yes, I understand.
+2025-09-07 22:45:02,253 - 
+--- Task: Chord Quality (Major vs Minor) — CHAT+SysInst SYSINST • GroupB ---
+
+2025-09-07 22:45:02,253 - 
+--- Question 1 ---
+
+2025-09-07 22:45:02,253 - Stimulus: file=stimuli/Gmajor_Guitar_120.wav
+2025-09-07 22:45:03,244 - [SYSINST/GroupB] Q1 - LLM Full Response:
+B. Minor
+2025-09-07 22:45:03,245 - Parsed Final Answer: B. Minor
+2025-09-07 22:45:03,245 - Expected Final Answer: A. Major
+2025-09-07 22:45:03,245 - Evaluation: Incorrect (expected=A. Major)
+2025-09-07 22:45:03,245 - 
+--- Question 2 ---
+
+2025-09-07 22:45:03,245 - Stimulus: file=stimuli/Gminor_Guitar_120.wav
+2025-09-07 22:45:04,472 - [SYSINST/GroupB] Q2 - LLM Full Response:
+A. Major
+2025-09-07 22:45:04,472 - Parsed Final Answer: A. Major
+2025-09-07 22:45:04,472 - Expected Final Answer: B. Minor
+2025-09-07 22:45:04,472 - Evaluation: Incorrect (expected=B. Minor)
+2025-09-07 22:45:04,472 - 
+--- Question 3 ---
+
+2025-09-07 22:45:04,472 - Stimulus: file=stimuli/Dbminor_Piano_120.wav
+2025-09-07 22:45:06,014 - [SYSINST/GroupB] Q3 - LLM Full Response:
+A. Major
+2025-09-07 22:45:06,015 - Parsed Final Answer: A. Major
+2025-09-07 22:45:06,015 - Expected Final Answer: B. Minor
+2025-09-07 22:45:06,015 - Evaluation: Incorrect (expected=B. Minor)
+2025-09-07 22:45:06,015 - 
+--- Question 4 ---
+
+2025-09-07 22:45:06,015 - Stimulus: file=stimuli/Bbmajor_Piano_120.wav
+2025-09-07 22:45:07,887 - [SYSINST/GroupB] Q4 - LLM Full Response:
+B. Minor
+2025-09-07 22:45:07,888 - Parsed Final Answer: B. Minor
+2025-09-07 22:45:07,888 - Expected Final Answer: A. Major
+2025-09-07 22:45:07,888 - Evaluation: Incorrect (expected=A. Major)
+2025-09-07 22:45:07,888 - 
+--- Question 5 ---
+
+2025-09-07 22:45:07,888 - Stimulus: file=stimuli/Eminor_Guitar_120.wav
+2025-09-07 22:45:10,353 - [SYSINST/GroupB] Q5 - LLM Full Response:
+B. Minor
+2025-09-07 22:45:10,354 - Parsed Final Answer: B. Minor
+2025-09-07 22:45:10,354 - Expected Final Answer: B. Minor
+2025-09-07 22:45:10,354 - Evaluation: Correct
+2025-09-07 22:45:10,354 - 
+--- Question 6 ---
+
+2025-09-07 22:45:10,354 - Stimulus: file=stimuli/Ebmajor_Piano_120.wav
+2025-09-07 22:45:13,234 - [SYSINST/GroupB] Q6 - LLM Full Response:
+A. Major
+2025-09-07 22:45:13,234 - Parsed Final Answer: A. Major
+2025-09-07 22:45:13,234 - Expected Final Answer: A. Major
+2025-09-07 22:45:13,234 - Evaluation: Correct
+2025-09-07 22:45:13,234 - 
+--- Question 7 ---
+
+2025-09-07 22:45:13,234 - Stimulus: file=stimuli/Bminor_Guitar_120.wav
+2025-09-07 22:45:16,427 - [SYSINST/GroupB] Q7 - LLM Full Response:
+B. Minor
+2025-09-07 22:45:16,427 - Parsed Final Answer: B. Minor
+2025-09-07 22:45:16,427 - Expected Final Answer: B. Minor
+2025-09-07 22:45:16,427 - Evaluation: Correct
+2025-09-07 22:45:16,427 - 
+--- Question 8 ---
+
+2025-09-07 22:45:16,427 - Stimulus: file=stimuli/Fmajor_Piano_120.wav
+2025-09-07 22:45:20,091 - [SYSINST/GroupB] Q8 - LLM Full Response:
+A. Major
+2025-09-07 22:45:20,091 - Parsed Final Answer: A. Major
+2025-09-07 22:45:20,091 - Expected Final Answer: A. Major
+2025-09-07 22:45:20,091 - Evaluation: Correct
+2025-09-07 22:45:20,091 - 
+--- Question 9 ---
+
+2025-09-07 22:45:20,091 - Stimulus: file=stimuli/Fminor_Piano_120.wav
+2025-09-07 22:45:24,307 - [SYSINST/GroupB] Q9 - LLM Full Response:
+B. Minor
+2025-09-07 22:45:24,308 - Parsed Final Answer: B. Minor
+2025-09-07 22:45:24,308 - Expected Final Answer: B. Minor
+2025-09-07 22:45:24,308 - Evaluation: Correct
+2025-09-07 22:45:24,308 - 
+--- Question 10 ---
+
+2025-09-07 22:45:24,308 - Stimulus: file=stimuli/Dmajor_Guitar_120.wav
+2025-09-07 22:45:29,263 - [SYSINST/GroupB] Q10 - LLM Full Response:
+A. Major
+2025-09-07 22:45:29,264 - Parsed Final Answer: A. Major
+2025-09-07 22:45:29,264 - Expected Final Answer: A. Major
+2025-09-07 22:45:29,264 - Evaluation: Correct
+2025-09-07 22:45:29,264 - Total Correct: 6 out of 10
+2025-09-07 22:45:29,264 - === RUN END ===
+
