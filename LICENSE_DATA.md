@@ -33,7 +33,7 @@ You are **not allowed** to:
 ## Citation
 If you use this dataset in academic or research work, please cite:  
 ```
-Carone, B. J. (2025). THE MUSE BENCHMARK: PROBING MUSIC PERCEPTION AND AUDITORY RELATIONAL REASONING IN AUDIO LLMS. GitHub repository. https://github.com/[your_repo]
+Carone, B. J. (2025). THE MUSE BENCHMARK: PROBING MUSIC PERCEPTION AND AUDITORY RELATIONAL REASONING IN AUDIO LLMS. GitHub repository. https://github.com/brandoncarone/MUSE_music_benchmark
 ```
 
 ---
