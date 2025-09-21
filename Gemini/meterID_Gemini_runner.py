@@ -19,7 +19,7 @@ from google.genai import types
 # Constants / paths
 # =============================
 # Preserve canonical root; _ppath below will map "stimuli/..." to this absolute root.
-STIM_ROOT = "/Users/bcarone/PycharmProjects/GeminiAPI/stimuli"
+STIM_ROOT = "/stimuli"
 MAX_NEW_TOKENS = 8192
 
 # Canonical answer strings and robust patterns (strict but case-insensitive)
