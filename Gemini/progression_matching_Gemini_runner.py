@@ -18,7 +18,7 @@ from google.genai import types
 # =============================
 # Constants / paths
 # =============================
-STIM_ROOT = "/Users/bcarone/PycharmProjects/GeminiAPI/stimuli"
+STIM_ROOT = "/stimuli"
 MAX_NEW_TOKENS = 8192
 
 # Canonical answer strings and robust patterns (accept both A/B format and bare Yes/No)
