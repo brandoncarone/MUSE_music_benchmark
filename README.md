@@ -64,12 +64,11 @@ Gemini/                  # Gemini 2.5 Pro / Flash runners — stateful chat; SYS
 Qwen2.5-Omni/            # Qwen2.5‑Omni runners — stateful chat; CoT-aligned prompts
 Gemini_Qwen_AF_logs/     # Log summarizers, accuracy aggregation utilities
 stimuli/                 # Audio WAV stimuli (canonical root expected by all runners)
+fig1_muse_radar.png     
+tableA.png             
+tableB.png
 README.md
-.gitignore
-figs/
-  ├── fig1_muse_radar.png            # (add)
-  ├── tableA.png                     # (add)
-  └── tableB.png                     # (add)
+.gitignore               
 
 > Keep the **stimuli/** root and runner filenames unchanged to preserve the evaluation pipeline and parsers.
 ```
@@ -127,13 +126,13 @@ Logs will appear in your working directory following the naming convention above
 ## Results (high-level, paper-aligned)
 
 - **Overall (Fig. 1)**: Gemini 2.5 **Pro** generally leads; **Flash** is close; **Qwen2.5‑Omni** is competitive on several tasks but trails on structure‑heavy ones; **humans/musicians** set the ceiling.  
-  `![Figure 1: Radar comparison](figs/fig1_muse_radar.png)`
+![Figure 1: Radar comparison](fig1_muse_radar.png)
 
 - **Prompting & history (Table A)**: Stateful chat for Gemini/Qwen; Audio Flamingo stateless.  
-  `![Table A: Prompting methodology](figs/tableA.png)`
+![Table A: Prompting methodology](tableA.png)
 
 - **Few-shot sensitivity (Table B)**: Task‑dependent gains; several tasks saturate at 0–1 shots, while structure tasks benefit from 3–8 shots.  
-  `![Table B: Few-shot results](figs/tableB.png)`
+![Table B: Few-shot results](tableB.png)
 
 ---
 
@@ -157,8 +156,8 @@ In this task, participants listen to one musical audio clip. After listening, th
 **Contour Identification**  
 In this task, participants listen to one musical audio clip containing a scale or arpeggio played on the piano, guitar, or bass. After listening, they must identify the contour or shape of the musical pattern they heard, choosing between arch (ascending and then descending), inverted arch (descending and then ascending), ascending, or descending. Stimuli are varied across instruments and keys (see Supplementary Table 5 for full stimuli details). Evaluating contour recognition in melodies tests the model's ability to recognize melodies based on their overall shape (the pattern of rising and falling pitches), even with slight pitch alterations (Huron, 1996; Goldstein et al., 2025). Human listeners can identify melodies based on contour even when specific pitch values are altered slightly or transposed to a different key (Dowling & Fujitani, 1971). This assesses the model's alignment with core aspects of melodic perception.
 
-### Intermediate
-The intermediate questions in the benchmark comprise five tasks that reflect skills typically requiring years of music theory and ear-training—meter identification, key modulation detection, syncopation detection, chord progression matching, and chord quality identification. Unlike the Beginner set, these tasks demand explicit knowledge of music-theoretic constructs and abstract relational reasoning about hierarchical pitch/rhythm structure (Krumhansl, 1990; Temperley, 2001).
+### Advanced
+The advanced questions in the benchmark comprise five tasks that reflect skills typically requiring years of music theory and ear-training—meter identification, key modulation detection, syncopation detection, chord progression matching, and chord quality identification. Unlike the Beginner set, these tasks demand explicit knowledge of music-theoretic constructs and abstract relational reasoning about hierarchical pitch/rhythm structure (Krumhansl, 1990; Temperley, 2001).
 
 **Meter Identification**  
 In this task, participants listen to a single musical excerpt and must identify its underlying grouping of beats. Stimuli are short music excerpts covering groups of 3 (3/4 and 6/8), groups of 4 (4/4), and groups of 5 (5/4) and are varied across tempo and instrumentation. Successful meter identification requires listeners to perceive the repeating cycle of strong and weak beats (i.e., the meter), rather than merely the surface pattern. Music cognition research defines meter as the cognitive grouping of regular sound sequences (Kondoh et al., 2021). Meter perception can arise from bottom‑up acoustic cues (such as accent patterns) or from top‑down attentional processes, and musicians perceive meter more accurately and stably than non‑musicians (Kondoh et al., 2021). Neuroimaging studies further show that meter, pattern and tempo are processed by partly distinct neural systems, with meter specifically representing repeating cycles of strong and weak beats (Thaut et al., 2014). By testing the model’s ability to infer the correct grouping of beats from rhythmic context, this task assesses whether it can develop hierarchical beat representations similar to those cultivated through ear‑training.
