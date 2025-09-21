@@ -1,0 +1,89 @@
+2025-09-11 13:04:41,793 - === RUN START (Rhythm Matching • AF3-CHAT • STATELESS • SYSINST • GroupA) ===
+2025-09-11 13:04:53,306 - [XGrammar] config is not a dict, loading vocab size from tokenizer 151643 + 10 => 151653
+2025-09-11 13:04:53,374 - Config: model=nvidia/audio-flamingo-3-chat, temp=1.0, top_p=0.95, top_k=40, seed=1, group=GroupA, log=rhythm_matching_AF3_CHAT_SYSINST_GroupA_seed1.log
+2025-09-11 13:04:53,374 - 
+--- Task: Rhythm Matching — STATELESS • SYSINST • GroupA ---
+
+2025-09-11 13:04:53,374 - 
+--- Question 1 ---
+2025-09-11 13:04:53,374 - Stimulus: file=stimuli/combined/Beat_4_140_34__Beat_4_140_34.wav
+2025-09-11 13:05:12,658 - [SYSINST/GroupA] Q1 - LLM Full Response:
+Yes, these are the same exact drum set patterns.
+2025-09-11 13:05:12,658 - Parsed Final Answer: Yes, these are the same exact drum set patterns.
+2025-09-11 13:05:12,658 - Derived IDs: left=Beat_4, right=Beat_4; Expected=Yes, these are the same exact drum set patterns.
+2025-09-11 13:05:12,658 - Evaluation: Correct
+2025-09-11 13:05:12,658 - 
+--- Question 2 ---
+2025-09-11 13:05:12,658 - Stimulus: file=stimuli/combined/Beat_5_140__Beat_5_140.wav
+2025-09-11 13:05:30,769 - [SYSINST/GroupA] Q2 - LLM Full Response:
+Yes, these are the same exact drum set patterns.
+2025-09-11 13:05:30,769 - Parsed Final Answer: Yes, these are the same exact drum set patterns.
+2025-09-11 13:05:30,769 - Derived IDs: left=Beat_5, right=Beat_5; Expected=Yes, these are the same exact drum set patterns.
+2025-09-11 13:05:30,769 - Evaluation: Correct
+2025-09-11 13:05:30,769 - 
+--- Question 3 ---
+2025-09-11 13:05:30,770 - Stimulus: file=stimuli/combined/Beat_5_140__Beat_6_140_34.wav
+2025-09-11 13:05:48,858 - [SYSINST/GroupA] Q3 - LLM Full Response:
+Yes, these are the same exact drum set patterns.
+2025-09-11 13:05:48,858 - Parsed Final Answer: Yes, these are the same exact drum set patterns.
+2025-09-11 13:05:48,858 - Derived IDs: left=Beat_5, right=Beat_6; Expected=No, these are not the same exact drum set patterns.
+2025-09-11 13:05:48,858 - Evaluation: Incorrect (expected=No, these are not the same exact drum set patterns.)
+2025-09-11 13:05:48,858 - 
+--- Question 4 ---
+2025-09-11 13:05:48,858 - Stimulus: file=stimuli/combined/Beat_4_140_34__Beat_5_140.wav
+2025-09-11 13:06:06,907 - [SYSINST/GroupA] Q4 - LLM Full Response:
+Yes, these are the same exact drum set patterns.
+2025-09-11 13:06:06,908 - Parsed Final Answer: Yes, these are the same exact drum set patterns.
+2025-09-11 13:06:06,908 - Derived IDs: left=Beat_4, right=Beat_5; Expected=No, these are not the same exact drum set patterns.
+2025-09-11 13:06:06,908 - Evaluation: Incorrect (expected=No, these are not the same exact drum set patterns.)
+2025-09-11 13:06:06,908 - 
+--- Question 5 ---
+2025-09-11 13:06:06,908 - Stimulus: file=stimuli/combined/Beat_3_140__Beat_4_140_34.wav
+2025-09-11 13:06:24,819 - [SYSINST/GroupA] Q5 - LLM Full Response:
+Yes, these are the same exact drum set patterns.
+2025-09-11 13:06:24,819 - Parsed Final Answer: Yes, these are the same exact drum set patterns.
+2025-09-11 13:06:24,819 - Derived IDs: left=Beat_3, right=Beat_4; Expected=No, these are not the same exact drum set patterns.
+2025-09-11 13:06:24,819 - Evaluation: Incorrect (expected=No, these are not the same exact drum set patterns.)
+2025-09-11 13:06:24,819 - 
+--- Question 6 ---
+2025-09-11 13:06:24,819 - Stimulus: file=stimuli/combined/Beat_2_140__Beat_3_140.wav
+2025-09-11 13:06:43,013 - [SYSINST/GroupA] Q6 - LLM Full Response:
+Yes, these are the same exact drum set patterns.
+2025-09-11 13:06:43,013 - Parsed Final Answer: Yes, these are the same exact drum set patterns.
+2025-09-11 13:06:43,013 - Derived IDs: left=Beat_2, right=Beat_3; Expected=No, these are not the same exact drum set patterns.
+2025-09-11 13:06:43,013 - Evaluation: Incorrect (expected=No, these are not the same exact drum set patterns.)
+2025-09-11 13:06:43,013 - 
+--- Question 7 ---
+2025-09-11 13:06:43,018 - Stimulus: file=stimuli/combined/Beat_1_140__Beat_1_140.wav
+2025-09-11 13:07:00,948 - [SYSINST/GroupA] Q7 - LLM Full Response:
+Yes, these are the same exact drum set patterns.
+2025-09-11 13:07:00,948 - Parsed Final Answer: Yes, these are the same exact drum set patterns.
+2025-09-11 13:07:00,948 - Derived IDs: left=Beat_1, right=Beat_1; Expected=Yes, these are the same exact drum set patterns.
+2025-09-11 13:07:00,948 - Evaluation: Correct
+2025-09-11 13:07:00,948 - 
+--- Question 8 ---
+2025-09-11 13:07:00,948 - Stimulus: file=stimuli/combined/Beat_3_140__Beat_3_140.wav
+2025-09-11 13:07:18,849 - [SYSINST/GroupA] Q8 - LLM Full Response:
+Yes, these are the same exact drum set patterns.
+2025-09-11 13:07:18,849 - Parsed Final Answer: Yes, these are the same exact drum set patterns.
+2025-09-11 13:07:18,849 - Derived IDs: left=Beat_3, right=Beat_3; Expected=Yes, these are the same exact drum set patterns.
+2025-09-11 13:07:18,849 - Evaluation: Correct
+2025-09-11 13:07:18,849 - 
+--- Question 9 ---
+2025-09-11 13:07:18,849 - Stimulus: file=stimuli/combined/Beat_1_140__Beat_2_140.wav
+2025-09-11 13:07:36,760 - [SYSINST/GroupA] Q9 - LLM Full Response:
+Yes, these are the same exact drum set patterns.
+2025-09-11 13:07:36,760 - Parsed Final Answer: Yes, these are the same exact drum set patterns.
+2025-09-11 13:07:36,760 - Derived IDs: left=Beat_1, right=Beat_2; Expected=No, these are not the same exact drum set patterns.
+2025-09-11 13:07:36,760 - Evaluation: Incorrect (expected=No, these are not the same exact drum set patterns.)
+2025-09-11 13:07:36,760 - 
+--- Question 10 ---
+2025-09-11 13:07:36,760 - Stimulus: file=stimuli/combined/Beat_2_140__Beat_2_140.wav
+2025-09-11 13:07:54,625 - [SYSINST/GroupA] Q10 - LLM Full Response:
+Yes, these are the same exact drum set patterns.
+2025-09-11 13:07:54,626 - Parsed Final Answer: Yes, these are the same exact drum set patterns.
+2025-09-11 13:07:54,626 - Derived IDs: left=Beat_2, right=Beat_2; Expected=Yes, these are the same exact drum set patterns.
+2025-09-11 13:07:54,626 - Evaluation: Correct
+2025-09-11 13:07:54,626 - Total Correct: 5 out of 10
+2025-09-11 13:07:54,626 - === RUN END ===
+

@@ -1,0 +1,78 @@
+2025-09-11 16:14:01,742 - === RUN START (Chord Progression Matching • AF3-CHAT • STATELESS • COT • GroupA) ===
+2025-09-11 16:14:01,743 - Config: model=nvidia/audio-flamingo-3-chat, temp=1.0, top_p=0.95, top_k=40, seed=1, group=GroupA, log=chord_progression_matching_AF3_CHAT_COT_GroupA_seed1.log
+2025-09-11 16:14:01,743 - 
+--- Task: Chord Progression Matching — STATELESS • COT • GroupA ---
+
+2025-09-11 16:14:01,743 - 
+--- Question 1 ---
+2025-09-11 16:14:01,743 - Stimulus (combined): file=stimuli/combined/vi-IV-I-V_Gmaj_piano_135__I-vi-VI-V_Fmaj_piano_172_3_4.wav
+2025-09-11 16:14:36,838 - [COT/GroupA] Q1 - LLM Full Response:
+A. Yes, these are the same chord progression.
+2025-09-11 16:14:36,839 - Parsed Final Answer: A. Yes, these are the same chord progression.
+2025-09-11 16:14:36,839 - Evaluation: Incorrect (expected=B. No, these are not the same chord progression., left=VI-IV-I-V, right=I-VI-VI-V)
+2025-09-11 16:14:36,839 - 
+--- Question 2 ---
+2025-09-11 16:14:36,839 - Stimulus (combined): file=stimuli/combined/I-vi-VI-V_Fmaj_piano_175_6_8__vi-IV-I-V_Gmaj_AcousticGuit_118.wav
+2025-09-11 16:15:11,663 - [COT/GroupA] Q2 - LLM Full Response:
+A. Yes, these are the same chord progression.
+2025-09-11 16:15:11,663 - Parsed Final Answer: A. Yes, these are the same chord progression.
+2025-09-11 16:15:11,663 - Evaluation: Incorrect (expected=B. No, these are not the same chord progression., left=I-VI-VI-V, right=VI-IV-I-V)
+2025-09-11 16:15:11,663 - 
+--- Question 3 ---
+2025-09-11 16:15:11,663 - Stimulus (combined): file=stimuli/combined/I-IV-V_Emaj_piano_120__I-vi-ii-V_Cmaj_CleanGuitar_80.wav
+2025-09-11 16:16:57,312 - [COT/GroupA] Q3 - LLM Full Response:
+A. Yes, these are the same chord progression.
+2025-09-11 16:16:57,312 - Parsed Final Answer: A. Yes, these are the same chord progression.
+2025-09-11 16:16:57,312 - Evaluation: Incorrect (expected=B. No, these are not the same chord progression., left=I-IV-V, right=I-VI-II-V)
+2025-09-11 16:16:57,312 - 
+--- Question 4 ---
+2025-09-11 16:16:57,312 - Stimulus (combined): file=stimuli/combined/I-V-vi-IV_Dmaj_AcousticGuit_115__I-vi-ii-V_Cmaj_piano_125.wav
+2025-09-11 16:18:10,018 - [COT/GroupA] Q4 - LLM Full Response:
+A. Yes, these are the same chord progression.
+2025-09-11 16:18:10,018 - Parsed Final Answer: A. Yes, these are the same chord progression.
+2025-09-11 16:18:10,018 - Evaluation: Incorrect (expected=B. No, these are not the same chord progression., left=I-V-VI-IV, right=I-VI-II-V)
+2025-09-11 16:18:10,018 - 
+--- Question 5 ---
+2025-09-11 16:18:10,018 - Stimulus (combined): file=stimuli/combined/I-IV-V_Emaj_DistortedGuit_175__I-V-vi-IV_Dmaj_CrunchGuit_100.wav
+2025-09-11 16:19:21,466 - [COT/GroupA] Q5 - LLM Full Response:
+A. Yes, these are the same chord progression.
+2025-09-11 16:19:21,466 - Parsed Final Answer: A. Yes, these are the same chord progression.
+2025-09-11 16:19:21,466 - Evaluation: Incorrect (expected=B. No, these are not the same chord progression., left=I-IV-V, right=I-V-VI-IV)
+2025-09-11 16:19:21,466 - 
+--- Question 6 ---
+2025-09-11 16:19:21,466 - Stimulus (combined): file=stimuli/combined/I-IV-V_Emaj_piano_120__I-IV-V_Emaj_DistortedGuit_175.wav
+2025-09-11 16:21:08,418 - [COT/GroupA] Q6 - LLM Full Response:
+A. Yes, these are the same chord progression.
+2025-09-11 16:21:08,418 - Parsed Final Answer: A. Yes, these are the same chord progression.
+2025-09-11 16:21:08,418 - Evaluation: Correct
+2025-09-11 16:21:08,418 - 
+--- Question 7 ---
+2025-09-11 16:21:08,418 - Stimulus (combined): file=stimuli/combined/I-V-vi-IV_Dmaj_CrunchGuit_100__I-V-vi-IV_Dmaj_AcousticGuit_115.wav
+2025-09-11 16:22:20,130 - [COT/GroupA] Q7 - LLM Full Response:
+A. Yes, these are the same chord progression.
+2025-09-11 16:22:20,130 - Parsed Final Answer: A. Yes, these are the same chord progression.
+2025-09-11 16:22:20,130 - Evaluation: Correct
+2025-09-11 16:22:20,130 - 
+--- Question 8 ---
+2025-09-11 16:22:20,135 - Stimulus (combined): file=stimuli/combined/I-vi-ii-V_Cmaj_CleanGuitar_80__I-vi-ii-V_Cmaj_piano_125.wav
+2025-09-11 16:23:31,467 - [COT/GroupA] Q8 - LLM Full Response:
+A. Yes, these are the same chord progression.
+2025-09-11 16:23:31,467 - Parsed Final Answer: A. Yes, these are the same chord progression.
+2025-09-11 16:23:31,467 - Evaluation: Correct
+2025-09-11 16:23:31,467 - 
+--- Question 9 ---
+2025-09-11 16:23:31,467 - Stimulus (combined): file=stimuli/combined/I-vi-VI-V_Fmaj_piano_172_3_4__I-vi-VI-V_Fmaj_piano_175_6_8.wav
+2025-09-11 16:24:44,190 - [COT/GroupA] Q9 - LLM Full Response:
+A. Yes, these are the same chord progression.
+2025-09-11 16:24:44,190 - Parsed Final Answer: A. Yes, these are the same chord progression.
+2025-09-11 16:24:44,190 - Evaluation: Correct
+2025-09-11 16:24:44,190 - 
+--- Question 10 ---
+2025-09-11 16:24:44,190 - Stimulus (combined): file=stimuli/combined/vi-IV-I-V_Gmaj_AcousticGuit_118__vi-IV-I-V_Gmaj_piano_135.wav
+2025-09-11 16:25:56,729 - [COT/GroupA] Q10 - LLM Full Response:
+A. Yes, these are the same chord progression.
+2025-09-11 16:25:56,729 - Parsed Final Answer: A. Yes, these are the same chord progression.
+2025-09-11 16:25:56,729 - Evaluation: Correct
+2025-09-11 16:25:56,729 - Total Correct: 5 out of 10
+2025-09-11 16:25:56,729 - === RUN END ===
+

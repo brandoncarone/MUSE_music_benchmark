@@ -1,0 +1,88 @@
+2025-09-10 17:43:09,857 - === RUN START (Rhythm Matching • AF3-CHAT • STATELESS • COT • GroupB) ===
+2025-09-10 17:43:09,857 - Config: model=nvidia/audio-flamingo-3-chat, temp=1.0, top_p=0.95, top_k=40, seed=1, group=GroupB, log=rhythm_matching_AF3_CHAT_COT_GroupB_seed1.log
+2025-09-10 17:43:09,857 - 
+--- Task: Rhythm Matching — STATELESS • COT • GroupB ---
+
+2025-09-10 17:43:09,857 - 
+--- Question 1 ---
+2025-09-10 17:43:09,857 - Stimulus: file=stimuli/combined/Beat_9_140_34__Beat_9_140_34.wav
+2025-09-10 17:43:28,503 - [COT/GroupB] Q1 - LLM Full Response:
+Yes, these are the same exact drum set patterns.
+2025-09-10 17:43:28,503 - Parsed Final Answer: Yes, these are the same exact drum set patterns.
+2025-09-10 17:43:28,503 - Derived IDs: left=Beat_9, right=Beat_9; Expected=Yes, these are the same exact drum set patterns.
+2025-09-10 17:43:28,503 - Evaluation: Correct
+2025-09-10 17:43:28,503 - 
+--- Question 2 ---
+2025-09-10 17:43:28,503 - Stimulus: file=stimuli/combined/Beat_10_140__Beat_1_140.wav
+2025-09-10 17:43:47,209 - [COT/GroupB] Q2 - LLM Full Response:
+Yes, these are the same exact drum set patterns.
+2025-09-10 17:43:47,209 - Parsed Final Answer: Yes, these are the same exact drum set patterns.
+2025-09-10 17:43:47,209 - Derived IDs: left=Beat_10, right=Beat_1; Expected=No, these are not the same exact drum set patterns.
+2025-09-10 17:43:47,209 - Evaluation: Incorrect (expected=No, these are not the same exact drum set patterns.)
+2025-09-10 17:43:47,209 - 
+--- Question 3 ---
+2025-09-10 17:43:47,209 - Stimulus: file=stimuli/combined/Beat_10_140__Beat_10_140.wav
+2025-09-10 17:44:05,967 - [COT/GroupB] Q3 - LLM Full Response:
+Yes, these are the same exact drum set patterns.
+2025-09-10 17:44:05,967 - Parsed Final Answer: Yes, these are the same exact drum set patterns.
+2025-09-10 17:44:05,968 - Derived IDs: left=Beat_10, right=Beat_10; Expected=Yes, these are the same exact drum set patterns.
+2025-09-10 17:44:05,968 - Evaluation: Correct
+2025-09-10 17:44:05,968 - 
+--- Question 4 ---
+2025-09-10 17:44:05,968 - Stimulus: file=stimuli/combined/Beat_9_140_34__Beat_10_140.wav
+2025-09-10 17:44:24,661 - [COT/GroupB] Q4 - LLM Full Response:
+Yes, these are the same exact drum set patterns.
+2025-09-10 17:44:24,661 - Parsed Final Answer: Yes, these are the same exact drum set patterns.
+2025-09-10 17:44:24,661 - Derived IDs: left=Beat_9, right=Beat_10; Expected=No, these are not the same exact drum set patterns.
+2025-09-10 17:44:24,661 - Evaluation: Incorrect (expected=No, these are not the same exact drum set patterns.)
+2025-09-10 17:44:24,661 - 
+--- Question 5 ---
+2025-09-10 17:44:24,662 - Stimulus: file=stimuli/combined/Beat_8_140__Beat_9_140_34.wav
+2025-09-10 17:44:43,352 - [COT/GroupB] Q5 - LLM Full Response:
+Yes, these are the same exact drum set patterns.
+2025-09-10 17:44:43,353 - Parsed Final Answer: Yes, these are the same exact drum set patterns.
+2025-09-10 17:44:43,353 - Derived IDs: left=Beat_8, right=Beat_9; Expected=No, these are not the same exact drum set patterns.
+2025-09-10 17:44:43,353 - Evaluation: Incorrect (expected=No, these are not the same exact drum set patterns.)
+2025-09-10 17:44:43,353 - 
+--- Question 6 ---
+2025-09-10 17:44:43,353 - Stimulus: file=stimuli/combined/Beat_7_140__Beat_8_140.wav
+2025-09-10 17:45:02,032 - [COT/GroupB] Q6 - LLM Full Response:
+Yes, these are the same exact drum set patterns.
+2025-09-10 17:45:02,032 - Parsed Final Answer: Yes, these are the same exact drum set patterns.
+2025-09-10 17:45:02,032 - Derived IDs: left=Beat_7, right=Beat_8; Expected=No, these are not the same exact drum set patterns.
+2025-09-10 17:45:02,032 - Evaluation: Incorrect (expected=No, these are not the same exact drum set patterns.)
+2025-09-10 17:45:02,032 - 
+--- Question 7 ---
+2025-09-10 17:45:02,032 - Stimulus: file=stimuli/combined/Beat_6_140_34__Beat_6_140_34.wav
+2025-09-10 17:45:20,716 - [COT/GroupB] Q7 - LLM Full Response:
+Yes, these are the same exact drum set patterns.
+2025-09-10 17:45:20,719 - Parsed Final Answer: Yes, these are the same exact drum set patterns.
+2025-09-10 17:45:20,719 - Derived IDs: left=Beat_6, right=Beat_6; Expected=Yes, these are the same exact drum set patterns.
+2025-09-10 17:45:20,719 - Evaluation: Correct
+2025-09-10 17:45:20,719 - 
+--- Question 8 ---
+2025-09-10 17:45:20,719 - Stimulus: file=stimuli/combined/Beat_8_140__Beat_8_140.wav
+2025-09-10 17:45:39,376 - [COT/GroupB] Q8 - LLM Full Response:
+Yes, these are the same exact drum set patterns.
+2025-09-10 17:45:39,377 - Parsed Final Answer: Yes, these are the same exact drum set patterns.
+2025-09-10 17:45:39,377 - Derived IDs: left=Beat_8, right=Beat_8; Expected=Yes, these are the same exact drum set patterns.
+2025-09-10 17:45:39,377 - Evaluation: Correct
+2025-09-10 17:45:39,377 - 
+--- Question 9 ---
+2025-09-10 17:45:39,377 - Stimulus: file=stimuli/combined/Beat_6_140_34__Beat_7_140.wav
+2025-09-10 17:45:58,026 - [COT/GroupB] Q9 - LLM Full Response:
+Yes, these are the same exact drum set patterns.
+2025-09-10 17:45:58,026 - Parsed Final Answer: Yes, these are the same exact drum set patterns.
+2025-09-10 17:45:58,026 - Derived IDs: left=Beat_6, right=Beat_7; Expected=No, these are not the same exact drum set patterns.
+2025-09-10 17:45:58,026 - Evaluation: Incorrect (expected=No, these are not the same exact drum set patterns.)
+2025-09-10 17:45:58,026 - 
+--- Question 10 ---
+2025-09-10 17:45:58,026 - Stimulus: file=stimuli/combined/Beat_7_140__Beat_7_140.wav
+2025-09-10 17:46:16,681 - [COT/GroupB] Q10 - LLM Full Response:
+Yes, these are the same exact drum set patterns.
+2025-09-10 17:46:16,682 - Parsed Final Answer: Yes, these are the same exact drum set patterns.
+2025-09-10 17:46:16,682 - Derived IDs: left=Beat_7, right=Beat_7; Expected=Yes, these are the same exact drum set patterns.
+2025-09-10 17:46:16,682 - Evaluation: Correct
+2025-09-10 17:46:16,682 - Total Correct: 5 out of 10
+2025-09-10 17:46:16,682 - === RUN END ===
+

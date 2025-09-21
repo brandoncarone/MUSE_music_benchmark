@@ -1,0 +1,78 @@
+2025-09-11 12:47:53,068 - === RUN START (Syncopation Detection • AF3-CHAT • STATELESS • COT • GroupB) ===
+2025-09-11 12:47:53,846 - Config: model=nvidia/audio-flamingo-3-chat, temp=1.0, top_p=0.95, top_k=40, seed=3, group=GroupB, log=syncopation_AF3_CHAT_COT_GroupB_seed3.log
+2025-09-11 12:47:53,846 - 
+--- Task: Syncopation Detection — STATELESS • COT • GroupB ---
+
+2025-09-11 12:47:53,846 - 
+--- Question 1 ---
+2025-09-11 12:47:53,846 - Stimulus (combined): file=stimuli/combined/Sync2_C__NoSync_D.wav
+2025-09-11 12:48:33,404 - [COT/GroupB] Q1 - LLM Full Response:
+B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-11 12:48:33,404 - Parsed Final Answer: B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-11 12:48:33,404 - Evaluation: Incorrect (expected=A. The rhythm in Excerpt 1 is more syncopated.)
+2025-09-11 12:48:33,404 - 
+--- Question 2 ---
+2025-09-11 12:48:33,404 - Stimulus (combined): file=stimuli/combined/Sync2_D__Sync4_C.wav
+2025-09-11 12:49:13,017 - [COT/GroupB] Q2 - LLM Full Response:
+B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-11 12:49:13,017 - Parsed Final Answer: B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-11 12:49:13,017 - Evaluation: Correct
+2025-09-11 12:49:13,017 - 
+--- Question 3 ---
+2025-09-11 12:49:13,017 - Stimulus (combined): file=stimuli/combined/Sync3_C__Sync4_D.wav
+2025-09-11 12:49:52,627 - [COT/GroupB] Q3 - LLM Full Response:
+B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-11 12:49:52,627 - Parsed Final Answer: B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-11 12:49:52,627 - Evaluation: Correct
+2025-09-11 12:49:52,627 - 
+--- Question 4 ---
+2025-09-11 12:49:52,627 - Stimulus (combined): file=stimuli/combined/Sync1_C__NoSync_C.wav
+2025-09-11 12:50:32,246 - [COT/GroupB] Q4 - LLM Full Response:
+B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-11 12:50:32,246 - Parsed Final Answer: B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-11 12:50:32,246 - Evaluation: Incorrect (expected=A. The rhythm in Excerpt 1 is more syncopated.)
+2025-09-11 12:50:32,246 - 
+--- Question 5 ---
+2025-09-11 12:50:32,246 - Stimulus (combined): file=stimuli/combined/Sync3_D__Sync4_C.wav
+2025-09-11 12:51:11,902 - [COT/GroupB] Q5 - LLM Full Response:
+B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-11 12:51:11,902 - Parsed Final Answer: B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-11 12:51:11,902 - Evaluation: Correct
+2025-09-11 12:51:11,902 - 
+--- Question 6 ---
+2025-09-11 12:51:11,902 - Stimulus (combined): file=stimuli/combined/Sync3_D__Sync2_C.wav
+2025-09-11 12:51:51,594 - [COT/GroupB] Q6 - LLM Full Response:
+B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-11 12:51:51,594 - Parsed Final Answer: B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-11 12:51:51,594 - Evaluation: Incorrect (expected=A. The rhythm in Excerpt 1 is more syncopated.)
+2025-09-11 12:51:51,595 - 
+--- Question 7 ---
+2025-09-11 12:51:51,595 - Stimulus (combined): file=stimuli/combined/NoSync_D__Sync1_D.wav
+2025-09-11 12:52:31,196 - [COT/GroupB] Q7 - LLM Full Response:
+B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-11 12:52:31,196 - Parsed Final Answer: B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-11 12:52:31,196 - Evaluation: Correct
+2025-09-11 12:52:31,196 - 
+--- Question 8 ---
+2025-09-11 12:52:31,196 - Stimulus (combined): file=stimuli/combined/Sync2_D__Sync1_D.wav
+2025-09-11 12:53:10,747 - [COT/GroupB] Q8 - LLM Full Response:
+B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-11 12:53:10,747 - Parsed Final Answer: B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-11 12:53:10,747 - Evaluation: Incorrect (expected=A. The rhythm in Excerpt 1 is more syncopated.)
+2025-09-11 12:53:10,747 - 
+--- Question 9 ---
+2025-09-11 12:53:10,747 - Stimulus (combined): file=stimuli/combined/Sync1_C__Sync2_C.wav
+2025-09-11 12:53:50,326 - [COT/GroupB] Q9 - LLM Full Response:
+B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-11 12:53:50,331 - Parsed Final Answer: B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-11 12:53:50,331 - Evaluation: Correct
+2025-09-11 12:53:50,331 - 
+--- Question 10 ---
+2025-09-11 12:53:50,331 - Stimulus (combined): file=stimuli/combined/Sync3_C__Sync1_C.wav
+2025-09-11 12:54:29,854 - [COT/GroupB] Q10 - LLM Full Response:
+B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-11 12:54:29,854 - Parsed Final Answer: B. The rhythm in Excerpt 2 is more syncopated.
+2025-09-11 12:54:29,854 - Evaluation: Incorrect (expected=A. The rhythm in Excerpt 1 is more syncopated.)
+2025-09-11 12:54:29,854 - Total Correct: 5 out of 10
+2025-09-11 12:54:29,854 - === RUN END ===
+

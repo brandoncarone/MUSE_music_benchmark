@@ -1,0 +1,78 @@
+2025-09-10 09:54:36,488 - === RUN START (Key Modulation • AF3-CHAT • STATELESS • SYSINST • GroupB) ===
+2025-09-10 09:54:36,489 - Config: model=nvidia/audio-flamingo-3-chat, temp=1.0, top_p=0.95, top_k=40, seed=2, group=GroupB, log=key_modulation_AF3_CHAT_SYSINST_GroupB_seed2.log
+2025-09-10 09:54:36,489 - 
+--- Task: Key Modulation Detection — STATELESS • SYSINST • GroupB ---
+
+2025-09-10 09:54:36,489 - 
+--- Question 1 ---
+2025-09-10 09:54:36,489 - Stimulus: file=stimuli/Intermediate/I-vi-IV-V_Fmaj_CrunchGuit_140.wav
+2025-09-10 09:54:52,954 - [SYSINST/GroupB] Q1 - LLM Full Response:
+A. Yes, a key modulation occurs
+2025-09-10 09:54:52,955 - Parsed Final Answer: A. Yes, a key modulation occurs.
+2025-09-10 09:54:52,955 - Evaluation: Incorrect (expected=B. No, the key stays the same.)
+2025-09-10 09:54:52,955 - 
+--- Question 2 ---
+2025-09-10 09:54:52,955 - Stimulus: file=stimuli/Intermediate/vi-IV-I-V_Gmaj_piano_165.wav
+2025-09-10 09:55:09,436 - [SYSINST/GroupB] Q2 - LLM Full Response:
+A. Yes, a key modulation occurs
+2025-09-10 09:55:09,437 - Parsed Final Answer: A. Yes, a key modulation occurs.
+2025-09-10 09:55:09,437 - Evaluation: Incorrect (expected=B. No, the key stays the same.)
+2025-09-10 09:55:09,437 - 
+--- Question 3 ---
+2025-09-10 09:55:09,437 - Stimulus: file=stimuli/Intermediate/I-V-vi-IV_Dbmaj_mod_Bbmin_piano_115.wav
+2025-09-10 09:55:25,937 - [SYSINST/GroupB] Q3 - LLM Full Response:
+A. Yes, a key modulation occurs
+2025-09-10 09:55:25,937 - Parsed Final Answer: A. Yes, a key modulation occurs.
+2025-09-10 09:55:25,937 - Evaluation: Correct
+2025-09-10 09:55:25,937 - 
+--- Question 4 ---
+2025-09-10 09:55:25,937 - Stimulus: file=stimuli/Intermediate/I-vi-ii-V_Bmaj_mod_Fsmaj_128.wav
+2025-09-10 09:55:58,836 - [SYSINST/GroupB] Q4 - LLM Full Response:
+A. Yes, a key modulation occurs
+2025-09-10 09:55:58,836 - Parsed Final Answer: A. Yes, a key modulation occurs.
+2025-09-10 09:55:58,836 - Evaluation: Correct
+2025-09-10 09:55:58,836 - 
+--- Question 5 ---
+2025-09-10 09:55:58,837 - Stimulus: file=stimuli/Intermediate/I-V-vi-IV_Dmaj_AcousticGuit_115.wav
+2025-09-10 09:56:34,965 - [SYSINST/GroupB] Q5 - LLM Full Response:
+B. No, the key stays the same.
+2025-09-10 09:56:34,965 - Parsed Final Answer: B. No, the key stays the same.
+2025-09-10 09:56:34,965 - Evaluation: Correct
+2025-09-10 09:56:34,965 - 
+--- Question 6 ---
+2025-09-10 09:56:34,965 - Stimulus: file=stimuli/Intermediate/I-IV-V_Emaj_CleanGuit_132.wav
+2025-09-10 09:57:07,895 - [SYSINST/GroupB] Q6 - LLM Full Response:
+A. Yes, a key modulation occurs
+2025-09-10 09:57:07,895 - Parsed Final Answer: A. Yes, a key modulation occurs.
+2025-09-10 09:57:07,895 - Evaluation: Incorrect (expected=B. No, the key stays the same.)
+2025-09-10 09:57:07,895 - 
+--- Question 7 ---
+2025-09-10 09:57:07,895 - Stimulus: file=stimuli/Intermediate/I-IV-V_Abmaj_Mod_Bbmaj_piano_132.wav
+2025-09-10 09:57:40,884 - [SYSINST/GroupB] Q7 - LLM Full Response:
+A. Yes, a key modulation occurs
+2025-09-10 09:57:40,884 - Parsed Final Answer: A. Yes, a key modulation occurs.
+2025-09-10 09:57:40,884 - Evaluation: Correct
+2025-09-10 09:57:40,884 - 
+--- Question 8 ---
+2025-09-10 09:57:40,884 - Stimulus: file=stimuli/Intermediate/I-vi-ii-V_Cmaj_piano_125.wav
+2025-09-10 09:57:57,382 - [SYSINST/GroupB] Q8 - LLM Full Response:
+A. Yes, a key modulation occurs
+2025-09-10 09:57:57,382 - Parsed Final Answer: A. Yes, a key modulation occurs.
+2025-09-10 09:57:57,382 - Evaluation: Incorrect (expected=B. No, the key stays the same.)
+2025-09-10 09:57:57,382 - 
+--- Question 9 ---
+2025-09-10 09:57:57,382 - Stimulus: file=stimuli/Intermediate/I-vi_IV-V_Amaj_mod_Bbmaj_CrunchEffectsGuit_140.wav
+2025-09-10 09:58:14,001 - [SYSINST/GroupB] Q9 - LLM Full Response:
+A. Yes, a key modulation occurs
+2025-09-10 09:58:14,001 - Parsed Final Answer: A. Yes, a key modulation occurs.
+2025-09-10 09:58:14,001 - Evaluation: Correct
+2025-09-10 09:58:14,006 - 
+--- Question 10 ---
+2025-09-10 09:58:14,006 - Stimulus: file=stimuli/Intermediate/I-IV-V_Abmaj_Mod_Fmin_pivot_relative_minor_175.wav
+2025-09-10 09:58:30,427 - [SYSINST/GroupB] Q10 - LLM Full Response:
+A. Yes, a key modulation occurs
+2025-09-10 09:58:30,427 - Parsed Final Answer: A. Yes, a key modulation occurs.
+2025-09-10 09:58:30,427 - Evaluation: Correct
+2025-09-10 09:58:30,427 - Total Correct: 6 out of 10
+2025-09-10 09:58:30,427 - === RUN END ===
+

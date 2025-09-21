@@ -90,3 +90,5 @@ dist/
 # Logs / data (optional)
 logs/
 data/
+
+.gitignore

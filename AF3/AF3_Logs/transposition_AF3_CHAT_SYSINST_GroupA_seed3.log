@@ -1,0 +1,78 @@
+2025-09-11 13:34:56,199 - === RUN START (Transposition Detection • AF3-CHAT • STATELESS • SYSINST • GroupA) ===
+2025-09-11 13:34:56,200 - Config: model=nvidia/audio-flamingo-3-chat, temp=1.0, top_p=0.95, top_k=40, seed=3, group=GroupA, log=transposition_AF3_CHAT_SYSINST_GroupA_seed3.log
+2025-09-11 13:34:56,200 - 
+--- Task: Transposition Detection — STATELESS • SYSINST • GroupA ---
+
+2025-09-11 13:34:56,200 - 
+--- Question 1 ---
+2025-09-11 13:34:56,200 - Stimulus (combined): file=stimuli/combined/M1_EbMaj_90__M2_Abm_155_3_4.wav
+2025-09-11 13:35:32,468 - [SYSINST/GroupA] Q1 - LLM Full Response:
+Yes, these are the same melody.
+2025-09-11 13:35:32,468 - Parsed Final Answer: Yes, these are the same melody.
+2025-09-11 13:35:32,468 - Evaluation: Incorrect (expected=No, these are not the same melody.)
+2025-09-11 13:35:32,468 - 
+--- Question 2 ---
+2025-09-11 13:35:32,468 - Stimulus (combined): file=stimuli/combined/M8_FMaj_95_Piano__M9_Em_200_3_4_Piano.wav
+2025-09-11 13:36:42,832 - [SYSINST/GroupA] Q2 - LLM Full Response:
+Yes, these are the same melody.
+2025-09-11 13:36:42,832 - Parsed Final Answer: Yes, these are the same melody.
+2025-09-11 13:36:42,832 - Evaluation: Incorrect (expected=No, these are not the same melody.)
+2025-09-11 13:36:42,832 - 
+--- Question 3 ---
+2025-09-11 13:36:42,832 - Stimulus (combined): file=stimuli/combined/M9_Em_200_3_4_Piano__M9_Gm_200_3_4_Piano.wav
+2025-09-11 13:37:53,337 - [SYSINST/GroupA] Q3 - LLM Full Response:
+Yes, these are the same melody.
+2025-09-11 13:37:53,337 - Parsed Final Answer: Yes, these are the same melody.
+2025-09-11 13:37:53,337 - Evaluation: Correct
+2025-09-11 13:37:53,337 - 
+--- Question 4 ---
+2025-09-11 13:37:53,337 - Stimulus (combined): file=stimuli/combined/M1_EbMaj_90__M1_GMaj_90.wav
+2025-09-11 13:38:29,902 - [SYSINST/GroupA] Q4 - LLM Full Response:
+Yes, these are the same melody.
+2025-09-11 13:38:29,902 - Parsed Final Answer: Yes, these are the same melody.
+2025-09-11 13:38:29,902 - Evaluation: Correct
+2025-09-11 13:38:29,902 - 
+--- Question 5 ---
+2025-09-11 13:38:29,902 - Stimulus (combined): file=stimuli/combined/M10_Fm_165_3_4__M6_Bbm_120_Piano.wav
+2025-09-11 13:39:06,264 - [SYSINST/GroupA] Q5 - LLM Full Response:
+Yes, these are the same melody.
+2025-09-11 13:39:06,264 - Parsed Final Answer: Yes, these are the same melody.
+2025-09-11 13:39:06,264 - Evaluation: Incorrect (expected=No, these are not the same melody.)
+2025-09-11 13:39:06,264 - 
+--- Question 6 ---
+2025-09-11 13:39:06,264 - Stimulus (combined): file=stimuli/combined/M3_DbMaj_78__M3_GbMaj_78.wav
+2025-09-11 13:39:42,920 - [SYSINST/GroupA] Q6 - LLM Full Response:
+Yes, these are the same melody.
+2025-09-11 13:39:42,921 - Parsed Final Answer: Yes, these are the same melody.
+2025-09-11 13:39:42,921 - Evaluation: Correct
+2025-09-11 13:39:42,921 - 
+--- Question 7 ---
+2025-09-11 13:39:42,921 - Stimulus (combined): file=stimuli/combined/M9_Gm_200_3_4_Piano__M10_Dbm_165_3_4.wav
+2025-09-11 13:40:53,258 - [SYSINST/GroupA] Q7 - LLM Full Response:
+Yes, these are the same melody.
+2025-09-11 13:40:53,258 - Parsed Final Answer: Yes, these are the same melody.
+2025-09-11 13:40:53,258 - Evaluation: Incorrect (expected=No, these are not the same melody.)
+2025-09-11 13:40:53,258 - 
+--- Question 8 ---
+2025-09-11 13:40:53,258 - Stimulus (combined): file=stimuli/combined/M2_Abm_155_3_4__M2_Fm_155_3_4.wav
+2025-09-11 13:41:30,338 - [SYSINST/GroupA] Q8 - LLM Full Response:
+Yes, these are the same melody.
+2025-09-11 13:41:30,339 - Parsed Final Answer: Yes, these are the same melody.
+2025-09-11 13:41:30,339 - Evaluation: Correct
+2025-09-11 13:41:30,339 - 
+--- Question 9 ---
+2025-09-11 13:41:30,339 - Stimulus (combined): file=stimuli/combined/M10_Dbm_165_3_4__M10_Fm_165_3_4.wav
+2025-09-11 13:42:06,938 - [SYSINST/GroupA] Q9 - LLM Full Response:
+Yes, these are the same melody.
+2025-09-11 13:42:06,939 - Parsed Final Answer: Yes, these are the same melody.
+2025-09-11 13:42:06,943 - Evaluation: Correct
+2025-09-11 13:42:06,944 - 
+--- Question 10 ---
+2025-09-11 13:42:06,944 - Stimulus (combined): file=stimuli/combined/M2_Fm_155_3_4__M3_DbMaj_78.wav
+2025-09-11 13:42:44,264 - [SYSINST/GroupA] Q10 - LLM Full Response:
+Yes, these are the same melody.
+2025-09-11 13:42:44,264 - Parsed Final Answer: Yes, these are the same melody.
+2025-09-11 13:42:44,265 - Evaluation: Incorrect (expected=No, these are not the same melody.)
+2025-09-11 13:42:44,265 - Total Correct: 5 out of 10
+2025-09-11 13:42:44,265 - === RUN END ===
+
