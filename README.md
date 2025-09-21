@@ -32,8 +32,7 @@ We evaluate:
 - **Qwen2.5‑Omni** using a **CoT** strategy aligned to the same per‑trial prompts and canonical answer formats.
 - **Audio Flamingo** in a **stateless** configuration, merging instruction and trial info per prompt.
 
-**Placeholder (add your PNG):**  
-`![Table A: Prompting methodology](figs/tableA.png)`
+![Table A: Prompting methodology](tableA.png)
 
 ---
 
@@ -41,8 +40,7 @@ We evaluate:
 
 We sweep the number of in‑context examples (shots) per task, reporting the **best** and **second‑best** shot counts per row. The **“Orig.”** column shows baseline scores from the original fixed‑shot setup (N=2 for most tasks; N=4 for Melody Shape ID; N=3 for Meter ID).
 
-**Placeholder (add your PNG):**  
-`![Table B: Few-shot results](figs/tableB.png)`
+![Table B: Few-shot results](tableB.png)
 
 ---
 
@@ -50,8 +48,7 @@ We sweep the number of in‑context examples (shots) per task, reporting the **b
 
 Figure 1 summarizes performance across tasks, comparing **Gemini 2.5 Pro**, **Gemini 2.5 Flash**, **Qwen2.5‑Omni**, and **Audio Flamingo**, alongside **human** and **musician** baselines. Models are plotted with solid lines; humans with dashed/dotted lines.
 
-**Placeholder (add your PNG):**  
-`![Figure 1: Radar comparison](figs/fig1_muse_radar.png)`
+![Figure 1: Radar comparison](fig1_muse_radar.png)`
 
 ---
 
