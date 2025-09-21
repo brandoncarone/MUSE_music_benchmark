@@ -179,5 +179,25 @@ The chord quality identification task presents a single chord (played on guitar 
 ## Citation
 Please cite the ICASSP submission (preprint/DOI to come).
 
-## License
-Add license choice (e.g., MIT).
+## 📜 Licensing
+
+This repository contains both **software code** and **music stimuli excerpts**. These components are licensed under different terms:  
+
+- **Code** (scripts, utilities, analysis tools, etc.)  
+  Licensed under the [MIT License](./LICENSE). You are free to use, modify, and distribute the code with attribution.  
+
+- **Music Stimuli (MUSE Benchmark dataset)**  
+  Licensed under a separate [LICENSE_DATA.md](./LICENSE_DATA.md).  
+  These are original ~30-second excerpts composed and recorded by **Brandon Carone**, provided exclusively for **non-commercial research and educational purposes**.  
+  - Commercial use is **not permitted**.  
+  - Full-length versions of these works may be released commercially in the future.  
+  - If you use the dataset in academic work, please cite:  
+
+  ```
+  Carone, B. J. (2025). THE MUSE BENCHMARK: PROBING MUSIC PERCEPTION AND AUDITORY RELATIONAL REASONING IN AUDIO LLMS. 
+  GitHub repository. https://github.com/brandoncarone/MUSE_Benchmark
+  ```
+
+For questions about licensing or to request additional permissions, please contact:  
+**Brandon Carone – bcarone@nyu.edu**  
+[https://brandoncarone.github.io/](https://brandoncarone.github.io/)  
