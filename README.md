@@ -48,7 +48,7 @@ We sweep the number of in‑context examples (shots) per task, reporting the **b
 
 Figure 1 summarizes performance across tasks, comparing **Gemini 2.5 Pro**, **Gemini 2.5 Flash**, **Qwen2.5‑Omni**, and **Audio Flamingo**, alongside **human** and **musician** baselines. Models are plotted with solid lines; humans with dashed/dotted lines.
 
-![Figure 1: Radar comparison](fig1_muse_radar.png)`
+![Figure 1: Radar comparison](fig1_muse_radar.png)
 
 ---
 
