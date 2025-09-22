@@ -60,8 +60,6 @@ This repository provides all the necessary scripts to reproduce the results from
 
 ## Few-shot performance summary (Table B)
 
-We sweep the number of in‑context examples (shots) per task, reporting the **best** and **second‑best** shot counts per row. The **“Orig.”** column shows baseline scores from the original fixed‑shot setup (N=2 for most tasks; N=4 for Melody Shape ID; N=3 for Meter ID).
-
 ![Table B: Few-shot results](tableB.png)
 
 ---
