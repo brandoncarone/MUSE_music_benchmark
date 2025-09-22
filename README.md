@@ -1,54 +1,68 @@
+# THE MUSE BENCHMARK 🎵🎸🎹🥁
+### Probing Music Perception and Auditory Relational Reasoning in Audio LLMs
 
-# MUSE: Music Understanding in Systems and Experiments
-**Benchmarking human-like music perception in multimodal LLMs**
+This repository contains the official code, stimuli, and results for the paper **"The MUSE Benchmark: Probing Music Perception and Auditory Relational Reasoning in Audio LLMs"** (submitted to ICASSP 2025). We provide a novel, open-source benchmark and a comprehensive evaluation of SOTA multimodal models, grounded by a large-scale human study.
 
-> This repository accompanies our ICASSP submission and provides the exact task runners, stimuli, and logs used in the paper. We evaluate state-of-the-art multimodal models on controlled listening tasks designed to probe specific dimensions of music perception.
-
----
-
-## What this project is about (paper-style overview)
-
-MUSE is a controlled benchmark for **music perception** rather than music captioning or text-only theory exams. Each task presents **audio stimuli** and a tightly constrained **forced-choice** or **binary** decision. We match model instructions to those used for human participants and keep **stateful chat history** (text + audio) for models that support it. Tasks span pitch, rhythm, harmony, and timbre:
-
-- **Chord progression matching** – Do two excerpts realize the same functional order (e.g., I–vi–ii–V) despite surface differences?  
-- **Chord quality (Major/Minor)** – Identify the triad quality from sustained + arpeggiated presentations; diagnose via the third (M3 vs m3), ignoring inversion/voicing/register.  
-- **Key modulation (Key Mod.)** – Detect whether the key changes inside the excerpt.  
-- **Pitch-shift detection** – Decide if a uniform pitch shift is present between excerpts.  
-- **Melody contour ID (Mel. Shape)** – Classify global contour: Arch / Inverted Arch / Ascending / Descending.  
-- **Rhythm matching** – Decide if two drum patterns are exactly identical (same cycle length and kit voice positions).  
-- **Syncopation** – Choose which excerpt is more syncopated (off‑beat accents, ties across strong beats).  
-- **Meter ID** – Identify the meter from a single excerpt.  
-- **Instrument ID** – Identify the instrument class (Piano, Guitar, Bass, Drums).  
-- **Oddball detection** – Decide if the comparison melody contains out‑of‑key substitutions relative to a reference.
-
-The benchmark isolates **core perceptual competencies** (structure, harmony, meter, contour, timbre) while preventing shortcuts. Each task uses **explicit answer strings**, **robust parsers**, and **automatic scoring** so results are reproducible and comparable to human baselines.
+[Link to stimuli table](https://airtable.com/appQCPXVEeadwacMP/shrHV0OjuwxYBzJ78) | [Link to Human Data on OSF](osf.io/pvrd7/?view_only=3c3ac357272e43a08a201698fe6bd9c9)
 
 ---
 
-## Models and prompting strategies (Table A in paper)
+## Overview
 
-We evaluate:
-- **Gemini 2.5 Flash** and **Gemini 2.5 Pro** with **stateful chat** using either **System Instructions** (plain) or **Chain‑of‑Thought (CoT)** variants; audio + text history is maintained across trials.
-- **Qwen2.5‑Omni** using a **CoT** strategy aligned to the same per‑trial prompts and canonical answer formats.
-- **Audio Flamingo** in a **stateless** configuration, merging instruction and trial info per prompt.
+Recent SOTA multimodal Large Language Models (LLMs) have demonstrated impressive capabilities in audio understanding. However, their evaluation on predominantly classification-based tasks may obscure fundamental weaknesses in **abstract relational reasoning**—the ability to understand relationships between auditory events, such as recognizing a melody's contour or its identity across different keys.
+
+The **Music Understanding and Structural Evaluation (MUSE) Benchmark** was created to address this evaluation gap. It consists of 10 tasks and ~200 original musical stimuli designed to systematically probe for these core, human-like perceptual abilities.
+
+## Key Findings
+
+Our evaluation of four SOTA models (Gemini Pro, Gemini Flash, Qwen2.5-Omni, and Audio Flamingo 3) against a large human baseline (N=200) revealed:
+
+1.  **A Wide Variance in SOTA Capabilities:** While Gemini Pro performs strongly on basic perceptual tasks, often matching non-expert human accuracy, other models exhibit critical failures.
+2.  **Critical Model Failures:** Qwen performs **below chance** on Contour Identification, and Audio Flamingo 3 performs **at or near chance** on the majority of tasks, indicating a profound lack of core perceptual competence.
+3.  **A Persistent Gap with Human Experts:** On tasks requiring music-theoretic knowledge (e.g., Chord Progression Matching, Key Modulation), all models were significantly outperformed by expert human listeners.
+4.  **Chain-of-Thought (CoT) is Unreliable:** CoT prompting provided inconsistent and often detrimental results, suggesting that explicit textual reasoning is not a robust solution for enhancing non-linguistic perception in these models.
+5.  **In-Context Learning is Not Human-Like Learning:** Unlike humans, who consistently improve with musical training, providing models with more in-context examples (shots) did not lead to reliable performance gains on abstract tasks.
+
+![MUSE Benchmark Radar Plot](fig1_muse_radar.png)
+*Fig. 1: A summary of SOTA model performance on the MUSE benchmark, contrasted with our human baseline (dashed/dotted lines).*
+
+---
+
+## The MUSE Benchmark Tasks
+
+The benchmark is divided into two tiers, with all tasks requiring a binary or multi-class decision. See the paper or the task descriptions at the end of this README for full details.
+
+#### Beginner Tasks: Core Perception & Invariance
+*   **Instrument ID:** Identify an instrument based on its timbre.
+*   **Melody Shape ID:** Identify a melody's overall shape (e.g., ascending/descending).
+*   **Oddball Detection:** Detect out-of-key notes within a melody.
+*   **Rhythm Matching:** Determine if two rhythmic sequences are identical.
+*   **Pitch Shift Detection:** Detect if a melody has been pitch-shifted.
+
+#### Advanced Tasks: Music-Theoretic Skills
+*   **Chord Quality ID:** Identify a chord's quality (major/minor).
+*   **Key Modulation Detection:** Detect if a change of key occurs.
+*   **Chord Sequence Matching:** Determine if two chord sequences match functionally.
+*   **Syncopation Comparison:** Determine which of two rhythms is more syncopated.
+*   **Meter ID:** Identify the underlying grouping of beats.
+
+---
+
+## Reproducing Our Results
+
+This repository provides all the necessary scripts to reproduce the results from our paper.
+
+## Prompting methodologies & per‑trial prompt design (Table A)
 
 ![Table A: Prompting methodology](tableA.png)
 
 ---
 
-## Few-shot performance summary (Table B in paper)
+## Few-shot performance summary (Table B)
 
 We sweep the number of in‑context examples (shots) per task, reporting the **best** and **second‑best** shot counts per row. The **“Orig.”** column shows baseline scores from the original fixed‑shot setup (N=2 for most tasks; N=4 for Melody Shape ID; N=3 for Meter ID).
 
 ![Table B: Few-shot results](tableB.png)
-
----
-
-## Overall benchmark results (Figure 1 in paper)
-
-Figure 1 summarizes performance across tasks, comparing **Gemini 2.5 Pro**, **Gemini 2.5 Flash**, **Qwen2.5‑Omni**, and **Audio Flamingo**, alongside **human** and **musician** baselines. Models are plotted with solid lines; humans with dashed/dotted lines.
-
-![Figure 1: Radar comparison](fig1_muse_radar.png)
 
 ---
 
@@ -98,19 +112,6 @@ rhythm_matching_G25Pro_CHAT_COT_GroupA_seed1.log
 
 ---
 
-## Setup
-
-1. **Install deps**
-   ```bash
-   pip install -r requirements.txt
-   ```
-2. **API keys**
-   - Gemini: set `GEMINI_API_KEY`
-3. **Stimuli**
-   - Keep `stimuli/` as shipped; filenames encode ground truth for scoring.
-
----
-
 ## How to run (examples)
 
 ```bash
@@ -120,19 +121,6 @@ python runners/qwen/rhythm_matching_Qwen2.5-Omni_runner.py
 ```
 
 Logs will appear in your working directory following the naming convention above.
-
----
-
-## Results (high-level, paper-aligned)
-
-- **Overall (Fig. 1)**: Gemini 2.5 **Pro** generally leads; **Flash** is close; **Qwen2.5‑Omni** is competitive on several tasks but trails on structure‑heavy ones; **humans/musicians** set the ceiling.  
-![Figure 1: Radar comparison](fig1_muse_radar.png)
-
-- **Prompting & history (Table A)**: Stateful chat for Gemini/Qwen; Audio Flamingo stateless.  
-![Table A: Prompting methodology](tableA.png)
-
-- **Few-shot sensitivity (Table B)**: Task‑dependent gains; several tasks saturate at 0–1 shots, while structure tasks benefit from 3–8 shots.  
-![Table B: Few-shot results](tableB.png)
 
 ---
 
