@@ -3,7 +3,7 @@
 
 This repository contains the official code, stimuli, and results for the paper **"The MUSE Benchmark: Probing Music Perception and Auditory Relational Reasoning in Audio LLMs"** (submitted to ICASSP 2025). We provide a novel, open-source benchmark and a comprehensive evaluation of SOTA multimodal models, grounded by a large-scale human study.
 
-[Link to stimuli table](https://airtable.com/appQCPXVEeadwacMP/shrHV0OjuwxYBzJ78) | [Link to Human Data on OSF](osf.io/pvrd7/?view_only=3c3ac357272e43a08a201698fe6bd9c9)
+[Link to stimuli table](https://airtable.com/appQCPXVEeadwacMP/shrHV0OjuwxYBzJ78) | [Link to Human Data on OSF](https://osf.io/pvrd7/?view_only=3c3ac357272e43a08a201698fe6bd9c9)
 
 ---
 
@@ -23,7 +23,8 @@ Our evaluation of four SOTA models (Gemini Pro, Gemini Flash, Qwen2.5-Omni, and 
 4.  **Chain-of-Thought (CoT) is Unreliable:** CoT prompting provided inconsistent and often detrimental results, suggesting that explicit textual reasoning is not a robust solution for enhancing non-linguistic perception in these models.
 5.  **In-Context Learning is Not Human-Like Learning:** Unlike humans, who consistently improve with musical training, providing models with more in-context examples (shots) did not lead to reliable performance gains on abstract tasks.
 
-![MUSE Benchmark Radar Plot](fig1_muse_radar.png)
+<img src="fig1_muse_radar.png" alt="MUSE Benchmark Radar Plot" width="700">
+
 *Fig. 1: A summary of SOTA model performance on the MUSE benchmark, contrasted with our human baseline (dashed/dotted lines).*
 
 ---
@@ -60,7 +61,7 @@ This repository provides all the necessary scripts to reproduce the results from
 
 ## Few-shot performance summary (Table B)
 
-![Table B: Few-shot results](tableB.png)
+<img src="tableB.png" alt="Few-shot results" width="600">
 
 ---
 
