@@ -181,7 +181,7 @@ This repository contains both **software code** and **music stimuli excerpts**. 
 
   ```
   Carone, B. J. (2025). THE MUSE BENCHMARK: PROBING MUSIC PERCEPTION AND AUDITORY RELATIONAL REASONING IN AUDIO LLMS. 
-  GitHub repository. https://github.com/brandoncarone/MUSE_Benchmark
+  GitHub repository. https://github.com/brandoncarone/MUSE_music_benchmark
   ```
 
 For questions about licensing or to request additional permissions, please contact:  
