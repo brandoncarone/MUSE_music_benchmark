@@ -17,7 +17,8 @@ You are allowed to:
 
 ## Restrictions
 You are **not allowed** to:
-- Use the excerpts or derivatives in any **commercial** product, service, or media.  
+- Use the excerpts or derivatives in any **commercial** product, service, or media.
+- Use the excerpts to train any models.
 - Incorporate the excerpts into **musical works, albums, or performances** intended for distribution.  
 - Redistribute the excerpts without including this license.  
 
@@ -32,9 +33,17 @@ You are **not allowed** to:
 
 ## Citation
 If you use this dataset in academic or research work, please cite:  
-```
-Carone, B. J. (2025). THE MUSE BENCHMARK: PROBING MUSIC PERCEPTION AND AUDITORY RELATIONAL REASONING IN AUDIO LLMS. GitHub repository. https://github.com/brandoncarone/MUSE_music_benchmark
-```
+  ```
+@misc{carone2025musebenchmarkprobingmusic,
+      title={The MUSE Benchmark: Probing Music Perception and Auditory Relational Reasoning in Audio LLMS}, 
+      author={Brandon James Carone and Iran R. Roman and Pablo Ripollés},
+      year={2025},
+      eprint={2510.19055},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2510.19055}, 
+}
+  ```
 
 ---
 
