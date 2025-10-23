@@ -3,7 +3,7 @@
 
 This repository contains the official code, stimuli, and results for the paper **"The MUSE Benchmark: Probing Music Perception and Auditory Relational Reasoning in Audio LLMs"** (submitted to ICASSP 2025). We provide a novel, open-source benchmark and a comprehensive evaluation of SOTA multimodal models, grounded by a large-scale human study.
 
-[Link to stimuli table](https://airtable.com/appQCPXVEeadwacMP/shrHV0OjuwxYBzJ78) | [Link to Human Data on OSF](https://osf.io/pvrd7/?view_only=3c3ac357272e43a08a201698fe6bd9c9)
+[Link to ArXiv Paper](https://arxiv.org/abs/2510.19055) | [Link to stimuli table](https://airtable.com/appQCPXVEeadwacMP/shrHV0OjuwxYBzJ78) | [Link to Human Data on OSF](https://osf.io/pvrd7/?view_only=3c3ac357272e43a08a201698fe6bd9c9)
 
 ---
 
@@ -164,7 +164,18 @@ The chord quality identification task presents a single chord (played on guitar 
 ---
 
 ## Citation
-Please cite the ICASSP submission (preprint/DOI to come).
+Please use the following citation for this benchmark:
+  ```
+@misc{carone2025musebenchmarkprobingmusic,
+      title={The MUSE Benchmark: Probing Music Perception and Auditory Relational Reasoning in Audio LLMS}, 
+      author={Brandon James Carone and Iran R. Roman and Pablo Ripollés},
+      year={2025},
+      eprint={2510.19055},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2510.19055}, 
+}
+  ```
 
 ## 📜 Licensing
 
@@ -177,12 +188,13 @@ This repository contains both **software code** and **music stimuli excerpts**. 
   Licensed under a separate [LICENSE_DATA.md](./LICENSE_DATA.md).  
   These are original ~30-second excerpts composed and recorded by **Brandon Carone**, provided exclusively for **non-commercial research and educational purposes**.  
   - Commercial use is **not permitted**.  
-  - Full-length versions of these works may be released commercially in the future.  
+  - Full-length versions of these works may be released commercially in the future.
+  - You may only use this dataset to TEST models, not TRAIN them.
   - If you use the dataset in academic work, please cite:  
 
   ```
-  Carone, B. J. (2025). THE MUSE BENCHMARK: PROBING MUSIC PERCEPTION AND AUDITORY RELATIONAL REASONING IN AUDIO LLMS. 
-  GitHub repository. https://github.com/brandoncarone/MUSE_music_benchmark
+  Carone, B. J., Roman I. R., & Ripollés P. (2025). THE MUSE BENCHMARK: PROBING MUSIC PERCEPTION AND AUDITORY RELATIONAL REASONING IN AUDIO LLMS. 
+  arXiv preprint arXiv:2510.19055
   ```
 
 For questions about licensing or to request additional permissions, please contact:  
