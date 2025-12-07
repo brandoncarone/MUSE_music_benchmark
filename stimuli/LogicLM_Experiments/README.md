@@ -7,6 +7,10 @@ The full MUSE Benchmark is introduced in our paper:
 > **THE MUSE BENCHMARK: PROBING MUSIC PERCEPTION AND AUDITORY RELATIONAL REASONING IN AUDIO LLMs**  
 > https://arxiv.org/abs/2510.19055
 
+The LogicLM experiments and symbolic–solver framework used in this directory are described in detail in a companion paper accepted to the **Proceedings of Machine Learning Research (PMLR)**:
+
+> **[LogicLM paper title here]**  
+> [OpenReview page](https://openreview.net/forum?id=hKE8tQzueC&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DAAAI.org%2F2026%2FWorkshop%2FEAIM%2FAuthors%23your-submissions))
 ---
 
 ## What is the MUSE Benchmark?
