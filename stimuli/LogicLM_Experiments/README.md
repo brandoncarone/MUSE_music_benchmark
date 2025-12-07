@@ -24,6 +24,8 @@ Each task is framed as a **multiple-choice question** over short musical stimuli
 
 ## What is the LogicLM portion?
 
+![MUSE LogicLM pipeline](logiclm.png)
+
 The **LogicLM portion** of MUSE takes a subset of these tasks—specifically those that can be cast as structured reasoning problems—and runs them through a **two-stage pipeline**:
 
 1. **Structured symbolic description**  
